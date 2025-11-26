@@ -1,0 +1,2841 @@
+Project Number,Title,About / Summary,Problem Statement,Objectives,Literature Review,System Architecture,Implementation Steps,Features / Expected Outcome,Testing / Results / Future Enhancements,Essential Docs / Notes,id,title,description,year,decision,embedding,combined_text
+1,AI-Powered Smart Attendance System,":
+This project is designed to address specific problems in computer science applications. It leverages modern
+web technologies and AI to provide effective solutions. The system aims to automate tasks, improve
+efficiency, and enhance user experience. Detailed modules are designed for scalability and maintainability,
+ensuring the project can be adapted for various environments and requirements.",":
+Traditional methods in this domain are often time-consuming, error-prone, or inefficient. There is a need for a
+system that automates processes, provides real-time results, and reduces human intervention. The project aims
+to fill this gap using advanced AI algorithms and web-based interfaces that are accessible and user-friendly.",":
+1. Automate tasks in the relevant domain.
+2. Improve accuracy and reduce errors.
+3. Provide real-time reporting and monitoring.
+4. Ensure accessibility via web-based platforms.
+5. Implement scalable and maintainable system architecture.",":
+Existing systems in this field include various manual and semi-automated methods, such as traditional web
+applications, desktop-based solutions, and simple AI models. While effective to some extent, these approaches
+lack full automation, real-time monitoring, or integration with modern AI techniques. This project builds upon
+existing research, enhancing functionality and leveraging recent advancements in computer vision, NLP, and
+deep learning.",":
+The system comprises frontend, backend, database, and AI modules. The frontend is designed for user
+interaction, built with HTML, CSS, and JavaScript. The backend handles data processing, API calls, and
+integration with AI models, typically implemented using Python and Flask/Django. The database stores user
+data, logs, and results. AI modules utilize frameworks such as TensorFlow, Keras, or PyTorch for machine
+learning tasks.
+[Placeholder for architecture diagram]","/ Workflow:
+1. Collect and preprocess data.
+2. Develop frontend user interface.
+3. Implement backend logic and database connectivity.
+4. Integrate AI models for prediction, recognition, or recommendation tasks.
+5. Conduct testing and debugging.
+6. Deploy system on server or cloud platform.
+[Placeholder for workflow diagram]",":
+- Real-time operation and response.
+- User-friendly interface and dashboards.
+- Accurate processing and automated reporting.
+- Notifications and alerts.
+- Scalable system architecture for future expansion.",":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.",":
+- ER Diagrams
+- Flowcharts
+- Screenshots and mockups
+- Sample reports
+- AI model architecture diagrams",1,AI-Powered Smart Attendance System,AI-Powered Smart Attendance System,2023,":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.","[-3.33635993e-02  6.19235821e-02  2.77848803e-02 -2.00226959e-02
+ -3.41478735e-02  6.81074336e-02  4.74698655e-02  6.73867253e-05
+ -1.51264006e-02 -2.61233654e-02  4.01903056e-02  3.58004384e-02
+  4.86650877e-02 -6.71226950e-03 -9.13704932e-03 -8.39953870e-03
+  7.02950805e-02 -7.57923648e-02  2.02391744e-02 -3.03312503e-02
+ -1.27593148e-02  2.59720422e-02 -3.01854946e-02  6.56631067e-02
+ -2.20928639e-02  2.55271327e-02  7.43293241e-02 -3.02750189e-02
+ -5.90728410e-02 -1.19393924e-02  1.97424553e-02  1.53646814e-02
+  1.13070704e-01  1.56628210e-02 -3.76938283e-02 -2.80540269e-02
+  2.68066954e-02  3.66524979e-02 -6.98042810e-02 -4.05409895e-02
+ -5.39983176e-02 -7.57899731e-02  3.33003104e-02  8.17003008e-03
+  1.79812107e-02  4.83710468e-02 -1.00981541e-01 -6.98933825e-02
+  3.28383073e-02  9.72102425e-05 -2.72242576e-02 -9.48287621e-02
+  2.94505265e-02  7.51000568e-02 -1.67089161e-02  9.90720838e-02
+  1.12792365e-02 -6.93573505e-02 -3.48115638e-02 -2.96434462e-02
+ -2.64259917e-03 -3.72150773e-03  6.63857535e-02 -1.97131224e-02
+  3.41596156e-02  5.30046597e-02 -4.95316684e-02 -3.12010460e-02
+  1.89019404e-02 -5.63748442e-02 -3.40947919e-02  1.00710094e-01
+  3.77661362e-02  6.01263791e-02  5.93332574e-02 -3.19131091e-03
+ -4.38920856e-02 -6.27090558e-02  1.35219336e-01 -5.67755736e-02
+ -9.56705362e-02 -5.51616699e-02 -2.78888736e-02  1.38193555e-02
+  2.84167137e-02  1.32195149e-02 -3.67188244e-03 -4.57413048e-02
+ -5.27837612e-02 -6.44955337e-02 -7.62800723e-02  1.51186390e-02
+  8.02339464e-02 -1.36119956e-02  4.73610766e-04  8.86863191e-03
+ -2.56690625e-02 -6.90690652e-02  1.29360743e-02  7.48818973e-03
+ -3.57909612e-02  9.25336480e-02 -2.07215436e-02 -4.41603884e-02
+ -1.53972311e-02 -2.31981110e-02 -1.35646400e-03  4.37164344e-02
+  4.24380861e-02 -9.84884612e-03  2.29466110e-02 -8.58284533e-02
+  7.11194566e-03 -4.58648838e-02  1.73322633e-02  8.82927924e-02
+  4.91060168e-02  7.42002130e-02  1.20792478e-01  4.41667065e-02
+  5.42141758e-02  1.15116062e-02  9.76275012e-04 -1.13841835e-02
+ -9.52782016e-03 -8.95963013e-02  4.97135445e-02 -3.28037347e-33
+ -6.28683493e-02  1.06967706e-02 -2.79869512e-02  3.69698368e-02
+  6.48928285e-02 -5.33131734e-02 -7.73362219e-02 -4.02645761e-04
+ -3.52706574e-02  3.75717357e-02 -4.87962514e-02  1.65498219e-02
+  8.33253842e-03  2.49486342e-02  1.88020095e-02 -6.76558241e-02
+  6.43916950e-02  8.84814039e-02  4.78848107e-02 -2.52682567e-02
+  5.16071580e-02 -4.30538729e-02  4.04469855e-02 -9.75067168e-03
+  7.97759518e-02  2.75828820e-02  7.95134995e-03 -2.59068934e-03
+  1.57893524e-01 -2.09507905e-02  7.95458555e-02 -3.38073224e-02
+ -4.86054830e-02 -7.05045462e-02  3.55293415e-02 -3.21131386e-02
+  3.92905958e-02 -4.88627777e-02 -1.84562139e-03 -3.57585330e-03
+ -6.16561621e-02 -4.41514608e-03 -4.40286333e-03 -2.18544267e-02
+ -2.46284548e-02  6.36008084e-02  5.31605370e-02 -3.01614460e-02
+  8.18366408e-02  4.23080288e-02 -1.24480441e-01  4.44485359e-02
+ -4.86496687e-02 -5.09266630e-02 -5.44504747e-02 -8.96885321e-02
+  1.61850005e-02  4.32376713e-02  2.06580348e-02 -5.05589806e-02
+  3.66312615e-03  3.77828032e-02 -4.49224412e-02  1.45010576e-02
+ -7.36807985e-03 -7.04115480e-02  1.60801690e-02 -4.31706607e-02
+  2.86926609e-02 -3.77294054e-04  5.24664596e-02 -3.65190320e-02
+  1.14588886e-02  5.23337238e-02 -6.14091754e-02  4.67418283e-02
+  3.55022214e-03 -1.80441085e-02 -1.42463027e-02 -7.31960461e-02
+ -2.37561967e-02 -1.10195599e-01  2.18659118e-02 -1.85554046e-02
+  5.07145301e-02  2.51917336e-02 -4.67055738e-02 -7.08748698e-02
+ -8.83833915e-02 -5.57341566e-03  2.59187035e-02  1.58937406e-02
+ -6.22200556e-02  8.44811574e-02 -4.90170680e-02  1.20353430e-33
+  2.66748574e-02  5.89833669e-02 -8.49308521e-02  2.80048028e-02
+  1.34251654e-01 -5.77561632e-02 -6.12421259e-02  5.82902059e-02
+ -2.12046541e-02  8.59560817e-02 -9.58518125e-03 -5.45705184e-02
+  2.12668292e-02  1.11855492e-02  1.07464194e-02  2.74152234e-02
+  6.17757905e-03 -2.46565808e-02 -5.25139794e-02  6.67256117e-02
+ -6.11591386e-04  7.73599669e-02 -1.87312812e-02 -8.42491463e-02
+  3.73422704e-03  3.80011946e-02 -2.55309679e-02  4.43056040e-02
+ -5.44188917e-02  4.18106765e-02 -5.06148413e-02 -1.38948441e-01
+ -3.96389775e-02  4.32186760e-02 -1.31072970e-02  2.43409979e-03
+  4.83919121e-02  1.31852934e-02 -1.41723081e-01  3.63068432e-02
+  1.18890256e-01 -1.48219801e-02 -3.45445760e-02 -3.84723954e-02
+ -4.14986648e-02  4.67207357e-02 -5.46094105e-02  9.97236893e-02
+ -1.81030538e-02 -1.77137982e-02 -6.70335144e-02 -9.12018791e-02
+ -2.88715623e-02 -3.02418154e-02 -3.83293405e-02  6.45123646e-02
+  4.98695858e-02  4.82322909e-02 -1.90033093e-02 -1.62685905e-02
+ -1.02997767e-02 -1.12353019e-01 -4.70463140e-03  2.72383392e-02
+ -3.76253724e-02 -3.56748700e-02  5.92480972e-02  3.58115062e-02
+ -1.36883007e-02  2.01496985e-02  7.07839727e-02  7.48644248e-02
+  6.29541352e-02  2.58859843e-02 -4.63370755e-02  3.44268940e-02
+  1.65827796e-02  3.19692530e-02  4.35182638e-03 -9.53401327e-02
+ -2.81039272e-02 -2.13634316e-02 -1.31009961e-03  5.49460808e-03
+  4.22017241e-04  4.41049151e-02  8.90003815e-02  2.28832234e-02
+  2.42783106e-03  1.12377619e-02 -7.51533359e-02  7.62778893e-02
+ -1.99819766e-02 -1.54210581e-02 -5.91769926e-02 -1.69220939e-08
+  1.98860224e-02 -1.08943759e-02 -1.14011839e-02 -1.91623922e-02
+  5.11493310e-02 -1.28684551e-01  5.85499369e-02 -5.18598892e-02
+  2.18665437e-03 -1.00640496e-02 -2.60254834e-02 -3.17312218e-02
+  4.91483696e-02 -1.63164567e-02  5.93646355e-02  3.81194912e-02
+ -2.54066307e-02  7.85048604e-02 -3.47202942e-02 -2.04352406e-03
+  7.33172074e-02 -3.44961956e-02  6.08408963e-03  3.93133797e-02
+ -1.21495146e-02  6.43654987e-02 -5.26717491e-02  2.54702196e-02
+ -3.35730761e-02  2.23153923e-02 -2.68138796e-02  8.42072070e-02
+  3.24333087e-02 -1.00401059e-01  7.77412504e-02  3.14748958e-02
+  2.97358958e-03 -8.77864733e-02 -3.14883552e-02 -1.44400308e-02
+  2.36218111e-04 -1.03834935e-01 -4.10376936e-02  3.87128443e-03
+  1.08852409e-01 -3.66356224e-02 -6.81994855e-03 -6.93205521e-02
+  5.74459275e-03  6.85775056e-02  7.25110946e-03 -7.03697801e-02
+  5.63223772e-02  3.06284353e-02  7.04937503e-02  1.07143652e-02
+  6.08630665e-02  5.46577247e-03 -3.04993317e-02  1.70369707e-02
+  1.31482869e-01  7.05261901e-02 -3.17299403e-02 -1.37130087e-02]",TITLE: AI-Powered Smart Attendance System. DESCRIPTION: AI-Powered Smart Attendance System
+2,Online Bookstore Web App,":
+This project is designed to address specific problems in computer science applications. It leverages modern
+web technologies and AI to provide effective solutions. The system aims to automate tasks, improve
+efficiency, and enhance user experience. Detailed modules are designed for scalability and maintainability,
+ensuring the project can be adapted for various environments and requirements.",":
+Traditional methods in this domain are often time-consuming, error-prone, or inefficient. There is a need for a
+system that automates processes, provides real-time results, and reduces human intervention. The project aims
+to fill this gap using advanced AI algorithms and web-based interfaces that are accessible and user-friendly.",":
+1. Automate tasks in the relevant domain.
+2. Improve accuracy and reduce errors.
+3. Provide real-time reporting and monitoring.
+4. Ensure accessibility via web-based platforms.
+5. Implement scalable and maintainable system architecture.",":
+Existing systems in this field include various manual and semi-automated methods, such as traditional web
+applications, desktop-based solutions, and simple AI models. While effective to some extent, these approaches
+lack full automation, real-time monitoring, or integration with modern AI techniques. This project builds upon
+existing research, enhancing functionality and leveraging recent advancements in computer vision, NLP, and
+deep learning.",":
+The system comprises frontend, backend, database, and AI modules. The frontend is designed for user
+interaction, built with HTML, CSS, and JavaScript. The backend handles data processing, API calls, and
+integration with AI models, typically implemented using Python and Flask/Django. The database stores user
+data, logs, and results. AI modules utilize frameworks such as TensorFlow, Keras, or PyTorch for machine
+learning tasks.
+[Placeholder for architecture diagram]","/ Workflow:
+1. Collect and preprocess data.
+2. Develop frontend user interface.
+3. Implement backend logic and database connectivity.
+4. Integrate AI models for prediction, recognition, or recommendation tasks.
+5. Conduct testing and debugging.
+6. Deploy system on server or cloud platform.
+[Placeholder for workflow diagram]",":
+- Real-time operation and response.
+- User-friendly interface and dashboards.
+- Accurate processing and automated reporting.
+- Notifications and alerts.
+- Scalable system architecture for future expansion.",":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.",":
+- ER Diagrams
+- Flowcharts
+- Screenshots and mockups
+- Sample reports
+- AI model architecture diagrams",2,Online Bookstore Web App,Online Bookstore Web App,2023,":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.","[-2.28949934e-02  3.58889513e-02 -3.71271707e-02 -6.82625454e-03
+ -6.30277619e-02  2.58147437e-02 -8.84950534e-03  7.99957663e-03
+  6.56978367e-03 -3.30348648e-02  4.91588600e-02  3.22901011e-02
+  3.20439525e-02 -7.00728521e-02  6.03989931e-03 -4.94646691e-02
+  8.45531076e-02 -1.53869658e-03  1.50967035e-02 -2.15912499e-02
+  2.27683764e-02  1.04510494e-01 -2.69179977e-03  8.55012313e-02
+ -4.33470942e-02 -6.62867278e-02 -1.77015588e-02  2.07374301e-02
+ -1.35788070e-02 -7.64562935e-02  4.42332700e-02  3.10144797e-02
+  3.69502120e-02  5.31230681e-02 -4.45950888e-02 -9.70198587e-02
+ -7.56530464e-02 -2.87801884e-02  8.71903636e-03  1.52263772e-02
+ -3.34362984e-02 -1.07672596e-02 -3.99051681e-02  7.24202618e-02
+ -2.42871996e-02 -3.71000879e-02 -6.63757473e-02 -1.33031223e-03
+  1.34040108e-02  1.14662126e-01 -3.09959967e-02 -8.43795612e-02
+ -5.53040877e-02 -1.46738498e-03 -6.54176995e-02  1.18601188e-01
+ -1.30814482e-02 -6.28739782e-03  1.71606075e-02  1.15627274e-02
+  6.75912052e-02 -4.56364527e-02  5.01801111e-02  8.74521658e-02
+ -3.02005792e-03  9.06723738e-02 -9.62156896e-03  4.28363308e-02
+ -1.92913823e-02 -1.10283352e-01 -4.21401486e-02  1.30092455e-02
+  2.68406849e-02  4.15618680e-02  2.64272373e-02 -1.10412806e-01
+ -6.78546820e-03 -2.26949509e-02  1.28235610e-03 -4.43739407e-02
+ -9.38933566e-02 -2.78688055e-02 -3.98560613e-02  4.08885675e-03
+ -6.93371668e-02  2.04948243e-03  3.64036486e-02 -4.95197810e-02
+  5.51574901e-02  4.22022538e-03  4.40963954e-02 -3.11446525e-02
+  3.81952152e-02  3.43756154e-02 -1.16365120e-01 -4.02039513e-02
+  2.13054474e-02 -4.70851082e-03 -4.84296912e-03  7.98561424e-03
+  5.67843730e-04  4.54849675e-02  6.67066723e-02 -8.11451748e-02
+ -6.00450672e-02 -6.25804216e-02  9.55037028e-03  1.69432890e-02
+ -4.24994007e-02 -7.26062059e-02 -7.57710487e-02 -3.57583463e-02
+  6.54546684e-03 -6.14084154e-02 -1.08906692e-02  6.94528446e-02
+  4.39797528e-02  5.26841953e-02  1.36650011e-01  8.71103257e-02
+  2.91057639e-02  7.70019293e-02 -2.08491576e-03 -9.50606614e-02
+ -3.17912549e-02 -1.11366503e-01  3.99616323e-02  8.59736422e-35
+  7.04053277e-03  4.25780118e-02 -7.28031993e-03 -3.57038975e-02
+  8.10257643e-02 -8.34379792e-02  6.22622967e-02  1.00760479e-02
+ -1.12264603e-01  8.47146846e-03  2.53536478e-02  2.14908030e-02
+ -6.67455569e-02  1.78348087e-02 -9.87286307e-03  4.63196412e-02
+ -2.22167429e-02  7.89257959e-02  7.66032413e-02  9.99464002e-03
+  1.15369158e-02 -1.22540034e-02 -1.12592313e-03  8.54356587e-03
+ -5.20724095e-02 -2.60376856e-02 -3.01295910e-02  6.79664761e-02
+  7.18505234e-02  2.40216646e-02  5.29898815e-02 -7.92009905e-02
+ -5.29752579e-03 -8.81743953e-02  1.66748241e-02 -5.27592339e-02
+ -2.40788665e-02 -4.81603928e-02  6.94401339e-02 -2.52634063e-02
+ -1.42959565e-01 -2.41654869e-02 -6.45961687e-02  6.25219792e-02
+ -9.53528332e-04  6.23830855e-02  3.71459842e-04  1.10305576e-02
+  6.95011318e-02  7.97647387e-02 -9.20426026e-02 -2.09239163e-02
+  1.23513909e-02  3.65842804e-02 -3.94703746e-02 -1.42407762e-02
+ -5.06601520e-02  4.19268087e-02 -4.41283127e-03 -5.41870445e-02
+  5.02971187e-02  1.84323806e-02 -3.66783664e-02 -2.78880727e-02
+ -2.57182550e-02 -4.65424806e-02  1.71735138e-03 -6.73860013e-02
+  9.67672095e-03 -4.73214015e-02 -5.39816096e-02  9.89312399e-03
+  1.45729214e-01  3.68374847e-02 -2.99267587e-04  1.61531642e-02
+ -1.00224158e-02  2.00219564e-02 -1.87526476e-02 -4.89153117e-02
+ -1.25282654e-03 -4.44573127e-02  5.89089356e-02  5.25565892e-02
+ -1.21729560e-01  3.87093686e-02  1.78058650e-02 -1.04038298e-01
+ -6.77227750e-02  5.63884862e-02  8.41775257e-03  1.03826292e-01
+ -7.87255093e-02  5.46519309e-02  5.37381172e-02 -1.18440377e-33
+  4.91655208e-02 -7.77088180e-02 -4.65275347e-02  3.90744209e-02
+  8.05102475e-03  3.95452045e-02 -2.49641314e-02  6.77873269e-02
+  2.48100776e-02 -4.16745618e-02 -8.50775093e-02  2.70428825e-02
+ -5.40256910e-02  4.93915081e-02 -4.00528945e-02  1.81089099e-02
+  4.34966274e-02 -7.70479068e-02 -4.90595296e-04  3.64633501e-02
+ -4.35756855e-02 -2.84980629e-02 -6.74538687e-02 -2.54351944e-02
+  6.50295615e-02 -2.72732731e-02 -2.95965886e-03  3.86074483e-02
+ -4.31743860e-02  1.77073926e-02  4.63981517e-02 -9.08558369e-02
+ -3.13404924e-03  1.14512984e-02 -6.64105564e-02 -1.72540471e-02
+  3.10313888e-02 -3.61311659e-02 -2.21034307e-02 -7.16327829e-03
+  8.78175870e-02 -3.88040878e-02  5.99959008e-02 -5.33230603e-02
+ -2.55956221e-02 -2.05135643e-02 -3.46625224e-02 -2.17361818e-03
+  5.35469390e-02 -2.67304759e-02  1.58146452e-02  5.15324287e-02
+ -1.95003431e-02 -1.13892876e-01  2.11444311e-02  1.36743203e-01
+  2.56150533e-02 -2.46046986e-02  1.98676009e-02  2.77941171e-02
+ -7.07651749e-02  3.92232672e-04 -4.93501760e-02  7.73232952e-02
+  1.93976853e-02 -3.07542924e-02  4.85154837e-02  5.09291999e-02
+ -1.37372585e-02  2.95254532e-02 -9.51995142e-03 -8.93451367e-03
+  3.14881802e-02 -8.29194486e-02 -8.14050511e-02  4.40906323e-02
+  6.23238124e-02  3.34482230e-02 -6.63313419e-02 -2.24916786e-02
+  4.15125862e-03  1.45243062e-02  6.46336973e-02  6.89113885e-02
+  3.95281501e-02  1.43179828e-02  2.01303829e-02  1.75349433e-02
+ -4.10579937e-03 -5.36077209e-02 -4.34400477e-02  7.49555603e-03
+ -1.27461217e-02  3.29459719e-02  3.23450263e-03 -1.88348448e-08
+  1.40197370e-02 -7.33596236e-02 -2.95885596e-02  2.94018984e-02
+  6.34964034e-02  4.19124961e-02  1.15982443e-01  4.14251275e-02
+ -8.57662968e-03  4.07815948e-02 -9.50432792e-02 -6.70533031e-02
+ -8.39892626e-02  5.84585071e-02 -6.37989782e-04  1.33079151e-02
+  2.56978031e-02  7.23081678e-02  3.52625027e-02 -3.81670594e-02
+  3.33552882e-02 -4.47463542e-02  3.11186835e-02 -4.59959410e-04
+  2.64648590e-02  6.03877120e-02 -3.18010291e-03  3.71680185e-02
+  3.75244878e-02 -1.31321270e-02  5.59195410e-03  3.34696509e-02
+  4.33496349e-02 -2.70312168e-02  5.48600294e-02  1.10555883e-03
+ -3.39241661e-02  5.71184559e-03 -2.31907405e-02 -1.86393224e-02
+ -7.66265690e-02 -3.55201066e-02  3.29338647e-02 -9.20988712e-03
+  6.75844103e-02  3.92830670e-02  8.09101239e-02 -3.31996419e-02
+  1.05668686e-01  9.05435160e-02 -3.70894521e-02 -4.18633185e-02
+  5.50151467e-02 -5.28704338e-02  1.03712175e-02  6.92879036e-02
+  1.41096674e-02 -3.07109021e-02  1.05657335e-02  5.10291532e-02
+  1.24564499e-01 -6.38458580e-02 -3.94158103e-02  8.64844695e-02]",TITLE: Online Bookstore Web App. DESCRIPTION: Online Bookstore Web App
+3,AI-Based Chatbot for Student Queries,":
+This project is designed to address specific problems in computer science applications. It leverages modern
+web technologies and AI to provide effective solutions. The system aims to automate tasks, improve
+efficiency, and enhance user experience. Detailed modules are designed for scalability and maintainability,
+ensuring the project can be adapted for various environments and requirements.",":
+Traditional methods in this domain are often time-consuming, error-prone, or inefficient. There is a need for a
+system that automates processes, provides real-time results, and reduces human intervention. The project aims
+to fill this gap using advanced AI algorithms and web-based interfaces that are accessible and user-friendly.",":
+1. Automate tasks in the relevant domain.
+2. Improve accuracy and reduce errors.
+3. Provide real-time reporting and monitoring.
+4. Ensure accessibility via web-based platforms.
+5. Implement scalable and maintainable system architecture.",":
+Existing systems in this field include various manual and semi-automated methods, such as traditional web
+applications, desktop-based solutions, and simple AI models. While effective to some extent, these approaches
+lack full automation, real-time monitoring, or integration with modern AI techniques. This project builds upon
+existing research, enhancing functionality and leveraging recent advancements in computer vision, NLP, and
+deep learning.",":
+The system comprises frontend, backend, database, and AI modules. The frontend is designed for user
+interaction, built with HTML, CSS, and JavaScript. The backend handles data processing, API calls, and
+integration with AI models, typically implemented using Python and Flask/Django. The database stores user
+data, logs, and results. AI modules utilize frameworks such as TensorFlow, Keras, or PyTorch for machine
+learning tasks.
+[Placeholder for architecture diagram]","/ Workflow:
+1. Collect and preprocess data.
+2. Develop frontend user interface.
+3. Implement backend logic and database connectivity.
+4. Integrate AI models for prediction, recognition, or recommendation tasks.
+5. Conduct testing and debugging.
+6. Deploy system on server or cloud platform.
+[Placeholder for workflow diagram]",":
+- Real-time operation and response.
+- User-friendly interface and dashboards.
+- Accurate processing and automated reporting.
+- Notifications and alerts.
+- Scalable system architecture for future expansion.",":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.",":
+- ER Diagrams
+- Flowcharts
+- Screenshots and mockups
+- Sample reports
+- AI model architecture diagrams",3,AI-Based Chatbot for Student Queries,AI-Based Chatbot for Student Queries,2023,":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.","[-4.90471050e-02  1.84904337e-02  1.65670738e-02  8.33840575e-03
+ -4.73346934e-02 -1.10583782e-01  9.48419347e-02  7.94689450e-03
+ -1.01288389e-02 -4.11020666e-02  3.65357623e-02  1.35283954e-02
+  2.31603254e-02  2.18158923e-02  3.34224030e-02  4.62617725e-02
+  4.37815711e-02 -2.55596973e-02  1.20941428e-02 -2.59640962e-02
+ -8.68313573e-03  2.84197815e-02  1.73045769e-02  9.96902958e-03
+  5.50708733e-02  6.25096485e-02 -9.04214848e-03 -6.67195693e-02
+ -4.38829362e-02 -2.04883423e-02 -4.45325742e-04  1.48713412e-02
+  3.82267423e-02  1.40719280e-01 -1.43337697e-02 -6.22136369e-02
+ -6.57313243e-02  7.71840289e-03 -2.09293305e-03 -2.08132975e-02
+ -1.19401455e-01 -3.18186171e-02  1.93866175e-02 -3.85125577e-02
+  2.75669824e-02 -1.33593241e-02 -1.34722978e-01 -4.45240885e-02
+  8.86635184e-02  9.08792317e-02 -1.09642282e-01 -6.87545761e-02
+  2.11171191e-02  5.24149947e-02 -2.91108582e-02  5.47257625e-02
+ -5.84406890e-02  8.62040091e-03  2.20474955e-02 -2.24471781e-02
+ -3.73513326e-02 -9.41833667e-03  4.52642702e-02  2.88828146e-02
+ -2.59591341e-02 -5.68924565e-03 -4.43943813e-02 -2.06166711e-02
+  8.63942653e-02 -1.10564521e-02 -3.53298858e-02  3.94439511e-02
+ -3.64109757e-03  4.30429615e-02  3.30520198e-02  1.40449340e-02
+ -6.91989157e-03 -2.86545679e-02  6.07115962e-02  1.73045299e-03
+ -9.43990350e-02 -4.73099910e-02 -2.34945212e-03  4.29249834e-03
+  2.93693673e-02 -1.76213570e-02  1.00076690e-01 -3.10479589e-02
+ -3.20270425e-03 -5.58932535e-02 -7.28055611e-02 -2.68970653e-02
+  8.31425190e-02  5.44998907e-02 -1.56262927e-02  8.72626342e-03
+  2.10286621e-02 -2.11799480e-02 -5.13075814e-02  3.31842192e-02
+  3.23787797e-03  7.48241022e-02 -4.43402119e-02 -7.25189671e-02
+ -1.08357295e-01 -8.20450252e-04  8.20814222e-02 -4.32914421e-02
+  8.83976221e-02 -2.63677929e-02 -2.95470804e-02 -5.09225018e-02
+  2.54269149e-02 -5.94278425e-02  5.18731661e-02  5.60195511e-03
+  1.04009904e-01  3.15722190e-02  3.30263600e-02  3.82658206e-02
+  1.42123148e-01  3.59739326e-02 -4.95523773e-02 -3.10554318e-02
+  5.35840765e-02 -2.60762554e-02 -4.00634930e-02 -9.24951505e-34
+  1.11782216e-01  1.55592021e-02  1.65174957e-02  6.53672144e-02
+  4.95788902e-02  4.14762236e-02 -3.50389117e-03  1.17555015e-01
+ -1.01669692e-01  2.72146612e-02 -6.96928799e-02 -2.30725612e-02
+ -5.21533564e-02 -3.09068570e-03  4.99161221e-02 -3.81809734e-02
+ -4.37697880e-02  3.93791609e-02  4.10541221e-02  5.17704561e-02
+ -8.96813406e-04 -5.90860061e-02  5.44378199e-02  6.68036342e-02
+  7.41009638e-02  4.89223935e-02  1.10878935e-02 -3.28615569e-02
+  9.75158513e-02  3.20632034e-03 -3.36759761e-02 -6.24463037e-02
+ -1.39227882e-01 -5.61957918e-02  1.52998939e-02 -2.71295663e-02
+ -1.40298376e-04 -6.29878510e-03 -4.80752811e-02  1.41471392e-02
+ -6.62761182e-02 -7.85689950e-02  2.92240400e-02 -4.79212068e-02
+ -3.71703207e-02 -2.40655951e-02 -7.31915683e-02 -2.89901067e-02
+  4.90790531e-02 -1.95808783e-02 -1.31603301e-01  9.05838050e-03
+ -4.93298694e-02 -4.34008874e-02  1.88347194e-02 -7.73610249e-02
+  1.28282728e-02  8.43018219e-02 -5.35575710e-02 -5.80097362e-02
+ -4.31391560e-02 -2.69658454e-02 -3.59293371e-02 -9.66039766e-03
+  9.37288348e-03 -3.14713866e-02  1.97972078e-02 -3.23755271e-03
+  1.08272851e-01 -1.96375418e-02 -1.43431481e-02  2.75673671e-03
+  5.69642447e-02  3.20345238e-02 -6.55195788e-02  4.69447076e-02
+ -6.09271564e-02 -1.55517207e-02  6.46688417e-02  6.10753102e-03
+  1.26587274e-02 -1.62388578e-01 -4.83731739e-02 -5.97404353e-02
+ -4.68477309e-02 -1.46647273e-02  1.78284496e-02 -5.67295216e-02
+  1.95316714e-03  2.74605229e-02 -4.83238846e-02  3.58826295e-02
+ -4.43804078e-02  5.53375594e-02 -6.06970489e-02 -3.27498535e-34
+  3.69540341e-02 -4.36853385e-03 -1.11031130e-01  3.70706543e-02
+  5.77700324e-02 -1.08573167e-02  1.52291507e-02  4.87968624e-02
+  1.75735559e-02 -2.95414794e-02 -4.13841493e-02  4.35743295e-03
+  2.66855042e-02 -1.41291954e-02  2.29364056e-02  1.15791298e-01
+ -2.95194369e-02 -7.55584985e-02 -6.10467978e-02  9.96139459e-03
+ -6.19514585e-02  7.63408542e-02 -9.90793705e-02 -1.84741877e-02
+  4.43234295e-03 -1.50918886e-02 -1.56215839e-02 -1.00479778e-02
+  8.95225070e-03  5.98360561e-02  7.47635076e-03 -5.98241165e-02
+ -1.04471333e-02  2.73473132e-02  1.20612150e-02  2.50248145e-02
+  4.24647555e-02 -2.77522374e-02 -7.08527714e-02  4.33854088e-02
+  1.35395125e-01 -4.35718708e-02 -2.92719454e-02 -2.03560889e-02
+  2.93431357e-02 -1.07143475e-02 -7.89306611e-02  4.21261229e-02
+ -3.11324801e-02  2.73920242e-02 -2.43623964e-02 -8.19977671e-02
+  4.73917872e-02 -9.63760987e-02 -2.02419814e-02  2.74574962e-02
+ -1.30195578e-03  4.86093611e-02 -1.55508844e-02  2.30819862e-02
+ -4.94947471e-02 -8.22782367e-02  9.03540030e-02  4.35247906e-02
+ -3.46891470e-02 -6.04966022e-02 -6.56369794e-03  8.15649480e-02
+ -2.82539949e-02 -1.95942577e-02  1.09897777e-01 -4.15971279e-02
+  5.02769202e-02  4.76830900e-02  5.60147762e-02  2.09211353e-02
+  4.53364961e-02 -1.19466905e-03 -1.61062519e-03  4.04393300e-02
+  1.64479110e-02 -4.65872511e-03  2.04860028e-02  7.60617256e-02
+  4.27864082e-02  5.50124533e-02  2.09037587e-02  6.31060675e-02
+  2.74988152e-02  5.48277516e-03 -2.74834335e-02  5.58956712e-03
+  1.10120261e-02 -1.58585180e-02 -3.79095078e-02 -1.60901852e-08
+ -8.34814925e-03 -4.62948643e-02 -2.03189850e-02  8.88216570e-02
+  5.52911870e-02 -2.52647907e-03 -2.77222339e-02  2.03766581e-02
+ -4.76055592e-02  1.53488424e-02  5.35471588e-02  7.24974321e-04
+  5.21083847e-02 -3.17270793e-02  6.17025495e-02  2.82543600e-02
+ -2.90602390e-02  2.02151388e-02  3.90908867e-02 -7.32610971e-02
+  9.23170149e-02 -3.96541841e-02 -1.02597661e-02  9.64652896e-02
+ -1.12199225e-01  2.76488427e-04 -1.57765057e-02  6.55792728e-02
+ -6.15056716e-02  1.90233383e-02 -3.51620950e-02  2.01849546e-02
+  6.82477206e-02 -6.61349371e-02  1.23987898e-01 -1.30985230e-02
+ -5.58434501e-02 -6.36198968e-02 -2.54859105e-02  2.91202888e-02
+  2.00721473e-02 -3.91180627e-02 -1.49194533e-02 -1.60617605e-02
+  7.07421154e-02 -5.96387498e-03 -2.25718785e-02 -1.32111102e-01
+  5.53713553e-02 -1.65644928e-03 -6.76381774e-03 -4.00205282e-03
+  1.94754824e-02  5.95731800e-03  6.11547381e-02  1.66792329e-02
+  1.84674747e-02 -2.66966829e-03 -2.12549139e-02  8.84388108e-03
+  5.21220081e-02  1.07675575e-01 -2.27626767e-02  4.61167321e-02]",TITLE: AI-Based Chatbot for Student Queries. DESCRIPTION: AI-Based Chatbot for Student Queries
+4,Online Exam System with AI Proctoring,":
+This project is designed to address specific problems in computer science applications. It leverages modern
+web technologies and AI to provide effective solutions. The system aims to automate tasks, improve
+efficiency, and enhance user experience. Detailed modules are designed for scalability and maintainability,
+ensuring the project can be adapted for various environments and requirements.",":
+Traditional methods in this domain are often time-consuming, error-prone, or inefficient. There is a need for a
+system that automates processes, provides real-time results, and reduces human intervention. The project aims
+to fill this gap using advanced AI algorithms and web-based interfaces that are accessible and user-friendly.",":
+1. Automate tasks in the relevant domain.
+2. Improve accuracy and reduce errors.
+3. Provide real-time reporting and monitoring.
+4. Ensure accessibility via web-based platforms.
+5. Implement scalable and maintainable system architecture.",":
+Existing systems in this field include various manual and semi-automated methods, such as traditional web
+applications, desktop-based solutions, and simple AI models. While effective to some extent, these approaches
+lack full automation, real-time monitoring, or integration with modern AI techniques. This project builds upon
+existing research, enhancing functionality and leveraging recent advancements in computer vision, NLP, and
+deep learning.",":
+The system comprises frontend, backend, database, and AI modules. The frontend is designed for user
+interaction, built with HTML, CSS, and JavaScript. The backend handles data processing, API calls, and
+integration with AI models, typically implemented using Python and Flask/Django. The database stores user
+data, logs, and results. AI modules utilize frameworks such as TensorFlow, Keras, or PyTorch for machine
+learning tasks.
+[Placeholder for architecture diagram]","/ Workflow:
+1. Collect and preprocess data.
+2. Develop frontend user interface.
+3. Implement backend logic and database connectivity.
+4. Integrate AI models for prediction, recognition, or recommendation tasks.
+5. Conduct testing and debugging.
+6. Deploy system on server or cloud platform.
+[Placeholder for workflow diagram]",":
+- Real-time operation and response.
+- User-friendly interface and dashboards.
+- Accurate processing and automated reporting.
+- Notifications and alerts.
+- Scalable system architecture for future expansion.",":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.",":
+- ER Diagrams
+- Flowcharts
+- Screenshots and mockups
+- Sample reports
+- AI model architecture diagrams",4,Online Exam System with AI Proctoring,Online Exam System with AI Proctoring,2023,":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.","[-2.25398112e-02  8.98679532e-03 -1.59755275e-02 -2.91420389e-02
+ -2.89501846e-02 -2.23043375e-02  7.65222460e-02  3.43863033e-02
+ -6.37968630e-02  1.78722874e-03  3.02368943e-02 -4.39260900e-02
+  6.53764904e-02  4.59632203e-02 -1.71958730e-02 -5.30727059e-02
+  4.00142418e-03 -2.25006063e-02  4.29656096e-02 -7.41332695e-02
+ -3.56202610e-02  8.10808688e-03 -3.42542976e-02  9.26745124e-03
+  6.90585747e-03 -2.03127111e-03  5.96292429e-02 -6.59488067e-02
+  2.90245321e-02 -5.30765839e-02  1.66102499e-02 -1.98265612e-02
+  5.87289408e-02  2.08016094e-02  4.16399166e-03 -7.67275691e-02
+ -2.49689259e-02 -6.43062405e-03  2.27500927e-02  2.38381866e-02
+ -2.29969490e-02 -6.28501773e-02  4.26963829e-02 -1.67659577e-02
+  3.98953408e-02  5.86637668e-02 -9.11523327e-02 -2.17978489e-02
+  4.48956527e-02  5.71827479e-02 -1.33518413e-01 -8.13650265e-02
+ -4.25667763e-02  5.70879392e-02 -5.89170679e-02  4.79057431e-03
+  9.98628661e-02 -5.05688076e-04 -3.55944820e-02 -1.94480550e-02
+ -5.35919257e-02 -4.20734212e-02  7.69084692e-02  7.20394254e-02
+  7.81827122e-02  1.05641149e-01 -4.35927473e-02  3.04630138e-02
+  5.32792099e-02  7.91432615e-03 -9.06129554e-02  6.67907000e-02
+  3.58754881e-02  7.74905235e-02  4.51795831e-02 -1.61613096e-02
+ -9.34692100e-03 -2.54533459e-02  4.43181582e-02  3.69092524e-02
+ -7.44477585e-02 -3.60907987e-02  1.62548404e-02  3.25039215e-03
+ -6.37658089e-02 -3.59288491e-02 -1.96183920e-02 -5.17698415e-02
+  6.13000356e-02 -6.72625080e-02  1.97232775e-02 -1.19342329e-02
+  7.29146414e-03  3.96016464e-02  3.73021103e-02  3.80921029e-02
+  2.31142398e-02 -4.01875973e-02  2.81551760e-02  5.16382456e-02
+ -4.00354639e-02  5.28898500e-02 -5.86351156e-02 -6.73190281e-02
+ -9.49859768e-02 -2.29310361e-03  4.98853028e-02 -8.49013925e-02
+  2.04543341e-02 -9.05482918e-02 -3.79601978e-02  2.08924897e-03
+  8.01338814e-03 -6.17831759e-02  2.69298777e-02  6.64994121e-02
+  1.22816570e-01  1.09634943e-01  1.15141936e-01  3.51624610e-03
+  6.57809228e-02  2.02670577e-03  1.57993827e-02  3.28520895e-03
+  6.84084594e-02 -5.78595772e-02  1.66915990e-02 -2.07950644e-33
+ -4.87214588e-02  1.20147849e-02  1.91378705e-02  2.74843369e-02
+  4.47862707e-02 -4.40197922e-02  1.78347677e-02  1.08796276e-01
+ -3.43532264e-02  2.61769928e-02 -1.49436044e-02  1.26772542e-02
+ -7.04114661e-02  1.55498367e-02  4.56577167e-02  1.72701124e-02
+ -2.91349459e-02  2.97181718e-02 -2.00092029e-02 -2.69756280e-03
+  3.21531147e-02 -9.41404030e-02  4.73117419e-02  5.28335432e-03
+ -2.48958333e-03  1.12427622e-02  3.68318800e-03 -2.82319076e-02
+  8.18659663e-02 -4.38296841e-03 -1.36371059e-02 -3.20420898e-02
+ -9.17878076e-02  1.73176453e-02  2.70109270e-02  9.04018432e-02
+ -2.92567741e-02 -1.82187855e-02 -2.23302795e-03  6.71530813e-02
+ -4.13669348e-02 -1.67198258e-03  7.30827749e-02  1.18464965e-03
+ -5.99331297e-02  2.39875261e-02 -6.99988753e-02 -8.12675059e-02
+  8.83340836e-02 -1.44269150e-02 -7.96014816e-02 -7.22984551e-04
+  3.59172397e-03 -8.65460634e-02 -1.00035919e-02 -2.66823685e-03
+ -3.11450120e-02  5.78056686e-02 -5.70567138e-02  1.17756659e-03
+  5.08602485e-02  1.68074965e-02 -4.50292416e-02  8.17294419e-02
+ -9.35540497e-02  1.37365540e-03 -7.48890415e-02 -1.13424756e-01
+  9.76568982e-02 -7.26362243e-02 -9.43951607e-02 -8.42691958e-03
+  8.22619256e-03 -3.13046873e-02 -1.67561676e-02 -4.25917655e-03
+ -4.29494977e-02  2.85599451e-03  9.53751728e-02 -8.84027407e-02
+ -4.39630672e-02 -5.38858958e-02 -2.12160964e-02 -6.74690306e-02
+ -1.43589135e-02 -1.72081180e-02 -3.26307341e-02 -4.23906138e-03
+ -1.55998776e-02 -2.78139114e-02 -5.35316989e-02  2.61806268e-02
+ -5.63254207e-02  8.55350196e-02  4.64981832e-02  8.57940866e-35
+ -7.35329539e-02 -8.34705681e-03 -9.72286910e-02  8.62075686e-02
+  4.16559279e-02 -5.09485379e-02  4.23590839e-03  2.31056157e-02
+  4.97019626e-02  7.16359094e-02 -2.83633526e-02  5.79804927e-03
+  1.11325113e-02  5.96199855e-02 -3.51927094e-02 -3.27907167e-02
+ -4.67176624e-02  1.09510729e-03  8.18098430e-03  2.74503361e-02
+ -2.99710929e-02  1.64194688e-01 -9.77294613e-03 -8.45481828e-02
+  1.88503582e-02  1.37089109e-02 -1.09507488e-02  1.03256470e-02
+  3.94768976e-02  6.16209842e-02 -2.71310136e-02 -3.44305076e-02
+ -2.39459965e-02  1.00167744e-01  3.41927807e-04  4.33478244e-02
+  1.18064843e-01 -3.11449561e-02 -7.67474771e-02  1.74946897e-02
+  4.51861583e-02 -2.19955016e-02 -5.14243990e-02 -5.08465543e-02
+ -4.76992922e-03  7.10764676e-02 -5.25426529e-02  5.39944395e-02
+ -1.67012782e-04  1.38121685e-02 -1.05841467e-02  4.49992493e-02
+ -6.23586476e-02 -4.66437042e-02 -4.50534597e-02  6.20898642e-02
+ -5.95427305e-02  1.97750479e-02 -8.14249068e-02  5.55708557e-02
+  8.26395024e-03 -1.31972581e-02 -1.64386965e-02  2.71821804e-02
+  4.93324026e-02 -3.49833481e-02  3.96208838e-02  9.25779045e-02
+ -1.16952788e-02  4.56828512e-02  2.89131906e-02 -3.10664214e-02
+  2.13826112e-02 -3.31274979e-02  6.14852421e-02 -7.19100656e-03
+ -3.80441882e-02  2.50526369e-02 -3.61682847e-02 -1.08659610e-01
+ -3.09106279e-02 -6.42186478e-02 -3.40058021e-02  1.36048481e-01
+  2.10527387e-02  3.10870800e-02  9.20503438e-02 -3.49937612e-03
+  8.60285293e-03  3.16579752e-02  8.73801857e-03 -1.66198034e-02
+  3.60556953e-02 -2.42867023e-02 -6.66282326e-02 -1.66859806e-08
+  1.17905647e-03 -3.09128556e-02 -1.84829943e-02  6.17787875e-02
+  3.57516073e-02  8.05586111e-04 -5.04622459e-02 -4.82165739e-02
+ -1.03098214e-01  8.89639836e-03 -8.50795396e-03 -2.20554639e-02
+  5.31831235e-02 -3.03170644e-03  3.10212895e-02  2.20241491e-05
+ -4.61709797e-02  9.55248848e-02 -2.11633462e-02 -2.36004908e-02
+  1.04896866e-01 -5.40387072e-02 -2.67516933e-02  4.04584818e-02
+ -2.81776767e-02  7.25361779e-02  5.17438762e-02  8.47685188e-02
+ -1.67736392e-02  3.29942852e-02 -1.45373233e-02  1.30642615e-02
+  4.25757840e-02 -4.10377868e-02  1.51012791e-02  3.28417905e-02
+  1.65394843e-02  3.96263786e-03 -1.23819979e-02 -2.56830920e-03
+ -1.38622046e-01 -7.28216246e-02  9.39163286e-03 -1.30383009e-02
+  6.02428950e-02 -2.24926863e-02 -8.55758488e-02 -3.47537287e-02
+  5.42059876e-02 -1.32941012e-03 -1.43604269e-02 -7.52993003e-02
+ -1.44292042e-03  3.21696550e-02  5.18949479e-02 -1.20889610e-02
+  6.81595579e-02  9.23261861e-04 -9.71353427e-02  1.02528162e-01
+  1.37161776e-01  7.03256801e-02 -2.93236482e-03 -8.59029498e-03]",TITLE: Online Exam System with AI Proctoring. DESCRIPTION: Online Exam System with AI Proctoring
+5,Recommendation System for E-Commerce,":
+This project is designed to address specific problems in computer science applications. It leverages modern
+web technologies and AI to provide effective solutions. The system aims to automate tasks, improve
+efficiency, and enhance user experience. Detailed modules are designed for scalability and maintainability,
+ensuring the project can be adapted for various environments and requirements.",":
+Traditional methods in this domain are often time-consuming, error-prone, or inefficient. There is a need for a
+system that automates processes, provides real-time results, and reduces human intervention. The project aims
+to fill this gap using advanced AI algorithms and web-based interfaces that are accessible and user-friendly.",":
+1. Automate tasks in the relevant domain.
+2. Improve accuracy and reduce errors.
+3. Provide real-time reporting and monitoring.
+4. Ensure accessibility via web-based platforms.
+5. Implement scalable and maintainable system architecture.",":
+Existing systems in this field include various manual and semi-automated methods, such as traditional web
+applications, desktop-based solutions, and simple AI models. While effective to some extent, these approaches
+lack full automation, real-time monitoring, or integration with modern AI techniques. This project builds upon
+existing research, enhancing functionality and leveraging recent advancements in computer vision, NLP, and
+deep learning.",":
+The system comprises frontend, backend, database, and AI modules. The frontend is designed for user
+interaction, built with HTML, CSS, and JavaScript. The backend handles data processing, API calls, and
+integration with AI models, typically implemented using Python and Flask/Django. The database stores user
+data, logs, and results. AI modules utilize frameworks such as TensorFlow, Keras, or PyTorch for machine
+learning tasks.
+[Placeholder for architecture diagram]","/ Workflow:
+1. Collect and preprocess data.
+2. Develop frontend user interface.
+3. Implement backend logic and database connectivity.
+4. Integrate AI models for prediction, recognition, or recommendation tasks.
+5. Conduct testing and debugging.
+6. Deploy system on server or cloud platform.
+[Placeholder for workflow diagram]",":
+- Real-time operation and response.
+- User-friendly interface and dashboards.
+- Accurate processing and automated reporting.
+- Notifications and alerts.
+- Scalable system architecture for future expansion.",":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.",":
+- ER Diagrams
+- Flowcharts
+- Screenshots and mockups
+- Sample reports
+- AI model architecture diagrams",5,Recommendation System for E-Commerce,Recommendation System for E-Commerce,2023,":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.","[-3.60620394e-02 -3.21665071e-02  3.72928497e-03 -3.13454570e-04
+  4.13256921e-02  5.02542965e-02  1.30594239e-01  9.90337357e-02
+ -1.12501971e-01 -2.61954684e-02  5.78139909e-02  6.20725825e-02
+  7.42574260e-02  2.25610286e-02  6.77215867e-03  3.74316722e-02
+  5.35275489e-02 -8.46840590e-02 -7.97732547e-03 -1.27062276e-01
+  3.77301946e-02  1.15839776e-03 -2.10690927e-02  5.02708834e-03
+ -4.24545407e-02  6.95993602e-02  1.86353289e-02 -3.34679410e-02
+ -1.14020646e-01 -6.48138523e-02  1.50982561e-02  4.99809720e-02
+  4.49602306e-02 -1.61897894e-02 -8.29575136e-02 -7.37294704e-02
+ -3.01212817e-02 -2.26789452e-02 -5.94883859e-02  2.53868178e-02
+ -6.94401860e-02  4.17189561e-02 -1.03373872e-03  4.50994670e-02
+ -2.07657577e-03  6.48606867e-02 -1.94008127e-02 -8.61483905e-03
+  2.59319153e-02  7.42957965e-02 -6.86713830e-02  1.61036775e-02
+ -1.52233988e-02  2.37842053e-02 -4.59079258e-03 -1.69234201e-02
+ -2.23849136e-02  7.70728663e-03 -1.78460265e-03 -6.93753213e-02
+ -6.42160559e-03 -5.38941361e-02 -5.04174717e-02  8.90436303e-03
+  5.63275069e-02  4.87573221e-02 -5.26735745e-02 -6.29176293e-03
+ -5.19590527e-02 -1.46604329e-02 -6.27144128e-02  5.31078242e-02
+ -4.67614178e-03  6.29534498e-02 -3.11210006e-03 -2.56246850e-02
+  5.79283200e-03 -7.82383382e-02 -5.42454273e-02  2.11246926e-02
+ -1.29911304e-01  2.12162826e-02 -8.49501342e-02 -6.19133040e-02
+ -1.73173007e-03 -7.20356107e-02 -1.74107123e-02 -1.10955529e-01
+ -3.53968814e-02  1.24006835e-03  2.21175812e-02  1.38820997e-02
+  3.11192870e-02 -2.46278383e-02 -4.47099879e-02  1.24917943e-02
+  3.24717117e-03 -5.51302880e-02 -3.78458835e-02 -7.88994599e-03
+  1.56732295e-02  5.89291044e-02 -3.41984518e-02 -3.47367004e-02
+ -4.21930775e-02 -7.53588602e-02 -1.94626357e-02  1.03430405e-01
+  6.37998730e-02 -1.30780712e-02 -1.33859009e-01 -2.07366887e-02
+ -8.37032273e-02 -7.42216408e-02 -9.20569059e-03  1.00758746e-02
+  2.68059829e-03  3.22241597e-02  1.00099958e-01  4.28916737e-02
+  6.30220324e-02  1.05020143e-02  6.28343448e-02 -1.00184187e-01
+ -1.70237292e-02  1.10253040e-02  5.35293743e-02 -2.15672944e-33
+ -5.70833050e-02  6.27596304e-03 -2.02757213e-02  6.13951720e-02
+  1.04128057e-02 -6.51134178e-03 -4.95598093e-02 -2.85201631e-02
+ -8.53969157e-02 -1.34244068e-02 -6.30882895e-03  4.35312726e-02
+ -5.02625965e-02  1.17857181e-01 -1.50390842e-03 -2.73451544e-02
+  3.92327979e-02  8.89669582e-02  7.87313506e-02 -7.61710778e-02
+  2.83251051e-02  9.01358947e-02 -1.13870110e-02 -4.49260138e-02
+  2.38751397e-02 -6.45411834e-02  2.32335441e-02  3.99116240e-02
+  1.41995594e-01 -1.21822479e-04  4.15789299e-02 -1.46790883e-02
+ -3.31159793e-02 -4.44283448e-02 -6.34883940e-02 -9.32366680e-03
+ -4.84026410e-03 -7.09871575e-02  1.02206670e-01 -1.02781035e-01
+  1.12991175e-02 -3.51934209e-02 -6.34851307e-02  3.96236219e-02
+  6.29700860e-03  2.06923559e-02 -3.98368686e-02  3.75251807e-02
+  7.72353187e-02  4.37202528e-02 -6.14433996e-02 -1.00736339e-02
+  6.16860650e-02  4.34981510e-02 -6.11492433e-02 -3.34384036e-03
+ -1.66449118e-02  3.00366990e-02 -5.68741467e-03 -3.75744887e-02
+  6.00304045e-02 -4.61886264e-03 -2.94248760e-02 -1.60429180e-01
+ -7.50300661e-02 -6.65088072e-02  5.13859726e-02 -1.32793365e-02
+ -3.27863134e-02  3.87808271e-02 -8.17616880e-02  8.52997601e-02
+  1.54257223e-01  9.30117071e-02  4.50371677e-04  6.71563745e-02
+ -3.57088447e-02  3.12599912e-02 -1.35851922e-02 -2.71946639e-02
+ -7.89023936e-02 -4.80378494e-02  2.17928595e-04  3.19664855e-03
+ -2.05954835e-02  4.18200865e-02 -1.13078486e-02 -6.36728257e-02
+ -5.96647151e-02 -2.85185389e-02  1.27896760e-02  2.74718832e-02
+ -4.01447341e-02  1.22942731e-01  3.14285979e-02 -4.63793500e-34
+ -1.17552942e-02 -2.71683838e-02  2.35588588e-02  1.02991238e-01
+  1.19366199e-01  1.81399006e-02 -1.11520998e-01  1.32727362e-02
+  2.45418232e-02  2.26600189e-02 -4.93970849e-02  5.60358986e-02
+  6.38565049e-02  3.35941426e-02 -1.40948957e-02  2.13131588e-02
+ -4.38220799e-02 -6.16407208e-02 -6.77328333e-02  2.79350821e-02
+ -1.90122984e-02  3.28425057e-02 -7.40397424e-02 -5.54949455e-02
+ -4.12070286e-03 -3.11689712e-02 -1.88428573e-02  1.42918779e-02
+  4.04455289e-02 -8.03650916e-03  2.16855165e-02 -3.52389403e-02
+  3.16024721e-02 -1.05532305e-02 -1.98206324e-02  9.68077127e-03
+  5.05363196e-02 -2.67045777e-02 -6.21648505e-02  8.81942958e-02
+  9.75558534e-02  3.16383205e-02 -3.95517014e-02 -8.62510875e-02
+ -3.42486948e-02 -1.32346144e-02 -1.09147774e-02  3.35383080e-02
+  2.34406348e-02 -1.21969171e-02 -4.71738391e-02  3.94693539e-02
+ -1.38449660e-02 -2.88997609e-02  8.98686610e-03  8.73524025e-02
+ -1.20271659e-02  2.27371138e-02  4.92591150e-02  1.05229840e-02
+ -3.76580805e-02 -1.03627294e-02  6.77478174e-03  3.92105393e-02
+  2.83423793e-02 -5.42411096e-02  1.48781901e-02 -7.84110278e-03
+  3.60780470e-02  1.09613466e-03 -1.41995614e-02  2.18088087e-02
+ -9.95978131e-04  5.85845904e-03 -3.58317457e-02 -3.85774933e-02
+  3.05439234e-02 -7.35048763e-03  2.80479956e-02 -5.78600653e-02
+  3.84175032e-02  4.95299250e-02  2.56353188e-02  2.40653325e-02
+  7.64978603e-02  6.54367963e-03  3.00732851e-02  3.30176130e-02
+  1.59993060e-02 -3.50955203e-02 -2.51129735e-02 -9.72710997e-02
+  1.59709956e-02  4.55285273e-02 -9.64720100e-02 -2.02173780e-08
+  8.77743214e-03 -1.02057673e-01 -2.12010797e-02  1.21168524e-01
+ -4.76593450e-02  3.03504877e-02  4.70140874e-02  3.57306451e-02
+ -3.21838632e-03  5.29417172e-02 -3.32471216e-03 -5.93710132e-02
+ -6.92399368e-02  1.82876512e-02  5.05290879e-03 -5.49550466e-02
+  5.15065305e-02  3.06262504e-02  2.17881575e-02  1.02540571e-02
+  3.95711213e-02 -7.50754168e-03  5.61190844e-02  5.21531478e-02
+ -1.43072680e-02  5.39029874e-02  2.71093082e-02  7.32962340e-02
+  4.51989770e-02  5.59732958e-04 -3.67286354e-02  2.97955461e-02
+  3.46891247e-02 -4.63255048e-02  2.93129142e-02  5.28341047e-02
+ -2.07062922e-02 -5.16097769e-02 -4.20435593e-02 -1.16134053e-02
+  6.70541124e-03 -6.69062436e-02  2.46737879e-02  1.11234942e-02
+  1.12638138e-01  5.47320917e-02  4.91149053e-02 -5.83816655e-02
+ -2.02820776e-03  3.03644873e-02 -1.83784217e-02 -5.01939803e-02
+  2.84692943e-02 -8.11738987e-03  1.03942109e-02 -7.32291257e-04
+ -3.20757106e-02  3.35326754e-02  1.00069188e-01 -6.54879538e-03
+  7.53949434e-02  4.30779308e-02 -3.38940658e-02  1.26999184e-01]",TITLE: Recommendation System for E-Commerce. DESCRIPTION: Recommendation System for E-Commerce
+6,AI-Powered News Summarizer,":
+This project is designed to address specific problems in computer science applications. It leverages modern
+web technologies and AI to provide effective solutions. The system aims to automate tasks, improve
+efficiency, and enhance user experience. Detailed modules are designed for scalability and maintainability,
+ensuring the project can be adapted for various environments and requirements.",":
+Traditional methods in this domain are often time-consuming, error-prone, or inefficient. There is a need for a
+system that automates processes, provides real-time results, and reduces human intervention. The project aims
+to fill this gap using advanced AI algorithms and web-based interfaces that are accessible and user-friendly.",":
+1. Automate tasks in the relevant domain.
+2. Improve accuracy and reduce errors.
+3. Provide real-time reporting and monitoring.
+4. Ensure accessibility via web-based platforms.
+5. Implement scalable and maintainable system architecture.",":
+Existing systems in this field include various manual and semi-automated methods, such as traditional web
+applications, desktop-based solutions, and simple AI models. While effective to some extent, these approaches
+lack full automation, real-time monitoring, or integration with modern AI techniques. This project builds upon
+existing research, enhancing functionality and leveraging recent advancements in computer vision, NLP, and
+deep learning.",":
+The system comprises frontend, backend, database, and AI modules. The frontend is designed for user
+interaction, built with HTML, CSS, and JavaScript. The backend handles data processing, API calls, and
+integration with AI models, typically implemented using Python and Flask/Django. The database stores user
+data, logs, and results. AI modules utilize frameworks such as TensorFlow, Keras, or PyTorch for machine
+learning tasks.
+[Placeholder for architecture diagram]","/ Workflow:
+1. Collect and preprocess data.
+2. Develop frontend user interface.
+3. Implement backend logic and database connectivity.
+4. Integrate AI models for prediction, recognition, or recommendation tasks.
+5. Conduct testing and debugging.
+6. Deploy system on server or cloud platform.
+[Placeholder for workflow diagram]",":
+- Real-time operation and response.
+- User-friendly interface and dashboards.
+- Accurate processing and automated reporting.
+- Notifications and alerts.
+- Scalable system architecture for future expansion.",":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.",":
+- ER Diagrams
+- Flowcharts
+- Screenshots and mockups
+- Sample reports
+- AI model architecture diagrams",6,AI-Powered News Summarizer,AI-Powered News Summarizer,2023,":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.","[ 1.26260966e-02  2.43813079e-02 -1.13231177e-02  1.45630222e-02
+  6.62659481e-02  3.21489796e-02 -1.24862092e-02 -2.06874195e-03
+  5.73483966e-02 -8.57910980e-03 -3.13920565e-02  4.07900773e-02
+  2.93193385e-02  6.55462369e-02 -2.53435560e-02  8.67814422e-02
+  6.05219193e-02  4.03037034e-02 -7.30939433e-02 -5.75395375e-02
+  1.38513409e-02  4.59369197e-02  1.63599886e-02 -1.56112267e-02
+  4.20228094e-02  7.81979691e-03 -3.79206948e-02  2.61215791e-02
+  5.44204144e-04 -6.94282278e-02  2.42593344e-02 -4.31970321e-02
+  7.29741529e-02  5.30487336e-02 -2.55591925e-02 -1.14352619e-02
+ -7.48887658e-02  4.43358049e-02  3.45183685e-02  1.95991024e-02
+  4.88613136e-02 -1.87710822e-02  2.39681806e-02 -3.47656906e-02
+  5.00322059e-02  2.36032158e-02 -9.39370394e-02 -4.14474346e-02
+  5.99227995e-02  2.34160908e-02 -1.52761102e-01  9.53266490e-03
+ -1.47765605e-02  8.43915530e-03  4.10686508e-02  4.52119522e-02
+ -6.36241119e-03  6.38587400e-04 -1.74442888e-03 -9.48272943e-02
+  1.86046027e-02 -3.03519592e-02  5.98230660e-02 -4.41432111e-02
+  9.00204033e-02 -9.33299027e-03  8.44651610e-02  3.31494212e-02
+ -1.96512584e-02 -2.24495754e-02 -2.80403364e-02  6.28389195e-02
+  6.14448972e-02  8.10761526e-02 -4.04653326e-02  1.21915108e-02
+  1.98211223e-02 -3.91356684e-02  9.17070732e-03 -3.82352397e-02
+ -5.03599755e-02 -1.76291764e-02  2.36797379e-03  1.22629665e-02
+ -1.74605206e-03  2.84449793e-02 -1.20781315e-02 -4.96149696e-02
+ -2.83185411e-02  1.24793695e-02 -1.24872804e-01 -8.53082463e-02
+  1.25077546e-01  2.17336752e-02 -4.61604483e-02  6.39321655e-03
+ -6.84628263e-02 -9.42257345e-02 -5.13379760e-02  4.74369153e-02
+  5.64242201e-03 -2.40974873e-02 -2.90142354e-02 -1.21058315e-01
+ -4.61917557e-02 -6.33127391e-02  1.13599943e-02  2.83247698e-03
+ -6.11600615e-02  1.50211575e-02  2.96914913e-02  7.83569887e-02
+ -2.22435500e-02 -4.53009456e-02  5.16281277e-02 -1.58606973e-02
+  3.02069597e-02  3.05858515e-02  1.28129944e-01  3.46419029e-02
+  2.00307854e-02  2.33293467e-04 -8.52016062e-02  1.12402327e-01
+  2.93890778e-02 -1.68539118e-02  6.99242577e-02 -1.54541893e-33
+ -4.27074917e-03 -1.98523998e-02  6.73059076e-02  8.81389603e-02
+  8.60187635e-02 -1.22975744e-02 -8.25732201e-02 -9.99874528e-03
+ -2.84286775e-02 -4.10782499e-03 -1.41478740e-02  2.13109124e-02
+ -5.04996218e-02 -4.35821563e-02  1.51281594e-03 -1.12508066e-01
+ -1.88139696e-02  1.05549946e-01 -2.87123583e-02 -1.59377679e-02
+ -3.01746279e-02 -3.35132778e-02  2.74785869e-02 -6.79405779e-03
+  3.54903154e-02 -3.94053198e-02  7.27844760e-02 -6.46324754e-02
+  1.95654333e-02 -3.32869007e-03 -4.36245985e-02 -4.18277420e-02
+ -6.85593672e-03 -3.97064574e-02  2.38214131e-03 -4.34943242e-03
+ -9.61750224e-02 -2.55084019e-02  4.27699760e-02  1.07028969e-02
+ -9.87730995e-02 -1.36752464e-02 -4.36559431e-02 -9.63639468e-02
+ -1.22997165e-02  6.06860630e-02 -3.05704698e-02  2.58685928e-03
+  4.65234220e-02 -7.42127076e-02 -3.00859567e-02 -4.95892065e-03
+  1.69024337e-02 -2.86515504e-02  7.10471347e-02 -3.19291875e-02
+  3.50738801e-02  1.29860966e-02  2.78598517e-02 -5.96260931e-03
+ -3.70662287e-02  5.38960546e-02 -4.49291728e-02  1.16970437e-02
+  4.54172492e-02  6.48578331e-02  2.69495305e-02  8.57373476e-02
+  3.07511725e-02  3.21614370e-02  1.72321089e-02 -3.57460557e-03
+  5.09897992e-02  7.61240721e-02 -4.75518256e-02  7.94818550e-02
+ -2.14320570e-02 -8.44300538e-02  7.37950299e-03 -5.52216209e-02
+ -5.92966564e-03 -5.40777072e-02  3.53131779e-02 -4.93212454e-02
+ -2.43449267e-02  6.45082071e-02  1.25525976e-02  9.79319122e-03
+ -2.22523771e-02 -3.98366302e-02 -2.87395697e-02  5.60243521e-03
+ -4.60072644e-02  5.51553033e-02 -6.74199238e-02  4.97938764e-34
+ -7.36490414e-02 -9.30146140e-04 -1.26874581e-01 -8.64192564e-03
+  3.17440629e-02  1.79427117e-02 -1.42967686e-01  5.61528988e-02
+ -1.83800189e-03  1.62413027e-02 -3.28927673e-02 -8.25900808e-02
+  4.11107279e-02 -9.64102522e-03 -3.75774726e-02  1.26706539e-02
+  4.61364836e-02 -5.80439381e-02 -5.99373542e-02  7.22518861e-02
+ -2.37274524e-02  8.86429846e-02 -5.25517911e-02 -1.51741980e-02
+  2.13024430e-02  2.23373696e-02  2.26495583e-02  7.43795559e-02
+  2.39661150e-02 -1.71831287e-02  1.00461626e-02 -5.16426414e-02
+ -4.89801131e-02 -1.52977603e-02 -8.68658051e-02  1.17631517e-02
+  8.24220031e-02 -9.95360538e-02 -4.85722302e-03  7.66834542e-02
+  9.67589766e-02 -2.20427867e-02  3.61525938e-02 -6.06121719e-02
+ -9.20605734e-02  4.50706156e-03 -2.68590823e-02  1.49445739e-02
+  1.40429456e-02  6.47322182e-03 -6.54577538e-02 -6.89764461e-03
+ -5.23678027e-02 -4.02271450e-02 -1.20700158e-01 -1.37450248e-02
+ -2.70513333e-02  1.74813680e-02 -2.92359926e-02 -6.44918755e-02
+ -1.07654102e-01  2.17179488e-02 -7.00559616e-02 -3.99722643e-02
+ -1.37297167e-02 -5.65086119e-02  6.62982464e-02 -5.81688024e-02
+ -1.67647228e-02  2.38236841e-02  1.22790016e-01  6.94935769e-03
+  4.21019755e-02  2.85320207e-02 -2.19012871e-02  6.42334446e-02
+  5.15965298e-02  1.38071803e-02  7.34441564e-05 -7.20374361e-02
+ -2.47467570e-02 -1.55672897e-02  1.05966754e-01 -8.91282875e-03
+  7.04688281e-02  6.42032474e-02 -7.90925696e-03  4.56227660e-02
+  5.21493666e-02  6.02784716e-02 -3.62150818e-02 -5.90631738e-02
+  2.49775238e-02  1.89142413e-02 -6.56462014e-02 -1.78938304e-08
+ -4.01550345e-02 -6.93700984e-02 -6.88585415e-02  7.76046813e-02
+  2.39283238e-02 -1.52250808e-02 -6.79044845e-03 -5.56727350e-02
+ -9.39320214e-03 -6.27578050e-02 -7.01290146e-02 -1.08133079e-02
+ -6.23470433e-02  4.00677808e-02 -3.05189341e-02  3.26076150e-02
+ -2.73730718e-02  6.01286106e-02  6.32933602e-02 -1.12004578e-01
+  1.06825814e-01 -2.56539546e-02 -9.29517671e-03  1.50846755e-02
+  2.20328644e-02  4.92456220e-02 -8.86719823e-02  2.58904137e-02
+ -2.75157858e-02  1.12578748e-02  1.74127519e-02  6.85170144e-02
+ -4.61501479e-02  3.82761401e-03  6.08524047e-02  1.15362696e-01
+  2.57092416e-02  4.24684547e-02 -6.81443289e-02  4.63731913e-03
+  4.33490891e-03  4.26421948e-02 -5.56419778e-04  7.38324970e-02
+  5.70294224e-02  1.82117231e-03 -2.76520550e-02 -1.00345165e-01
+  7.45166987e-02 -2.92508826e-02  6.10548146e-02 -6.96501359e-02
+  6.49348050e-02  1.54114403e-02  2.91425288e-02  9.49940681e-02
+  1.84783153e-02 -1.74245909e-02  5.23547903e-02  1.62495933e-02
+  6.24834150e-02  8.77821967e-02  1.35224666e-02  1.82926897e-02]",TITLE: AI-Powered News Summarizer. DESCRIPTION: AI-Powered News Summarizer
+7,Online Food Ordering System,":
+This project is designed to address specific problems in computer science applications. It leverages modern
+web technologies and AI to provide effective solutions. The system aims to automate tasks, improve
+efficiency, and enhance user experience. Detailed modules are designed for scalability and maintainability,
+ensuring the project can be adapted for various environments and requirements.",":
+Traditional methods in this domain are often time-consuming, error-prone, or inefficient. There is a need for a
+system that automates processes, provides real-time results, and reduces human intervention. The project aims
+to fill this gap using advanced AI algorithms and web-based interfaces that are accessible and user-friendly.",":
+1. Automate tasks in the relevant domain.
+2. Improve accuracy and reduce errors.
+3. Provide real-time reporting and monitoring.
+4. Ensure accessibility via web-based platforms.
+5. Implement scalable and maintainable system architecture.",":
+Existing systems in this field include various manual and semi-automated methods, such as traditional web
+applications, desktop-based solutions, and simple AI models. While effective to some extent, these approaches
+lack full automation, real-time monitoring, or integration with modern AI techniques. This project builds upon
+existing research, enhancing functionality and leveraging recent advancements in computer vision, NLP, and
+deep learning.",":
+The system comprises frontend, backend, database, and AI modules. The frontend is designed for user
+interaction, built with HTML, CSS, and JavaScript. The backend handles data processing, API calls, and
+integration with AI models, typically implemented using Python and Flask/Django. The database stores user
+data, logs, and results. AI modules utilize frameworks such as TensorFlow, Keras, or PyTorch for machine
+learning tasks.
+[Placeholder for architecture diagram]","/ Workflow:
+1. Collect and preprocess data.
+2. Develop frontend user interface.
+3. Implement backend logic and database connectivity.
+4. Integrate AI models for prediction, recognition, or recommendation tasks.
+5. Conduct testing and debugging.
+6. Deploy system on server or cloud platform.
+[Placeholder for workflow diagram]",":
+- Real-time operation and response.
+- User-friendly interface and dashboards.
+- Accurate processing and automated reporting.
+- Notifications and alerts.
+- Scalable system architecture for future expansion.",":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.",":
+- ER Diagrams
+- Flowcharts
+- Screenshots and mockups
+- Sample reports
+- AI model architecture diagrams",7,Online Food Ordering System,Online Food Ordering System,2023,":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.","[-5.20809321e-03  1.09989988e-02  7.90238939e-03  5.53492503e-03
+ -1.03901111e-01  3.02511435e-02 -2.29251347e-02  1.82112940e-02
+ -1.72058642e-02 -5.02171032e-02  6.28825501e-02  2.46825982e-02
+  4.69291247e-02 -3.14197764e-02 -1.05241844e-02 -1.47624701e-01
+  1.25013620e-01 -4.71582934e-02 -2.33076196e-02 -1.01184562e-01
+ -1.36765530e-02  4.74297442e-02 -1.93611591e-03  1.55862402e-02
+  2.65321750e-02 -6.54202513e-03 -2.70812511e-02  7.38224434e-03
+ -5.83077818e-02 -9.93025601e-02 -2.06419602e-02  7.07455818e-03
+  1.19616196e-01  2.87499391e-02 -6.60123304e-02 -7.50742778e-02
+ -1.77130122e-02 -9.02622566e-02 -3.56379002e-02  1.93924010e-02
+ -4.62401472e-02 -5.74148856e-02 -5.57469064e-03  1.13032311e-02
+ -1.45853646e-02  5.58599681e-02 -8.09311643e-02  3.84429321e-02
+ -6.40274258e-03  2.94122715e-02 -1.04333356e-01 -5.09016216e-02
+ -4.50214976e-03  8.67478251e-02 -1.71414800e-02  7.37753659e-02
+  3.22786793e-02 -1.53762233e-02 -5.60399815e-02  2.49833241e-02
+  5.72660798e-03 -4.68554460e-02  3.92898209e-02  4.81558554e-02
+  9.61794518e-03  4.22557183e-02 -4.84139659e-02  6.86016753e-02
+ -7.22567737e-02 -7.33457133e-02  1.69718023e-02  4.00280692e-02
+  3.77996899e-02  1.04233392e-01 -3.74661433e-03 -5.60878105e-02
+  6.43525347e-02 -4.27181795e-02  2.38437974e-03 -4.19202214e-03
+ -8.13364834e-02  2.51543359e-03 -3.36552672e-02  9.64541174e-03
+ -4.61561531e-02 -5.79661950e-02 -5.09735309e-02 -4.77011837e-02
+  4.62180935e-02 -2.59584356e-02  6.23055361e-02 -5.38190156e-02
+  1.03983708e-01 -1.68559421e-02 -6.36728574e-03 -3.18812765e-02
+  5.48377335e-02 -6.63681626e-02  1.22056967e-02 -3.19214016e-02
+ -9.77987424e-03  5.34448819e-03 -4.59456351e-03  3.72649403e-03
+  1.31249791e-02 -2.61770189e-02 -5.68911247e-02  4.69920486e-02
+  1.32390196e-02 -4.35514450e-02 -4.17440832e-02  4.66001686e-04
+ -4.86282520e-02 -8.05130228e-02 -7.04054609e-02  9.14380029e-02
+  2.27724612e-02 -5.16112931e-02  1.41922325e-01 -8.26610550e-02
+  2.45525632e-02  1.43954894e-02  2.14621052e-02 -6.25529513e-02
+  7.38192862e-03  1.64444447e-02  7.64400959e-02 -1.02815715e-33
+ -1.02049373e-01  2.64447462e-03  8.69614184e-02 -2.26012133e-02
+  9.17652026e-02 -1.00135617e-01 -4.77439351e-03 -6.53466443e-03
+ -3.25361528e-02  5.19231334e-02 -3.29723698e-03  1.11808274e-02
+ -5.17147186e-04  4.46869321e-02  3.96212041e-02 -4.17351834e-02
+  4.90922630e-02  8.78192782e-02  7.81449154e-02  1.83664244e-02
+ -5.46897165e-02 -3.09784617e-02  2.78293602e-02 -9.22496058e-03
+  3.09555866e-02  1.15686176e-04 -2.76950151e-02  3.17618623e-02
+  6.33908585e-02 -2.48031085e-03  9.15888175e-02 -6.20958954e-02
+ -2.65705828e-02 -3.74485441e-02 -3.94087023e-04 -4.49057482e-02
+  1.73958968e-02 -6.02296479e-02  3.22289541e-02 -7.45805204e-02
+ -3.24940719e-02  1.85193727e-03 -5.49985431e-02  3.67765091e-02
+ -1.82033945e-02  8.60199705e-02 -3.84135470e-02  2.01357938e-02
+  7.02154189e-02  9.06369016e-02 -3.28635871e-02  8.40198621e-03
+  3.14328037e-02  4.39816825e-02 -1.86651349e-02 -9.75415390e-03
+ -1.00275443e-03 -1.85490660e-02 -4.83982340e-02 -5.63575327e-02
+  1.86461788e-02  1.03895869e-02  2.72605345e-02  5.98089211e-03
+  1.28447013e-02 -9.25285146e-02  4.96236887e-03 -1.02019839e-01
+  4.25429866e-02 -2.38119042e-03 -3.62233706e-02  1.22752953e-02
+  8.62515941e-02  1.26213850e-02  5.34031875e-02  3.11192535e-02
+ -3.14713456e-02  5.78632019e-02  1.00514721e-02  2.34318469e-02
+  3.29356119e-02 -3.37951668e-02  3.18516232e-02  3.42137367e-02
+ -2.85669994e-02  6.83233216e-02 -5.37124276e-02  1.91486645e-02
+  6.05530590e-02  3.97747904e-02 -1.57379713e-02  4.95664738e-02
+ -2.32191607e-02  1.12319976e-01  1.69442445e-02  1.08394067e-34
+ -7.39996657e-02 -2.82616529e-04 -2.48882324e-02  7.15468302e-02
+  8.59485567e-02 -3.20195146e-02 -8.22159573e-02 -2.14171819e-02
+  3.54908369e-02  2.88116336e-02 -1.16234072e-01  1.23686388e-01
+ -2.00004987e-02  2.03920458e-03 -3.84569652e-02  7.66871199e-02
+ -4.40114848e-02 -4.98074554e-02 -4.68386933e-02  2.03838460e-02
+ -3.52144726e-02 -3.81132425e-03 -4.14068811e-02  3.04324785e-03
+ -4.43891296e-03  5.36510572e-02  6.33882284e-02  4.76673320e-02
+ -5.32798842e-02 -7.62743205e-02 -1.51848430e-02 -1.16928272e-01
+ -2.24536262e-03  4.55057546e-02 -1.25331460e-02  2.33128164e-02
+  5.61289955e-03 -2.11199820e-02 -3.91531810e-02  4.01718989e-02
+  6.47942275e-02 -8.14373698e-03  3.21433763e-03 -7.77642652e-02
+ -7.25233555e-02 -8.69691186e-03 -2.31475215e-02  9.61367134e-03
+ -1.44033814e-02  3.55534032e-02 -5.04693538e-02  8.80202204e-02
+ -1.02175720e-01 -5.50870709e-02 -6.32862747e-03  9.34369862e-02
+ -4.66927402e-02  3.65889445e-02 -3.72157730e-02 -7.14467093e-03
+ -3.05158291e-02 -1.53462505e-02 -1.26802353e-02  3.07453144e-02
+  8.10295939e-02 -3.05026639e-02  4.41020988e-02 -3.74250673e-02
+  1.92098748e-02 -2.01469511e-02 -2.98158219e-03  1.84439551e-02
+  6.71691075e-02  4.58935201e-02 -2.71063689e-02 -3.92354801e-02
+ -1.07053982e-03  2.56127361e-02 -6.32909983e-02 -5.78013770e-02
+  3.30040269e-02 -5.65998442e-02  7.80659616e-02  1.20373867e-01
+  3.68328243e-02  1.43269738e-02  2.14058049e-02  5.34213781e-02
+  7.37771094e-02  4.05869633e-02 -2.37278920e-02 -6.34464547e-02
+  2.45306306e-02  8.33026990e-02  5.59851229e-02 -1.83262348e-08
+  8.41429308e-02 -1.05199397e-01 -7.80655444e-03  9.59823430e-02
+  6.84990436e-02 -7.71547994e-03  3.14235575e-02 -2.51909737e-02
+ -2.90599894e-02  5.68278395e-02 -1.26225054e-01  2.51525175e-02
+ -4.96692471e-02 -2.50911079e-02  2.45640166e-02 -6.62852973e-02
+  1.87067632e-02  2.64304783e-03 -2.58804355e-02  2.63079396e-03
+  4.61182334e-02  5.30505925e-03  1.93192605e-02 -2.00559292e-02
+ -7.11558433e-03  4.46053520e-02 -3.06398273e-02  3.10921744e-02
+  9.00006592e-02  3.03202569e-02  6.54441118e-02  4.93797995e-02
+  2.74216179e-02 -1.64971482e-02  6.93379790e-02 -3.18811722e-02
+ -9.08437520e-02 -3.18383127e-02 -1.49333868e-02 -9.40659419e-02
+ -1.45778835e-01 -6.48509758e-03  1.85961893e-03  3.01359538e-02
+  3.85479964e-02  7.44452700e-02 -5.02490848e-02 -2.40837280e-02
+  2.67073754e-02  6.64680451e-02 -5.42753637e-02 -3.00541539e-02
+  6.19617738e-02  3.93829830e-02  3.94854136e-02 -3.59246768e-02
+  6.57669008e-02 -3.74335870e-02  8.89972001e-02  5.08829169e-02
+  4.54932228e-02  2.43931618e-02 -4.14194390e-02  6.05213493e-02]",TITLE: Online Food Ordering System. DESCRIPTION: Online Food Ordering System
+8,AI-Based Handwriting Recognition,":
+This project is designed to address specific problems in computer science applications. It leverages modern
+web technologies and AI to provide effective solutions. The system aims to automate tasks, improve
+efficiency, and enhance user experience. Detailed modules are designed for scalability and maintainability,
+ensuring the project can be adapted for various environments and requirements.",":
+Traditional methods in this domain are often time-consuming, error-prone, or inefficient. There is a need for a
+system that automates processes, provides real-time results, and reduces human intervention. The project aims
+to fill this gap using advanced AI algorithms and web-based interfaces that are accessible and user-friendly.",":
+1. Automate tasks in the relevant domain.
+2. Improve accuracy and reduce errors.
+3. Provide real-time reporting and monitoring.
+4. Ensure accessibility via web-based platforms.
+5. Implement scalable and maintainable system architecture.",":
+Existing systems in this field include various manual and semi-automated methods, such as traditional web
+applications, desktop-based solutions, and simple AI models. While effective to some extent, these approaches
+lack full automation, real-time monitoring, or integration with modern AI techniques. This project builds upon
+existing research, enhancing functionality and leveraging recent advancements in computer vision, NLP, and
+deep learning.",":
+The system comprises frontend, backend, database, and AI modules. The frontend is designed for user
+interaction, built with HTML, CSS, and JavaScript. The backend handles data processing, API calls, and
+integration with AI models, typically implemented using Python and Flask/Django. The database stores user
+data, logs, and results. AI modules utilize frameworks such as TensorFlow, Keras, or PyTorch for machine
+learning tasks.
+[Placeholder for architecture diagram]","/ Workflow:
+1. Collect and preprocess data.
+2. Develop frontend user interface.
+3. Implement backend logic and database connectivity.
+4. Integrate AI models for prediction, recognition, or recommendation tasks.
+5. Conduct testing and debugging.
+6. Deploy system on server or cloud platform.
+[Placeholder for workflow diagram]",":
+- Real-time operation and response.
+- User-friendly interface and dashboards.
+- Accurate processing and automated reporting.
+- Notifications and alerts.
+- Scalable system architecture for future expansion.",":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.",":
+- ER Diagrams
+- Flowcharts
+- Screenshots and mockups
+- Sample reports
+- AI model architecture diagrams",8,AI-Based Handwriting Recognition,AI-Based Handwriting Recognition,2023,":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.","[-9.37262699e-02  6.37140200e-02  5.07806428e-02 -5.68772070e-02
+ -8.32806230e-02  5.11872880e-02  4.44794586e-03  3.74262333e-02
+ -2.82340012e-02 -4.79133092e-02 -1.22257173e-02  6.25220239e-02
+  5.59229665e-02  2.50295494e-02 -1.06216148e-01 -7.00623542e-03
+ -3.65664214e-02 -9.10645723e-02 -3.99959683e-02  6.72640465e-03
+ -1.68363843e-02  1.34554291e-02 -1.01883998e-02 -9.34354588e-03
+  3.11411209e-02  9.94331241e-02  2.92733330e-02 -7.54456595e-02
+ -3.70082073e-02  2.08647009e-02  1.01209187e-03  3.18998471e-02
+  9.46866274e-02  5.31326188e-03 -8.80907383e-03 -2.94328798e-02
+ -6.87898770e-02  1.43620530e-02  1.79486943e-03 -3.01540177e-02
+  1.29000656e-02 -1.15211578e-02  4.66576144e-02 -1.70760378e-02
+  7.30703324e-02  8.56841952e-02 -8.53923038e-02  1.27760377e-02
+ -8.25597788e-04  7.10695088e-02 -2.57312916e-02  2.87131947e-02
+ -3.48155238e-02 -7.63704628e-02 -3.43027781e-03  1.83135811e-02
+  7.26862699e-02 -5.69378259e-03 -6.06346689e-02 -3.00392583e-02
+  3.82752642e-02  2.80358177e-02  4.39819135e-03  1.28910365e-02
+  4.26719449e-02  8.05048570e-02 -1.51006421e-02 -1.59735195e-02
+  3.23931861e-04 -7.23892227e-02  1.85249709e-02  1.17066771e-01
+ -2.44261287e-02  4.85961027e-02  4.28799428e-02  1.30988425e-02
+ -1.51209645e-02 -7.85758533e-03  9.76085290e-02 -1.59899160e-01
+ -8.80443901e-02  1.23955051e-05  8.48943833e-03  1.07459528e-02
+ -1.83019750e-02 -7.03076879e-03 -4.80215698e-02 -2.33117212e-02
+  6.22463226e-02 -2.46927217e-02 -6.43673614e-02 -6.42407089e-02
+  5.03030941e-02 -4.89763990e-02 -3.76235135e-02  5.69991469e-02
+  1.21036479e-02  3.83780077e-02 -3.61005589e-02 -3.57652903e-02
+ -2.34223846e-02 -4.10754513e-03 -2.51507815e-02  1.11776693e-02
+  3.02103944e-02  1.93211585e-02  1.06702209e-01 -9.65715274e-02
+  2.70800218e-02 -1.54817253e-01 -5.78800507e-04 -2.13061869e-02
+ -5.69340959e-02 -5.95177859e-02  3.48054357e-02 -1.45066138e-02
+  7.55697340e-02  4.80234995e-02  6.66755065e-02  4.07738164e-02
+ -7.02163298e-03 -3.66977826e-02 -6.92618564e-02  6.72229379e-02
+  3.02982070e-02 -4.20907326e-02  1.96649414e-02 -3.91941041e-33
+ -1.30737638e-02  1.81388631e-02 -1.79172400e-03 -2.04192884e-02
+  8.66636634e-02 -9.30114836e-03 -7.38836005e-02 -9.80295148e-03
+ -1.94172747e-02  5.57798333e-02 -6.22081794e-02 -4.64089960e-02
+ -3.61039340e-02  8.70943293e-02  4.76343483e-02 -6.15931209e-03
+  4.42444831e-02  5.63652664e-02 -6.76033506e-03 -3.85780856e-02
+  7.72776008e-02 -5.74877001e-02  4.66420874e-02 -7.29726031e-02
+ -2.92370021e-02 -4.27488945e-02  1.08583039e-02 -9.35659334e-02
+  4.43686731e-02 -2.01666355e-02  5.66769764e-02 -4.72045243e-02
+ -8.28620791e-02 -1.14473484e-01 -9.40040648e-02 -8.26551542e-02
+  3.49889994e-02 -3.94511595e-02  4.00951728e-02  3.56423706e-02
+ -3.05358823e-02  4.71853232e-03 -2.72273496e-02 -6.63583586e-03
+ -4.86860424e-02  6.33383542e-02  2.97526754e-02  5.96528240e-02
+  1.04926556e-01 -5.50666451e-03 -1.34202212e-01 -2.53887009e-03
+ -3.10015585e-02 -2.93297451e-02  3.86880301e-02 -6.87373281e-02
+  1.08904690e-02  7.21834600e-02 -1.53936511e-02 -2.94472780e-02
+  2.39409357e-02  5.03058247e-02 -9.64522511e-02  6.54867515e-02
+ -3.26101780e-02 -4.03967127e-02  9.01017804e-03  2.11758865e-03
+  3.89743038e-02 -2.07013311e-03 -4.69705611e-02  2.43724585e-02
+  4.83373180e-02 -5.32861799e-03 -3.68404351e-02  2.94482224e-02
+  3.70713882e-03 -2.32663639e-02 -3.81082930e-02  6.00474002e-03
+ -9.10650194e-02  3.31660695e-02 -1.82162914e-02 -9.58198309e-03
+  5.72969429e-02 -1.43137658e-02  5.85363470e-02 -1.01186052e-01
+ -4.67567630e-02 -5.27753308e-03 -1.73480622e-02  2.49373354e-03
+  1.65988470e-03  4.38023508e-02 -6.30536675e-02  1.62311287e-33
+  1.43346712e-02  9.77919325e-02 -6.59103766e-02  2.47425344e-02
+ -6.36928575e-03 -5.11173420e-02 -4.44276556e-02  3.01954877e-02
+  4.42010425e-02  5.09645827e-02 -3.45336162e-02  4.28433269e-02
+ -2.16985662e-02 -5.25592007e-02 -3.86375710e-02  5.06001525e-03
+ -8.68369173e-03  5.67993149e-02 -5.33196935e-03  8.64654779e-03
+ -6.65771887e-02 -7.99184944e-03 -4.65807989e-02  5.70163839e-02
+  5.28132953e-02  3.97206657e-02  9.62608773e-03  1.82909593e-02
+ -2.97235735e-02  4.86674830e-02 -5.65422513e-02 -2.86041349e-02
+  3.10806204e-02  6.70639351e-02 -6.98846653e-02  6.87664142e-03
+  1.86654851e-02 -7.52168298e-02 -9.12897140e-02  5.54751456e-02
+  6.87216818e-02  1.26542887e-02  2.14635450e-02 -1.27207302e-02
+ -2.81881746e-02 -5.64199090e-02 -8.22713226e-02  9.07869786e-02
+  4.66484874e-02  3.62089202e-02  1.27638076e-02 -1.75228305e-02
+ -8.41043517e-02  5.85239008e-02 -4.85931821e-02  7.51224905e-02
+  2.35205740e-02 -5.88738061e-02 -9.10298992e-03  3.99621129e-02
+ -4.55627441e-02 -7.81431794e-03 -1.80963907e-04 -1.16940420e-02
+  2.59231068e-02  1.13373948e-02  1.02029182e-01  4.33927402e-02
+  1.61578245e-02 -1.62308887e-02  1.10753804e-01 -8.73099547e-03
+  5.88069223e-02  1.31713346e-01  4.35454659e-02  1.51846912e-02
+ -9.28695034e-03 -1.59183145e-02 -2.67201420e-02 -4.51076403e-02
+ -2.51634549e-02 -1.88797917e-02 -5.65585960e-03  1.11317903e-01
+  7.38185793e-02  1.21666014e-01 -6.36855289e-02 -2.90339924e-02
+  9.37047154e-02  3.42363603e-02 -1.55686345e-02  1.01816103e-01
+  9.73730534e-02  1.16806012e-02 -6.88797757e-02 -1.57250177e-08
+ -3.55391577e-02 -5.16997799e-02 -1.68217774e-02 -6.06493056e-02
+  2.30203792e-02  3.10634123e-03  3.13790888e-02 -6.53133690e-02
+ -1.43785011e-02 -2.51270495e-02  3.90202925e-02 -7.68028721e-02
+ -5.16411960e-02 -5.43046258e-02  2.71473750e-02 -1.04131233e-02
+  2.48124357e-02  4.20298092e-02 -2.51193196e-02 -2.02447344e-02
+  8.46972391e-02 -4.67683375e-02 -2.88851690e-02 -1.06068458e-02
+ -3.90942097e-02 -6.55547082e-02 -4.68834862e-02  2.55182572e-02
+ -5.13962619e-02 -3.04334704e-02 -3.19613926e-02  9.37094390e-02
+  9.81147736e-02 -1.16163464e-02  1.11051209e-01  7.50690252e-02
+  7.42889941e-02  3.74746732e-02 -1.83205307e-02  7.62977824e-02
+ -1.79972511e-03  1.01519274e-02  9.79639823e-04 -1.01059517e-02
+  9.06078443e-02 -6.07201271e-02  6.02566376e-02 -1.10276714e-01
+  1.12283286e-02 -1.03703635e-02  2.11561918e-02 -3.97786638e-03
+  5.60980141e-02  6.07169755e-02  2.08560806e-02 -2.76563689e-02
+ -1.93985682e-02  3.87547500e-02  6.65608868e-02 -2.00292300e-02
+  5.99071607e-02  1.18320128e-02 -3.45508605e-02  3.96034447e-03]",TITLE: AI-Based Handwriting Recognition. DESCRIPTION: AI-Based Handwriting Recognition
+9,Online Job Portal with AI Resume Matching,":
+This project is designed to address specific problems in computer science applications. It leverages modern
+web technologies and AI to provide effective solutions. The system aims to automate tasks, improve
+efficiency, and enhance user experience. Detailed modules are designed for scalability and maintainability,
+ensuring the project can be adapted for various environments and requirements.",":
+Traditional methods in this domain are often time-consuming, error-prone, or inefficient. There is a need for a
+system that automates processes, provides real-time results, and reduces human intervention. The project aims
+to fill this gap using advanced AI algorithms and web-based interfaces that are accessible and user-friendly.",":
+1. Automate tasks in the relevant domain.
+2. Improve accuracy and reduce errors.
+3. Provide real-time reporting and monitoring.
+4. Ensure accessibility via web-based platforms.
+5. Implement scalable and maintainable system architecture.",":
+Existing systems in this field include various manual and semi-automated methods, such as traditional web
+applications, desktop-based solutions, and simple AI models. While effective to some extent, these approaches
+lack full automation, real-time monitoring, or integration with modern AI techniques. This project builds upon
+existing research, enhancing functionality and leveraging recent advancements in computer vision, NLP, and
+deep learning.",":
+The system comprises frontend, backend, database, and AI modules. The frontend is designed for user
+interaction, built with HTML, CSS, and JavaScript. The backend handles data processing, API calls, and
+integration with AI models, typically implemented using Python and Flask/Django. The database stores user
+data, logs, and results. AI modules utilize frameworks such as TensorFlow, Keras, or PyTorch for machine
+learning tasks.
+[Placeholder for architecture diagram]","/ Workflow:
+1. Collect and preprocess data.
+2. Develop frontend user interface.
+3. Implement backend logic and database connectivity.
+4. Integrate AI models for prediction, recognition, or recommendation tasks.
+5. Conduct testing and debugging.
+6. Deploy system on server or cloud platform.
+[Placeholder for workflow diagram]",":
+- Real-time operation and response.
+- User-friendly interface and dashboards.
+- Accurate processing and automated reporting.
+- Notifications and alerts.
+- Scalable system architecture for future expansion.",":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.",":
+- ER Diagrams
+- Flowcharts
+- Screenshots and mockups
+- Sample reports
+- AI model architecture diagrams",9,Online Job Portal with AI Resume Matching,Online Job Portal with AI Resume Matching,2023,":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.","[-1.07142314e-01 -2.84611546e-02 -2.15954017e-02  2.63857748e-02
+  3.67046855e-02  3.25683914e-02 -5.56028541e-03 -2.19213441e-02
+ -7.53060654e-02 -1.22855447e-01 -7.02980831e-02 -1.35938898e-02
+  1.23689575e-02 -1.79874152e-02  2.35712202e-03  1.38121881e-02
+  1.04688322e-02  5.32146990e-02  3.21617462e-02 -9.97898728e-02
+ -6.99343625e-03  7.95626119e-02  1.49629209e-02 -4.83010113e-02
+ -3.31620723e-02  2.18280349e-02  5.54854870e-02  1.35133434e-02
+ -3.17618921e-02 -5.53143919e-02  2.18133554e-02  3.98503020e-02
+  2.86576413e-02  5.29532954e-02  3.73095535e-02 -1.51404161e-02
+ -1.47714153e-01  1.13416445e-02  4.63708416e-02 -4.94673140e-02
+ -4.66396622e-02 -7.52182528e-02 -2.44459584e-02 -5.88719510e-02
+  3.17817368e-02  2.50582714e-02 -2.81978790e-02 -2.13555396e-02
+  3.03418320e-02  6.32659495e-02 -1.34422556e-01 -1.08926035e-01
+  3.04571111e-02  3.04895975e-02 -2.21193805e-02  1.04701854e-01
+ -3.25794378e-03 -2.98336800e-02 -1.04806228e-02 -3.92827131e-02
+  6.44128993e-02 -4.29859646e-02  5.24271466e-02  8.87099728e-02
+  7.36198574e-03  4.96495627e-02 -5.45052812e-02  1.31394705e-02
+ -4.43772934e-02 -1.02795795e-01 -5.38376272e-02  1.34567283e-02
+ -6.95904121e-02  1.04771502e-01  2.43285056e-02 -4.83445115e-02
+  4.55543958e-02 -4.59535941e-02  5.03196977e-02 -3.84175628e-02
+ -5.40729016e-02 -3.29942442e-02 -1.03390375e-02  2.59169191e-02
+ -4.48416509e-02 -1.61167309e-02 -1.65595468e-02 -6.40688688e-02
+  4.67073396e-02 -2.05035377e-02 -2.74163228e-03 -7.36462623e-02
+  7.80205280e-02 -1.73740648e-02  1.15758525e-02 -2.83805095e-02
+  2.12529860e-02  4.19547968e-02  3.77274156e-02 -3.51942680e-03
+ -2.41751336e-02  1.01206657e-02 -4.91444506e-02  3.00937425e-02
+ -8.05757493e-02  2.67543774e-02  5.23483828e-02  4.05890346e-02
+  4.37189452e-02  1.40578933e-02  1.69257093e-02 -1.85042620e-02
+ -4.26355638e-02 -5.84633164e-02  5.05060852e-02  2.51831058e-02
+ -2.88908500e-02  1.08586729e-01  1.11139581e-01  6.72572926e-02
+  1.35311587e-02  1.23349419e-02 -3.21951285e-02  5.35614230e-03
+ -2.96765044e-02 -7.24206567e-02 -2.28988677e-02 -5.60584348e-34
+  5.21899126e-02  4.56909686e-02  1.64136067e-02 -1.61642507e-02
+  9.61035192e-02 -6.21103682e-02 -4.21103388e-02  8.23755413e-02
+ -2.20691543e-02  1.92466564e-02 -1.44736797e-01  1.16058506e-01
+ -8.63130987e-02  3.84243503e-02 -7.77857751e-02  3.43578192e-03
+  1.37969013e-02  1.27105549e-01  1.72152556e-02  1.74751282e-02
+  2.82508284e-02 -3.40260677e-02 -5.90711795e-02  6.68332726e-02
+  6.23953119e-02  9.12382908e-04  2.93969736e-02  2.44744103e-02
+  1.03749342e-01  9.56633314e-03 -7.40633020e-03 -7.78490724e-03
+ -1.20237628e-02 -2.58648843e-02  7.81866983e-02 -2.20638793e-02
+ -6.05113581e-02 -7.60291293e-02 -5.47294319e-02  3.18696164e-02
+ -8.37330893e-02  5.15356921e-02  1.11588305e-02 -3.17834988e-02
+ -1.47076212e-02 -6.61703050e-02 -2.11877376e-02 -1.36121884e-02
+  1.22065954e-01  7.21897557e-02 -3.05256024e-02  2.75041275e-02
+ -2.77538951e-02 -3.87073052e-03 -3.72686721e-02 -1.86933763e-02
+ -4.42951806e-02  8.75093117e-02  3.66668077e-03  1.33152138e-02
+ -1.45672273e-03 -1.95691325e-02 -7.25497901e-02  2.71084253e-02
+ -1.51530262e-02 -2.05654968e-02  2.92488262e-02 -2.14255191e-02
+  7.31735751e-02  9.99628287e-03 -1.91111639e-02  3.80200110e-02
+  5.79070970e-02  2.78924052e-02 -6.01650439e-02 -1.16653703e-02
+ -6.33785129e-02 -2.66587008e-02 -5.13567924e-02 -6.32718252e-03
+ -5.82042150e-02 -1.74547024e-02 -3.31614539e-02 -6.03107512e-02
+  6.08166568e-02 -2.19895318e-02 -1.01183180e-03 -9.91982967e-02
+  1.64288804e-02  5.02064191e-02  9.23798606e-03  5.20431064e-02
+ -6.00272678e-02  9.77926403e-02  1.25771798e-02 -1.21956841e-33
+ -7.82838278e-03 -8.84137899e-02 -1.90529097e-02  3.66024226e-02
+  5.88534884e-02  2.20527817e-02  7.87566975e-02 -6.45054691e-03
+  2.90398672e-02  7.30043575e-02 -5.08210203e-03 -9.97175183e-03
+  9.93290264e-03 -3.24959755e-02 -5.66743687e-02  1.93527751e-02
+  8.26384593e-03 -2.61067096e-02 -8.44261423e-02  8.79912823e-02
+  9.73884091e-02  1.02430647e-02 -5.65203615e-02 -6.11542054e-02
+  9.28964764e-02  3.06612719e-02  1.70666892e-02 -2.66436534e-03
+ -3.99097092e-02  4.06976491e-02  2.68803090e-02 -6.55807331e-02
+ -4.29202504e-02  8.33859146e-02 -2.26533860e-02  1.17038339e-02
+ -6.84729405e-03 -3.92065346e-02 -1.20694647e-02  3.19081396e-02
+  9.02668387e-02 -3.70815545e-02 -6.46446943e-02 -5.34443790e-03
+ -4.56251800e-02 -4.34274748e-02 -1.45083359e-02  5.00055179e-02
+ -2.81645246e-02 -7.99158886e-02 -2.05977857e-02  9.70759895e-03
+ -9.66911092e-02 -2.31248029e-02 -3.74779291e-02 -5.23071783e-03
+ -2.27248557e-02  3.39274853e-02 -8.78464878e-02 -3.05777020e-03
+  5.17030712e-03  1.76337808e-02 -2.23879870e-02  5.07102758e-02
+  7.46437088e-02 -5.94212338e-02  6.65971637e-02  4.46354002e-02
+ -6.88413307e-02 -2.63950899e-02  3.54662947e-02 -5.00042699e-02
+  4.02566679e-02  5.69230691e-02 -5.70191406e-02 -2.60048248e-02
+  5.02192080e-02  1.22270091e-02 -1.91947315e-02  5.65217920e-02
+ -7.54828602e-02  3.14681907e-03  2.05319822e-02  6.74135014e-02
+  5.89006692e-02  6.52512982e-02 -2.76695546e-02  6.17847890e-02
+  4.33703288e-02  3.94180650e-03 -6.44720346e-02 -8.92684143e-03
+ -1.71236936e-02 -2.94530429e-02 -8.52280781e-02 -1.93672332e-08
+ -5.35714347e-03 -2.33656671e-02 -1.70043875e-02  7.55606294e-02
+  3.69760804e-02 -2.65532620e-02 -1.77167298e-03 -6.83960924e-03
+ -6.22246154e-02  7.50639592e-04 -8.46176222e-02 -4.24660295e-02
+ -2.65265033e-02  2.12841704e-02  6.49024025e-02  8.52672849e-03
+ -3.80307138e-02  4.58154753e-02  3.46825458e-02 -2.08192803e-02
+  8.12523738e-02  8.27509817e-03 -3.98223922e-02  4.46885303e-02
+  4.61067911e-03  3.90971340e-02 -8.73476118e-02  1.15118548e-02
+ -3.13329659e-02  1.66423358e-02 -4.33152393e-02  3.79224233e-02
+  7.05794841e-02 -1.10402450e-01  1.09073281e-01 -5.39924251e-03
+  5.69431931e-02 -5.50776795e-02 -7.26823062e-02 -6.84453174e-02
+  2.08478980e-02  1.26108853e-02  3.12775970e-02 -3.09842713e-02
+  1.46888092e-01 -1.13573438e-02  5.07005630e-03 -7.04071447e-02
+  4.88729663e-02 -2.55754702e-02 -5.95719786e-03 -5.41426726e-02
+  5.52046783e-02  5.83967566e-02  4.79568616e-02 -3.93497162e-02
+  4.04180884e-02 -4.22855578e-02  3.77935693e-02  7.79645666e-02
+  1.45684883e-01  1.44844605e-02 -1.52059011e-02  2.46494892e-03]",TITLE: Online Job Portal with AI Resume Matching. DESCRIPTION: Online Job Portal with AI Resume Matching
+10,AI-Based Traffic Sign Recognition System,":
+This project is designed to address specific problems in computer science applications. It leverages modern
+web technologies and AI to provide effective solutions. The system aims to automate tasks, improve
+efficiency, and enhance user experience. Detailed modules are designed for scalability and maintainability,
+ensuring the project can be adapted for various environments and requirements.",":
+Traditional methods in this domain are often time-consuming, error-prone, or inefficient. There is a need for a
+system that automates processes, provides real-time results, and reduces human intervention. The project aims
+to fill this gap using advanced AI algorithms and web-based interfaces that are accessible and user-friendly.",":
+1. Automate tasks in the relevant domain.
+2. Improve accuracy and reduce errors.
+3. Provide real-time reporting and monitoring.
+4. Ensure accessibility via web-based platforms.
+5. Implement scalable and maintainable system architecture.",":
+Existing systems in this field include various manual and semi-automated methods, such as traditional web
+applications, desktop-based solutions, and simple AI models. While effective to some extent, these approaches
+lack full automation, real-time monitoring, or integration with modern AI techniques. This project builds upon
+existing research, enhancing functionality and leveraging recent advancements in computer vision, NLP, and
+deep learning.",":
+The system comprises frontend, backend, database, and AI modules. The frontend is designed for user
+interaction, built with HTML, CSS, and JavaScript. The backend handles data processing, API calls, and
+integration with AI models, typically implemented using Python and Flask/Django. The database stores user
+data, logs, and results. AI modules utilize frameworks such as TensorFlow, Keras, or PyTorch for machine
+learning tasks.
+[Placeholder for architecture diagram]","/ Workflow:
+1. Collect and preprocess data.
+2. Develop frontend user interface.
+3. Implement backend logic and database connectivity.
+4. Integrate AI models for prediction, recognition, or recommendation tasks.
+5. Conduct testing and debugging.
+6. Deploy system on server or cloud platform.
+[Placeholder for workflow diagram]",":
+- Real-time operation and response.
+- User-friendly interface and dashboards.
+- Accurate processing and automated reporting.
+- Notifications and alerts.
+- Scalable system architecture for future expansion.",":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.",":
+- ER Diagrams
+- Flowcharts
+- Screenshots and mockups
+- Sample reports
+- AI model architecture diagrams",10,AI-Based Traffic Sign Recognition System,AI-Based Traffic Sign Recognition System,2023,":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.","[-1.29706375e-02  2.23521795e-02  4.01234515e-02 -7.54396617e-02
+ -4.25436199e-02 -3.41870040e-02  5.55107854e-02  2.22325698e-02
+ -6.12141714e-02 -7.93039575e-02 -2.75738388e-02  1.23685217e-02
+  5.90139814e-02  2.42998376e-02 -1.07094487e-02  3.74217257e-02
+  7.05619156e-02 -8.55875202e-03  7.25967530e-03 -2.92558083e-03
+ -1.66175701e-02  1.52303707e-02 -2.06059553e-02 -9.86712519e-03
+ -9.04261693e-03  6.16430901e-02  7.18724877e-02  3.66723388e-02
+ -2.35869009e-02  7.69643858e-03  1.72635503e-02  6.50768355e-03
+  7.97078535e-02  5.59336618e-02 -8.06704834e-02 -1.72542650e-02
+  1.53594371e-02 -7.97022413e-03  6.75079301e-02  4.33312682e-03
+ -3.52846039e-03 -2.52535455e-02  2.05882397e-02 -1.42510105e-02
+  8.29112530e-02  1.34295359e-01 -1.44210588e-02  4.56416346e-02
+  1.10644877e-01 -7.46398643e-02  4.74562235e-02 -3.90037568e-03
+  1.67845562e-02  8.83593783e-03 -3.00778504e-02 -6.68905955e-03
+ -9.84967966e-03 -4.87872446e-03 -3.48057896e-02 -1.41153857e-02
+  5.29553667e-02  5.31636588e-02  9.50598046e-02  4.92561376e-04
+  3.05005647e-02  5.66633046e-02 -1.40377376e-02 -6.87570684e-03
+  4.04260978e-02 -6.04770146e-02 -4.16020751e-02  1.25647664e-01
+ -8.89322907e-03 -7.46711483e-03  6.28558844e-02  3.40286158e-02
+  3.83337662e-02  3.28060426e-02  1.38529064e-02 -1.49454549e-01
+ -9.83898044e-02 -1.04593828e-01 -1.14724189e-01  3.96815361e-03
+  2.07244419e-02 -2.94335634e-02 -6.78715035e-02 -6.69533480e-03
+  2.23136060e-02 -1.70059856e-02 -9.95359942e-02 -1.23079279e-02
+  1.28365621e-01 -1.00289784e-01 -2.84045171e-02  3.97736095e-02
+  1.77439637e-02 -2.05663126e-02 -2.96843592e-02  3.45966816e-02
+ -6.40851483e-02  2.72436775e-02  1.86530296e-02 -1.05241667e-02
+  5.78171723e-02 -1.33294649e-02  1.16244219e-02 -2.16010697e-02
+  2.23451722e-02 -4.30979654e-02  2.26610582e-02 -5.26312068e-02
+ -1.02321571e-02 -6.16418384e-02  4.16551717e-03  8.01366493e-02
+ -3.72440368e-03  9.98287350e-02  8.80337134e-02 -1.54716726e-02
+ -5.07455543e-02 -8.41899142e-02 -2.71420851e-02  7.65994042e-02
+  4.36941572e-02  2.98227114e-03  3.81352752e-03 -4.95592900e-33
+ -7.20306337e-02  2.44227536e-02  2.48379703e-03 -3.20305228e-02
+  8.09002817e-02  1.62575990e-02 -1.02946706e-01 -6.17440566e-02
+ -3.11379544e-02  8.39909241e-02 -5.61073236e-02  1.52410241e-02
+ -2.06843317e-02  5.80394156e-02  7.44340420e-02  1.93127003e-02
+ -1.00460937e-02 -5.66564761e-02 -3.34757045e-02 -6.49231598e-02
+ -1.44735165e-02 -8.26537907e-02  1.01872887e-02 -2.99696494e-02
+  1.37776863e-02  4.00731079e-02  5.30865192e-02  5.49097173e-03
+  9.42728445e-02 -3.68684679e-02  6.26944229e-02  4.50587571e-02
+ -3.93994972e-02 -2.19907239e-02  5.59894927e-03 -2.72064004e-02
+ -8.44120383e-02 -3.12661305e-02  1.83046199e-02  3.20737660e-02
+ -2.00702753e-02 -4.36676070e-02 -7.49737099e-02 -6.33004680e-02
+ -1.55862505e-02  4.97376733e-02  6.82571232e-02 -1.89386532e-02
+  1.01006202e-01  1.63908768e-02 -6.34662434e-02 -3.79478070e-03
+ -6.91732392e-02 -2.17833035e-02 -5.42625077e-02 -6.00643791e-02
+  1.49224326e-02  9.86859128e-02 -7.29932114e-02 -6.06541103e-03
+ -6.81811199e-02  6.43633073e-03 -1.15397607e-03  5.93654960e-02
+ -5.75506082e-03  7.41326343e-03 -2.68973969e-03  1.86380220e-03
+  2.81091649e-02  1.66076720e-02  3.47300270e-03  2.48689968e-02
+  3.63779217e-02  3.82272974e-02 -4.36338969e-03  2.65379157e-03
+ -4.14526388e-02 -2.88026594e-02 -2.79890466e-02  4.65255603e-02
+ -7.95001239e-02  1.24072041e-02 -1.46359112e-02 -3.12874019e-02
+  1.44507855e-01  4.77449829e-03 -5.89044532e-03 -6.97637349e-02
+ -5.97259924e-02 -8.25698897e-02 -5.59897609e-02  3.95647995e-02
+ -2.27979794e-02  9.72771123e-02 -3.70782688e-02  2.75825525e-33
+  1.26496525e-02  3.40604894e-02 -7.37764388e-02  2.41096187e-02
+  1.82901956e-02 -3.95453237e-02 -3.96649316e-02  4.23270687e-02
+ -3.51133477e-03  1.15924686e-01  5.02548777e-02  5.81297465e-02
+  1.72450207e-02 -1.60290841e-02 -5.13411425e-02 -5.95068038e-02
+  6.16685189e-02  3.19185257e-02 -3.35787125e-02 -1.38762016e-02
+ -1.32781669e-01  4.15912978e-02 -6.17097970e-03 -1.68944299e-02
+ -4.49395217e-02 -4.95139603e-03  6.78274734e-03  2.56335624e-02
+ -1.51380822e-02  1.86437666e-02 -7.87173584e-03  3.16597521e-02
+  2.06949506e-02 -5.89868566e-03  8.38454627e-03 -3.57771367e-02
+  5.89377545e-02 -4.14859317e-02 -6.41917884e-02  2.71965303e-02
+  3.81391682e-02 -2.81622028e-03  2.00726241e-02 -6.00121655e-02
+ -6.78873137e-02 -2.44120155e-02 -1.46660972e-02  1.04822770e-01
+ -4.56642285e-02  4.26321514e-02  4.61168252e-02 -3.82721350e-02
+ -6.27440363e-02  3.36204516e-03 -1.48565164e-02  1.54356688e-01
+  1.80624798e-02  6.00305200e-02  3.50769870e-02 -3.95351648e-03
+ -4.72177640e-02 -3.45693678e-02 -1.45629998e-02  7.15043163e-03
+  1.28107471e-02 -4.30607051e-03  3.83023284e-02 -4.10422031e-03
+  1.27988895e-02 -7.66619155e-03  1.03959218e-01 -2.27918457e-02
+  1.33291893e-02  7.81098083e-02 -1.28626414e-02 -6.31638914e-02
+ -4.95997444e-02  3.26153710e-02  1.57812994e-03 -1.11639895e-01
+ -2.77388524e-02 -8.58808756e-02 -4.35989387e-02  1.35505736e-01
+  5.18236905e-02  4.21728045e-02 -1.27335265e-01  1.60073582e-02
+  3.90672758e-02  2.72334516e-02 -2.06935611e-02  9.76963639e-02
+ -1.11949602e-02  4.38708365e-02 -1.03251286e-01 -1.57853037e-08
+ -1.81368217e-02 -1.33065302e-02 -4.48649898e-02 -8.07040408e-02
+  7.17915967e-03  6.33933917e-02  4.41305563e-02  7.64111429e-03
+ -6.36588186e-02 -5.84026761e-02 -6.83351513e-03 -1.91119984e-02
+ -9.04120207e-02  6.56309724e-03 -2.57555824e-02 -4.93955947e-02
+ -1.57499071e-02  7.06746010e-03 -2.97433287e-02 -9.11819842e-03
+  5.66717423e-02 -6.08377829e-02 -5.58594950e-02 -1.44038396e-02
+ -1.26157766e-02 -7.37328604e-02  2.13804413e-02  7.83436745e-02
+ -6.39347583e-02 -2.79892492e-03 -2.46108193e-02  5.34985065e-02
+  4.35621999e-02 -6.19323477e-02  1.58787668e-01  1.08964913e-01
+  6.76626712e-03  4.32399195e-03  1.94214676e-02  1.14032589e-01
+ -3.03338934e-02  1.88892260e-02  3.83301219e-03 -2.21332144e-02
+  6.26077577e-02  3.20573486e-02  1.66481398e-02 -3.99816856e-02
+  2.94294059e-02  1.59632377e-02  8.92371461e-02 -3.97809073e-02
+  4.68335347e-03  5.44726886e-02  2.94287875e-02 -2.77803577e-02
+  1.56782940e-02 -1.92778409e-02  5.76755591e-02  4.45699319e-02
+  7.91523829e-02  6.60151839e-02 -2.41244026e-02  2.15575993e-02]",TITLE: AI-Based Traffic Sign Recognition System. DESCRIPTION: AI-Based Traffic Sign Recognition System
+11,Online Voting System with Blockchain,":
+This project is designed to address specific problems in computer science applications. It leverages modern
+web technologies and AI to provide effective solutions. The system aims to automate tasks, improve
+efficiency, and enhance user experience. Detailed modules are designed for scalability and maintainability,
+ensuring the project can be adapted for various environments and requirements.",":
+Traditional methods in this domain are often time-consuming, error-prone, or inefficient. There is a need for a
+system that automates processes, provides real-time results, and reduces human intervention. The project aims
+to fill this gap using advanced AI algorithms and web-based interfaces that are accessible and user-friendly.",":
+1. Automate tasks in the relevant domain.
+2. Improve accuracy and reduce errors.
+3. Provide real-time reporting and monitoring.
+4. Ensure accessibility via web-based platforms.
+5. Implement scalable and maintainable system architecture.",":
+Existing systems in this field include various manual and semi-automated methods, such as traditional web
+applications, desktop-based solutions, and simple AI models. While effective to some extent, these approaches
+lack full automation, real-time monitoring, or integration with modern AI techniques. This project builds upon
+existing research, enhancing functionality and leveraging recent advancements in computer vision, NLP, and
+deep learning.",":
+The system comprises frontend, backend, database, and AI modules. The frontend is designed for user
+interaction, built with HTML, CSS, and JavaScript. The backend handles data processing, API calls, and
+integration with AI models, typically implemented using Python and Flask/Django. The database stores user
+data, logs, and results. AI modules utilize frameworks such as TensorFlow, Keras, or PyTorch for machine
+learning tasks.
+[Placeholder for architecture diagram]","/ Workflow:
+1. Collect and preprocess data.
+2. Develop frontend user interface.
+3. Implement backend logic and database connectivity.
+4. Integrate AI models for prediction, recognition, or recommendation tasks.
+5. Conduct testing and debugging.
+6. Deploy system on server or cloud platform.
+[Placeholder for workflow diagram]",":
+- Real-time operation and response.
+- User-friendly interface and dashboards.
+- Accurate processing and automated reporting.
+- Notifications and alerts.
+- Scalable system architecture for future expansion.",":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.",":
+- ER Diagrams
+- Flowcharts
+- Screenshots and mockups
+- Sample reports
+- AI model architecture diagrams",11,Online Voting System with Blockchain,Online Voting System with Blockchain,2023,":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.","[-6.75360784e-02  3.06015741e-02 -7.08364323e-02 -2.08127666e-02
+ -4.13665473e-02 -1.20786959e-02 -1.58819836e-03  3.72653417e-02
+ -3.45533676e-02 -1.54371662e-02  1.46031072e-02  2.56776121e-02
+  6.57916293e-02 -5.89733711e-03 -5.83658852e-02  6.77757291e-03
+  7.16626830e-03 -2.39517372e-02  7.77985081e-02 -3.97281088e-02
+ -3.95573564e-02 -1.14954608e-02 -3.02162860e-02  7.63225481e-02
+  2.94748694e-02 -3.97470295e-02  6.09095022e-02  3.19784060e-02
+ -9.63893086e-02 -9.10639912e-02 -7.70735741e-03 -1.62119251e-02
+  4.60442193e-02 -2.04059798e-02 -5.62880374e-02 -6.09094426e-02
+  3.15962583e-02 -8.74888450e-02 -5.14935218e-02 -6.58193976e-02
+  2.60481481e-02 -6.34075478e-02  4.48005237e-02 -1.80755481e-02
+ -2.51853205e-02  2.73085553e-02 -1.87205840e-02  4.72490862e-02
+ -2.08319388e-02 -4.02694521e-03 -2.06012465e-02 -5.03028333e-02
+ -4.70440090e-02  9.61063504e-02  8.32736045e-02 -1.80778336e-02
+  8.61695129e-03 -2.80822664e-02  3.16514485e-02 -1.24273509e-01
+  9.17430520e-02  7.06750229e-02  2.93310098e-02  5.18816188e-02
+  2.27977801e-02  9.69831347e-02  1.27654783e-02  2.37491932e-02
+ -6.23831563e-02  2.18086201e-03 -7.39568518e-03  4.50899526e-02
+  3.26074404e-03  3.27019673e-03 -3.38837057e-02 -9.01116282e-02
+ -4.26905937e-02 -2.22510286e-02  1.48970727e-02  2.94123497e-02
+ -6.03314303e-02  7.78281987e-02 -3.52273248e-02 -3.76428552e-02
+  1.78293958e-02 -2.96760853e-02 -4.20586094e-02 -1.67902987e-02
+  3.27894986e-02 -7.92608932e-02 -1.23194074e-02  6.88339770e-02
+  1.05672866e-01 -1.89869571e-02 -6.53584599e-02 -2.05856990e-02
+  3.57637927e-02 -3.23129855e-02  2.72225030e-02  5.66963814e-02
+ -7.34566525e-02  3.86241339e-02 -8.01264122e-02 -8.73021260e-02
+  4.54551168e-02  7.42244124e-02 -5.15625961e-02  1.80132519e-02
+  1.19433803e-02 -2.97733601e-02 -5.43695614e-02 -1.20834718e-02
+ -8.54073390e-02 -2.04045270e-02 -6.66092187e-02  3.67938727e-02
+ -3.01149990e-02  1.36763677e-02  3.00509352e-02  5.31000197e-02
+  8.16987082e-02 -3.71938832e-02 -1.80054270e-02 -6.12691976e-02
+  1.00008667e-01 -3.27498764e-02  5.88602573e-02 -1.65486370e-33
+ -7.15881139e-02 -8.01812783e-02  5.69017306e-02 -1.32469395e-02
+  6.44985586e-02  1.53384283e-02  3.79713103e-02 -2.99656508e-03
+ -1.54570132e-01  5.79133863e-03  3.32890339e-02 -3.67859825e-02
+  4.21443544e-02  8.49170685e-02  4.71728072e-02 -1.27785653e-01
+  1.98932290e-02  1.95583850e-02  1.42341748e-01 -3.15207653e-02
+  2.51002070e-02  8.24499354e-02  3.89658511e-02 -7.34939054e-02
+  9.47928727e-02 -5.84703907e-02 -1.37392478e-02 -7.01219663e-02
+  7.07191154e-02  1.22831119e-02  4.36021984e-02 -2.22893711e-02
+ -3.59977246e-03  1.79219129e-03  1.08070802e-02  5.23884296e-02
+  2.22323053e-02 -1.04311474e-01 -4.64717634e-02 -8.37129727e-02
+  1.30654220e-02  8.75791442e-03 -7.90224299e-02 -2.92707346e-02
+ -5.49092516e-02  1.10951699e-01 -1.97377149e-02 -5.09111257e-03
+  5.56260906e-02  6.07060939e-02 -1.10190315e-02  4.67138179e-02
+ -3.84130236e-03 -6.29152497e-03 -1.47726806e-02 -3.16007547e-02
+ -7.11504295e-02  6.16652425e-03 -6.89802468e-02 -1.96004361e-02
+  1.99732184e-02 -2.55975071e-02 -4.38508354e-02 -5.72153665e-02
+ -8.01399797e-02 -1.03785982e-03 -5.78846433e-04 -8.17771032e-02
+  2.03894004e-02 -3.42063271e-02 -6.49202848e-04 -2.84809694e-02
+  4.09086682e-02  1.19224347e-01 -2.38819197e-02 -9.87607054e-03
+ -3.84046277e-03 -2.08882056e-02 -2.14914642e-02 -2.79063135e-02
+ -1.17239850e-02 -1.10408559e-01 -4.65799682e-03 -2.88723633e-02
+  1.77377486e-03  4.35988754e-02 -2.41811648e-02  3.53569747e-03
+ -2.16750707e-02  1.39003340e-02 -5.42728566e-02 -6.76180655e-03
+  3.66676017e-03  2.21321266e-02  2.82674860e-02 -1.00574736e-33
+ -1.31643385e-01 -7.05515519e-02  2.03807130e-02  7.31886551e-02
+  1.08281672e-01 -2.80331708e-02 -5.75272925e-02 -1.30145242e-02
+  2.50648130e-02  9.36657935e-02 -6.04959615e-02  1.84210036e-02
+  4.74605560e-02  8.86593596e-04  5.62034287e-02 -5.35044596e-02
+ -7.08340779e-02 -2.44386401e-02  8.09953269e-03 -8.86814296e-03
+  4.05326560e-02  9.30643603e-02 -2.31139902e-02  3.94474939e-02
+  1.78263523e-02  4.16994765e-02 -1.54222539e-02  2.59315148e-02
+  5.06904237e-02  2.16919165e-02 -7.18589053e-02 -1.24044448e-01
+ -3.79372127e-02 -1.43044712e-02 -3.27167474e-02  2.89346240e-02
+  5.11751100e-02 -4.45616283e-02 -5.71373068e-02 -3.46541815e-02
+  3.07801850e-02 -5.86798303e-02 -1.61790475e-02 -3.73141058e-02
+ -6.61456659e-02  3.69106606e-02 -4.05760072e-02  1.67496651e-01
+  1.67399682e-02 -3.19587141e-02 -1.36034731e-02  7.82605186e-02
+  3.73415127e-02  3.17702703e-02 -1.12031568e-02  3.78681086e-02
+ -4.31862473e-02  4.14055437e-02  4.67939191e-02  3.69431525e-02
+  1.45609602e-02 -2.82104537e-02 -1.56171778e-02  1.24760441e-01
+  1.11206859e-01 -5.87510541e-02 -4.55879308e-02 -5.29739745e-02
+  3.60156000e-02  6.74471557e-02  5.70286438e-02  1.54161919e-02
+ -2.80628838e-02  2.69649755e-02  3.72005031e-02 -2.54078712e-02
+  9.54295415e-03  5.81990369e-02 -2.20734440e-02 -3.41611877e-02
+  2.79128738e-02  4.69692051e-02  1.88403092e-02 -1.22882491e-02
+  8.71462002e-02 -6.02542534e-02  1.17703348e-01  1.40203405e-02
+ -9.81745031e-03  1.33253317e-02 -1.80750005e-02  9.65470914e-03
+  7.43320398e-03 -4.73814644e-03 -1.40610309e-02 -1.74225168e-08
+  3.95136178e-02 -5.58886118e-02 -1.14841983e-02  3.43621783e-02
+  1.79466400e-02  1.47248954e-02  1.07738353e-01 -5.02262414e-02
+ -5.72913252e-02  3.71156707e-02  5.25377840e-02 -3.55974305e-03
+ -3.21800145e-03 -2.08444949e-02 -5.44753671e-02 -5.39442105e-03
+ -3.70193943e-02  3.53795737e-02 -3.27059142e-02 -7.38492934e-04
+  6.60701469e-02  7.75200140e-04 -6.77351803e-02  1.17321489e-02
+ -2.23778915e-02  4.73192446e-02  5.19910119e-02  1.00086905e-01
+ -3.70731428e-02  2.36449093e-02 -2.26204321e-02  1.39792701e-02
+ -4.31042956e-03 -3.15381102e-02  2.49392390e-02  6.99475706e-02
+ -6.86656982e-02  1.46554885e-02  7.15256715e-03 -3.60052772e-02
+ -1.08726270e-01 -3.59787643e-02  5.18365018e-02 -2.13269107e-02
+ -4.62269299e-02 -4.01413739e-02 -4.83921804e-02  5.12986183e-02
+  3.54765803e-02 -8.86798277e-03 -2.34656688e-02 -8.07699561e-02
+  3.22554968e-02  1.98644702e-03  3.91100496e-02  3.60641372e-03
+  4.75943834e-02  3.27352881e-02  7.73304701e-02  3.71102393e-02
+  1.37277991e-01  5.98769402e-03  1.20978365e-02  8.81296471e-02]",TITLE: Online Voting System with Blockchain. DESCRIPTION: Online Voting System with Blockchain
+12,AI-Based Sentiment Analysis Tool,":
+This project is designed to address specific problems in computer science applications. It leverages modern
+web technologies and AI to provide effective solutions. The system aims to automate tasks, improve
+efficiency, and enhance user experience. Detailed modules are designed for scalability and maintainability,
+ensuring the project can be adapted for various environments and requirements.",":
+Traditional methods in this domain are often time-consuming, error-prone, or inefficient. There is a need for a
+system that automates processes, provides real-time results, and reduces human intervention. The project aims
+to fill this gap using advanced AI algorithms and web-based interfaces that are accessible and user-friendly.",":
+1. Automate tasks in the relevant domain.
+2. Improve accuracy and reduce errors.
+3. Provide real-time reporting and monitoring.
+4. Ensure accessibility via web-based platforms.
+5. Implement scalable and maintainable system architecture.",":
+Existing systems in this field include various manual and semi-automated methods, such as traditional web
+applications, desktop-based solutions, and simple AI models. While effective to some extent, these approaches
+lack full automation, real-time monitoring, or integration with modern AI techniques. This project builds upon
+existing research, enhancing functionality and leveraging recent advancements in computer vision, NLP, and
+deep learning.",":
+The system comprises frontend, backend, database, and AI modules. The frontend is designed for user
+interaction, built with HTML, CSS, and JavaScript. The backend handles data processing, API calls, and
+integration with AI models, typically implemented using Python and Flask/Django. The database stores user
+data, logs, and results. AI modules utilize frameworks such as TensorFlow, Keras, or PyTorch for machine
+learning tasks.
+[Placeholder for architecture diagram]","/ Workflow:
+1. Collect and preprocess data.
+2. Develop frontend user interface.
+3. Implement backend logic and database connectivity.
+4. Integrate AI models for prediction, recognition, or recommendation tasks.
+5. Conduct testing and debugging.
+6. Deploy system on server or cloud platform.
+[Placeholder for workflow diagram]",":
+- Real-time operation and response.
+- User-friendly interface and dashboards.
+- Accurate processing and automated reporting.
+- Notifications and alerts.
+- Scalable system architecture for future expansion.",":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.",":
+- ER Diagrams
+- Flowcharts
+- Screenshots and mockups
+- Sample reports
+- AI model architecture diagrams",12,AI-Based Sentiment Analysis Tool,AI-Based Sentiment Analysis Tool,2023,":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.","[-7.20230713e-02  2.31858101e-02 -4.96700257e-02  3.97758298e-02
+ -2.19517387e-03 -1.44377705e-02  7.07328320e-02  1.81107502e-02
+ -1.92648899e-02 -1.36839021e-02 -4.12727566e-03  1.75065305e-02
+  3.80450040e-02  1.06784087e-02 -1.40473973e-02  1.21251218e-01
+  2.26803087e-02 -9.28843617e-02 -7.96968788e-02 -4.46980931e-02
+  3.31329298e-03  7.47308731e-02 -7.64614791e-02  1.50080509e-02
+  4.08285065e-03  4.48183194e-02 -1.67165778e-03  3.27790566e-02
+ -3.96492705e-02  1.83327384e-02  4.74247746e-02  3.08627896e-02
+  3.50514092e-02  1.10527709e-01 -2.67030876e-02  1.95812192e-02
+ -6.66423216e-02  3.88329737e-02  3.51200588e-02  4.49377820e-02
+ -2.81320717e-02 -1.11402385e-02  4.70348895e-02 -1.32614419e-01
+  6.69775233e-02  4.06931862e-02 -9.62410495e-02 -3.82200554e-02
+  6.36238903e-02  2.30009593e-02 -1.17709853e-01 -3.54207829e-02
+  1.18675297e-02  1.96496733e-02  6.27813488e-03  5.48979826e-02
+ -1.44595141e-02  6.89559244e-03 -1.21033262e-03 -4.02307473e-02
+  3.41303162e-02 -1.75300371e-02  5.13392016e-02  4.76313196e-02
+  5.84093295e-02  5.43083239e-04 -2.18665209e-02  2.74029118e-03
+ -2.92255171e-02 -4.35132608e-02  2.00760514e-02  4.75444272e-02
+ -1.11653404e-02  1.22724690e-01  1.00721987e-02  1.38966646e-02
+  3.51065584e-02  7.63007579e-03  1.17666580e-01 -1.26261488e-01
+ -8.77636895e-02  6.38143765e-03 -1.23534910e-02  4.75438535e-02
+ -4.17926647e-02  9.26091615e-03  6.22159094e-02 -4.79886793e-02
+  4.21042670e-04  2.78347451e-02 -2.56139487e-02 -6.01259246e-02
+  1.20581195e-01  7.65905995e-03  6.78741112e-02  2.22985391e-02
+ -1.62520900e-01 -8.84315148e-02 -6.37002066e-02  2.93884221e-02
+  3.63722332e-02  5.68614528e-02 -5.34475334e-02 -1.41266854e-02
+ -7.83311874e-02 -4.30079103e-02  5.47434166e-02 -3.15206312e-02
+ -6.83191232e-03 -1.85937602e-02 -8.74319449e-02  2.34967656e-02
+  2.21484713e-03 -8.16089660e-02  6.48454875e-02  1.65408067e-02
+ -3.50045040e-02  9.48650986e-02  9.00034532e-02  5.74813448e-02
+  4.43965048e-02  4.12150621e-02 -5.30548953e-02  3.48736830e-02
+  6.95565045e-02  4.86385114e-02  5.40791564e-02 -1.28005613e-33
+ -4.59188744e-02 -2.11585127e-03  4.87739258e-02  6.58333302e-02
+  1.61557421e-02 -2.82258093e-02 -7.18843713e-02 -4.77154274e-03
+ -9.39595476e-02  3.62975709e-03 -5.71847707e-02  6.12893477e-02
+ -8.87348652e-02  9.77831520e-03  2.85272971e-02 -5.15266359e-02
+  3.21419835e-02  4.27019484e-02  3.42287458e-02 -1.95543692e-02
+  3.91722955e-02 -1.66682769e-02  3.39683406e-02 -3.29800397e-02
+  2.14323159e-02 -1.26661938e-02  8.89716074e-02 -6.94259778e-02
+  5.70263043e-02  3.36898118e-02 -5.38351387e-02  3.81711386e-02
+ -4.16433066e-02 -8.08919892e-02 -1.20394602e-02 -2.07445142e-03
+ -1.03306428e-01  1.75040625e-02 -7.91088154e-04  5.93217053e-02
+ -4.27295491e-02  1.10931080e-02 -4.42198254e-02 -2.31712889e-02
+ -6.42054379e-02  4.80963960e-02 -4.05301489e-02 -3.80555019e-02
+  1.13144353e-01  5.54042906e-02 -1.03371106e-01 -2.23842859e-02
+  8.69657099e-02 -8.74440558e-03 -4.32425030e-02 -6.89679664e-03
+  5.77037164e-04  2.22695321e-02  1.43202934e-02 -8.48746151e-02
+ -4.45413850e-02  5.44987842e-02 -5.91642149e-02 -6.40879199e-02
+ -2.46622600e-02  3.86599116e-02  4.31576818e-02  3.32710519e-02
+  4.87141274e-02 -1.09181376e-02 -3.05288769e-02  6.50123283e-02
+  6.26972467e-02  3.99169847e-02 -1.88330673e-02 -5.80356568e-02
+ -4.44374830e-02 -1.61391012e-02  7.63490051e-03 -2.53251307e-02
+ -9.20254141e-02 -7.21348971e-02 -8.58802907e-03 -8.06830600e-02
+  1.34854047e-02 -1.98446624e-02  1.41235134e-02 -6.46882877e-02
+ -9.22388211e-03  8.91976582e-04 -6.76859021e-02  4.36321571e-02
+ -5.62407263e-03  7.90517405e-02 -7.76875243e-02  7.42963031e-34
+ -8.13477784e-02 -4.29255366e-02 -1.33043736e-01  6.79010898e-02
+  3.43223102e-02  2.69189179e-02 -1.30462244e-01  3.60332131e-02
+  5.18810712e-02  9.63213816e-02 -3.54691558e-02 -5.41432165e-02
+  2.13234331e-02 -2.24609580e-02  5.78213437e-03 -2.05786619e-02
+ -4.16887924e-02 -4.21195701e-02 -4.55846600e-02  3.43529880e-02
+ -3.54942121e-02  6.47773519e-02 -7.31259733e-02 -1.23920059e-02
+  1.28787747e-02 -2.15520035e-03 -3.80242476e-03  5.75860552e-02
+  5.41177690e-02 -3.08066178e-02  4.17025462e-02 -2.31263321e-02
+ -4.68048304e-02  6.88219965e-02 -1.55071300e-02 -1.79938041e-03
+  7.10103735e-02 -1.16126060e-01 -4.73956130e-02  7.27306446e-03
+  6.74905702e-02 -1.60747692e-02 -3.88425551e-02 -4.02723774e-02
+ -3.30068842e-02  1.99803635e-02 -2.35096421e-02  7.01557100e-02
+ -3.29258591e-02  2.42180121e-03 -4.01994847e-02  3.41965631e-02
+ -3.02957594e-02  5.28462988e-04 -5.22471368e-02  6.64377492e-03
+  1.49461655e-02 -1.89831629e-02 -7.57120103e-02  2.04898920e-02
+ -4.95150052e-02  2.52761389e-03  4.41813394e-02 -1.51042128e-03
+ -2.08504498e-02  2.26102863e-02  6.68164417e-02  1.73931401e-02
+ -6.72359369e-04 -2.59072054e-04  1.07548825e-01  2.18551550e-02
+  3.81991044e-02  3.70468907e-02  2.00669840e-03 -1.28358891e-02
+  5.62420767e-03  1.54716130e-02  2.79070088e-03 -3.10768336e-02
+  3.71020138e-02 -3.94466370e-02  1.99909359e-02  3.21434662e-02
+  6.31192476e-02  4.24757786e-02 -2.21788995e-02  6.41384348e-02
+ -3.22248437e-03  7.06218556e-02 -2.21845089e-03 -3.89662087e-02
+ -3.08504235e-02  4.76805419e-02  2.75662146e-03 -1.87229272e-08
+  2.23268829e-02 -1.02542304e-01 -1.35847274e-02  8.28702450e-02
+ -2.83576455e-02 -2.46444382e-02  4.73325178e-02 -8.03372823e-03
+ -7.47529641e-02 -3.74313183e-02  7.23640202e-03  2.65615303e-02
+ -5.39770536e-02 -6.24723267e-03 -3.78228240e-02 -1.42144421e-02
+ -6.52988106e-02  2.04410907e-02  6.30932674e-02 -6.06855825e-02
+  1.24250673e-01  1.73139218e-02 -3.42296846e-02 -2.26476435e-02
+  1.16104139e-02 -7.14297369e-02 -6.98271990e-02  1.64556468e-03
+ -1.06617421e-01 -3.54677886e-02  3.06067057e-02  8.64860862e-02
+ -1.48311369e-02 -2.79727411e-02  1.28203303e-01  1.06459655e-01
+  4.51913588e-02  2.47120354e-02 -4.06038575e-02  4.15390655e-02
+ -3.95565517e-02  7.59774670e-02 -4.63853441e-02 -4.06527817e-02
+  5.18134497e-02  4.30210121e-03 -3.28903669e-03 -5.50262816e-02
+  2.89128944e-02  2.00079754e-02 -3.96495685e-03  1.55549478e-02
+ -2.74044788e-03  9.43924636e-02  2.31767260e-02  5.75670414e-03
+ -4.92583439e-02 -4.47003394e-02 -2.13048402e-02  7.39356354e-02
+  6.28426895e-02  4.09359299e-02 -1.67443883e-02  8.03069770e-02]",TITLE: AI-Based Sentiment Analysis Tool. DESCRIPTION: AI-Based Sentiment Analysis Tool
+13,Online Banking System,":
+This project is designed to address specific problems in computer science applications. It leverages modern
+web technologies and AI to provide effective solutions. The system aims to automate tasks, improve
+efficiency, and enhance user experience. Detailed modules are designed for scalability and maintainability,
+ensuring the project can be adapted for various environments and requirements.",":
+Traditional methods in this domain are often time-consuming, error-prone, or inefficient. There is a need for a
+system that automates processes, provides real-time results, and reduces human intervention. The project aims
+to fill this gap using advanced AI algorithms and web-based interfaces that are accessible and user-friendly.",":
+1. Automate tasks in the relevant domain.
+2. Improve accuracy and reduce errors.
+3. Provide real-time reporting and monitoring.
+4. Ensure accessibility via web-based platforms.
+5. Implement scalable and maintainable system architecture.",":
+Existing systems in this field include various manual and semi-automated methods, such as traditional web
+applications, desktop-based solutions, and simple AI models. While effective to some extent, these approaches
+lack full automation, real-time monitoring, or integration with modern AI techniques. This project builds upon
+existing research, enhancing functionality and leveraging recent advancements in computer vision, NLP, and
+deep learning.",":
+The system comprises frontend, backend, database, and AI modules. The frontend is designed for user
+interaction, built with HTML, CSS, and JavaScript. The backend handles data processing, API calls, and
+integration with AI models, typically implemented using Python and Flask/Django. The database stores user
+data, logs, and results. AI modules utilize frameworks such as TensorFlow, Keras, or PyTorch for machine
+learning tasks.
+[Placeholder for architecture diagram]","/ Workflow:
+1. Collect and preprocess data.
+2. Develop frontend user interface.
+3. Implement backend logic and database connectivity.
+4. Integrate AI models for prediction, recognition, or recommendation tasks.
+5. Conduct testing and debugging.
+6. Deploy system on server or cloud platform.
+[Placeholder for workflow diagram]",":
+- Real-time operation and response.
+- User-friendly interface and dashboards.
+- Accurate processing and automated reporting.
+- Notifications and alerts.
+- Scalable system architecture for future expansion.",":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.",":
+- ER Diagrams
+- Flowcharts
+- Screenshots and mockups
+- Sample reports
+- AI model architecture diagrams",13,Online Banking System,Online Banking System,2023,":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.","[ 2.34531239e-02  2.80034337e-02 -8.64650682e-02 -5.66199757e-02
+ -4.43363711e-02 -2.94504929e-02  8.05449262e-02  5.78741841e-02
+ -6.33491855e-03 -8.24458525e-02  5.29413484e-03 -2.45993398e-03
+  5.10474965e-02 -3.83122973e-02 -8.81792977e-03 -1.17135726e-01
+  4.56376560e-02 -6.30176738e-02  2.16051135e-02 -1.63436197e-02
+ -2.76339706e-02  8.04911647e-03 -6.44062683e-02  4.02409844e-02
+  1.00413803e-02 -1.46369468e-02  3.16839502e-03  3.60011831e-02
+ -7.94558898e-02 -7.12229386e-02 -6.13693148e-03  7.08090290e-02
+  8.15812200e-02 -4.79093418e-02 -4.04470377e-02 -9.26092789e-02
+ -4.71688136e-02  3.65299843e-02  2.50257757e-02 -2.18591504e-02
+ -7.39800632e-02 -7.17026442e-02  2.52157729e-02  7.50445481e-03
+  3.71679440e-02  7.36270025e-02 -3.10418867e-02  6.27734959e-02
+ -8.65144841e-03  5.93690760e-02 -3.41604576e-02 -6.25327006e-02
+ -2.51263641e-02  7.28855133e-02 -4.56342399e-02  4.62582447e-02
+  9.23742447e-03 -6.91904454e-03 -2.70180963e-02 -6.06129877e-02
+  5.00231832e-02  4.13523838e-02  8.62430185e-02  1.07979625e-01
+  4.54500578e-02  6.63234964e-02 -1.40068578e-02  5.23546599e-02
+ -1.45001970e-02 -4.44374122e-02 -1.70285944e-02 -5.20268753e-02
+ -4.00811806e-02  4.09303419e-02 -2.58450471e-02 -4.94074821e-02
+  8.33490416e-02  5.07273115e-02  5.41323535e-02  4.39102985e-02
+ -3.33620198e-02 -1.95589941e-02 -6.21028896e-03 -3.94289941e-03
+ -3.29272412e-02 -2.66315155e-02 -7.32333958e-02 -8.63936096e-02
+  1.98989064e-02 -9.04027820e-02  4.60967682e-02 -1.21856378e-02
+  9.54197869e-02 -4.33580950e-02 -2.50426820e-04 -1.02702938e-01
+  3.35099511e-02 -1.84881594e-02  7.02215880e-02  3.45280999e-03
+  6.59891441e-02  8.00817832e-02  2.54395287e-02  4.76587452e-02
+  1.72940399e-02  1.25681413e-02  2.97411866e-02  9.45638642e-02
+  3.63110676e-02 -1.24304734e-01 -4.19735573e-02  1.78803168e-02
+ -3.08163986e-02 -7.57464319e-02 -3.00167184e-02  7.03192949e-02
+ -3.76882963e-02  1.00912293e-03  1.19974345e-01  4.36732993e-02
+  9.36100930e-02  5.29671013e-02 -6.48013968e-03 -9.87878516e-02
+ -3.27807143e-02 -1.88049674e-02 -1.46383895e-02 -3.50317226e-33
+ -9.81156006e-02  2.38145422e-02  1.82508491e-02 -1.69643518e-02
+  4.47716340e-02 -9.75089613e-03 -3.97399664e-02  1.84340104e-02
+ -1.13488987e-01  7.16060176e-02 -2.14557280e-03 -3.34427059e-02
+  4.83474787e-03  2.65041217e-02 -1.48055772e-03 -7.02072307e-03
+  2.00134162e-02  5.63326702e-02  1.00985497e-01  6.31839111e-02
+  9.46453586e-03  3.34237702e-02  1.57491155e-02 -4.11790982e-02
+  1.07614644e-01 -4.96641397e-02 -4.60210517e-02 -2.77435407e-03
+  7.22388923e-02 -8.75877216e-04  4.53639068e-02 -1.03877865e-01
+ -3.21271382e-02 -1.64870564e-02  1.50659801e-02 -1.47962049e-02
+ -4.98864753e-03 -9.26694497e-02  3.57520245e-02 -5.48392795e-02
+ -5.78906611e-02 -5.68429008e-03 -6.48755208e-02  2.94476678e-03
+ -1.40614412e-03  1.26530856e-01 -5.71582094e-02  5.11975586e-02
+  9.65635665e-03  5.97208217e-02 -9.13274661e-02  4.30138521e-02
+ -5.36989532e-02  2.65602488e-02 -3.54354717e-02  1.71093531e-02
+ -4.54466306e-02  2.04429850e-02 -7.38954246e-02 -3.89988087e-02
+ -4.45895642e-03 -3.96111235e-02 -8.83558169e-02 -2.95798089e-02
+ -2.23516971e-02 -3.90653871e-02  4.76422012e-02 -3.00802216e-02
+  6.34558499e-03 -4.87719886e-02 -1.20098948e-01  2.28637978e-02
+  6.90329596e-02  7.25240111e-02  2.95789205e-02  1.01921866e-02
+ -1.35614332e-02  8.15061927e-02 -2.31811050e-02  9.11493525e-02
+  1.83282495e-02  3.99486581e-03  3.31420987e-03  7.55844731e-03
+  1.51157081e-02  4.48314771e-02  5.30573800e-02 -3.91934514e-02
+ -3.28101292e-02 -1.82139203e-02 -3.60233448e-02  1.60096548e-02
+ -2.37322245e-02  8.31932947e-02  7.36104622e-02  5.49638751e-34
+ -3.74841467e-02 -5.42298444e-02 -2.31301561e-02  4.89210896e-02
+ -5.84013341e-03 -1.65888313e-02  6.63739163e-03 -1.80868693e-02
+ -2.16580071e-02  2.95849815e-02 -7.20275342e-02  9.38484073e-02
+ -4.28812802e-02 -4.37079230e-03 -3.87855098e-02 -5.50543598e-04
+ -6.76227584e-02 -8.00433010e-02 -4.74174768e-02  2.19565779e-02
+  1.30903590e-02  2.30035800e-02 -1.98996048e-02 -2.63464153e-02
+  2.18679607e-02  2.46278103e-02 -4.61576022e-02 -4.88840826e-02
+  3.84035846e-03  1.01896981e-03 -4.60215509e-02 -7.99017251e-02
+ -1.60464570e-02  5.25043681e-02 -6.03823550e-02 -2.94190794e-02
+  8.94535035e-02 -5.31324372e-02 -4.45724763e-02  1.59565732e-02
+  8.46925974e-02 -2.76750117e-03 -3.12620215e-03 -7.29116425e-02
+ -4.46016714e-02  4.75234166e-02 -8.22434947e-03  4.87323664e-02
+ -8.13027285e-03 -2.11430062e-03 -2.89445557e-02  2.61725206e-02
+ -8.43606517e-02  2.90459413e-02  9.49190371e-03  7.80428797e-02
+  4.36826721e-02 -1.43784778e-02 -3.35587971e-02  9.92968027e-03
+ -8.27373657e-03 -4.75816429e-02 -5.41898608e-02  1.09507211e-01
+  7.83647820e-02 -8.55634958e-02  5.14843222e-03  3.86334807e-02
+  5.95255708e-03 -4.62376438e-02  3.29357153e-03 -6.06296547e-02
+ -1.38921449e-02  6.08577430e-02  2.14886572e-02 -1.07292319e-02
+ -2.66288742e-02 -5.23457713e-02 -4.52106744e-02 -6.14411160e-02
+  5.40137873e-04 -1.83003470e-02  4.18723039e-02  9.34643596e-02
+  5.57220764e-02 -6.29431307e-02  6.90659285e-02  2.86981761e-02
+  8.08698162e-02 -7.32598007e-02 -3.20481546e-02 -9.36640352e-02
+ -2.08502319e-02  7.57140890e-02 -2.81079523e-02 -1.76355748e-08
+  2.30859630e-02 -6.97899684e-02 -4.04944411e-03  4.86042947e-02
+  4.55492400e-02  3.06390561e-02  4.32446897e-02 -3.03501617e-02
+ -7.15977699e-02  2.63839867e-02 -7.86483213e-02  4.32992354e-03
+ -6.68603107e-02 -3.80033851e-02  4.30391878e-02 -3.02500967e-02
+ -2.82005817e-02  1.82731207e-02  2.78277472e-02  2.36137863e-02
+  7.86354169e-02 -2.27438565e-02 -5.33763058e-02  3.60537460e-03
+ -3.06359623e-02 -3.70775769e-03  4.93498743e-02  7.88300708e-02
+  7.49644935e-02 -4.88139130e-02 -3.71428244e-02  5.28221764e-02
+  2.91674845e-02 -6.19095489e-02  1.61653233e-03  1.74004510e-02
+  5.43713234e-02  1.30112953e-02  2.86984127e-02 -1.50020076e-02
+ -1.31862655e-01 -9.93728414e-02  9.69182327e-03 -2.18357928e-02
+  9.38607305e-02  1.74043234e-02 -3.62402126e-02  3.17050144e-02
+  9.08265710e-02 -3.01090740e-02  1.62101034e-02 -3.30561437e-02
+  1.24656305e-01  1.05581015e-01  6.89508393e-02 -4.30491231e-02
+  6.28892286e-03 -1.05420258e-02  5.17604239e-02  2.78125275e-02
+  1.02882847e-01  2.24693641e-02  1.04337251e-02  7.13318540e-03]",TITLE: Online Banking System. DESCRIPTION: Online Banking System
+14,AI-Powered Image Caption Generator,":
+This project is designed to address specific problems in computer science applications. It leverages modern
+web technologies and AI to provide effective solutions. The system aims to automate tasks, improve
+efficiency, and enhance user experience. Detailed modules are designed for scalability and maintainability,
+ensuring the project can be adapted for various environments and requirements.",":
+Traditional methods in this domain are often time-consuming, error-prone, or inefficient. There is a need for a
+system that automates processes, provides real-time results, and reduces human intervention. The project aims
+to fill this gap using advanced AI algorithms and web-based interfaces that are accessible and user-friendly.",":
+1. Automate tasks in the relevant domain.
+2. Improve accuracy and reduce errors.
+3. Provide real-time reporting and monitoring.
+4. Ensure accessibility via web-based platforms.
+5. Implement scalable and maintainable system architecture.",":
+Existing systems in this field include various manual and semi-automated methods, such as traditional web
+applications, desktop-based solutions, and simple AI models. While effective to some extent, these approaches
+lack full automation, real-time monitoring, or integration with modern AI techniques. This project builds upon
+existing research, enhancing functionality and leveraging recent advancements in computer vision, NLP, and
+deep learning.",":
+The system comprises frontend, backend, database, and AI modules. The frontend is designed for user
+interaction, built with HTML, CSS, and JavaScript. The backend handles data processing, API calls, and
+integration with AI models, typically implemented using Python and Flask/Django. The database stores user
+data, logs, and results. AI modules utilize frameworks such as TensorFlow, Keras, or PyTorch for machine
+learning tasks.
+[Placeholder for architecture diagram]","/ Workflow:
+1. Collect and preprocess data.
+2. Develop frontend user interface.
+3. Implement backend logic and database connectivity.
+4. Integrate AI models for prediction, recognition, or recommendation tasks.
+5. Conduct testing and debugging.
+6. Deploy system on server or cloud platform.
+[Placeholder for workflow diagram]",":
+- Real-time operation and response.
+- User-friendly interface and dashboards.
+- Accurate processing and automated reporting.
+- Notifications and alerts.
+- Scalable system architecture for future expansion.",":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.",":
+- ER Diagrams
+- Flowcharts
+- Screenshots and mockups
+- Sample reports
+- AI model architecture diagrams",14,AI-Powered Image Caption Generator,AI-Powered Image Caption Generator,2023,":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.","[-1.63226929e-02  2.22088248e-02 -1.42334783e-02  3.85856780e-04
+  5.21381758e-02 -1.59575231e-02  2.11454798e-02  2.36723609e-02
+  4.41138893e-02 -3.25249210e-02 -1.91799831e-02 -8.42645392e-02
+  8.60058814e-02  5.36391065e-02 -4.19829153e-02  5.97923808e-02
+  3.94450407e-03  2.26510130e-02 -2.25845986e-04 -6.79634605e-03
+  4.93647493e-02  2.04217564e-02  7.31415749e-02 -4.00213860e-02
+  5.58642223e-02 -3.20023485e-03  5.64206019e-03  6.74933894e-03
+ -6.86837826e-03 -7.18591213e-02 -4.51023364e-03 -4.37126160e-02
+  2.33347830e-03  4.73031402e-02 -1.01940520e-02  8.97984579e-02
+ -8.87845363e-03  3.46910954e-02  3.59911993e-02 -4.17426452e-02
+  3.49681289e-03 -7.71899056e-03  9.58515033e-02 -7.33731361e-03
+  8.66485462e-02  5.64213730e-02 -6.71012923e-02 -9.18672755e-02
+  4.01912853e-02  1.20243877e-02 -7.59812668e-02 -5.75031638e-02
+ -6.12674747e-04  3.94268148e-03 -5.15533146e-03  5.08307517e-02
+  9.95047167e-02 -5.70270307e-02  4.30373400e-02 -1.44163864e-02
+ -1.73349790e-02 -5.19978777e-02  5.55331670e-02 -2.75512896e-02
+  6.30973727e-02  2.29842644e-02  5.05089462e-02 -2.98646316e-02
+ -1.79050919e-02 -4.15460281e-02 -1.14885092e-01  2.07089055e-02
+  1.25706661e-02  9.71108675e-03 -5.02943099e-02  3.67165059e-02
+ -2.05518352e-03 -7.44543076e-02  7.93512985e-02 -9.41026807e-02
+ -2.62667295e-02 -5.84644042e-02  4.46380042e-02 -1.37363921e-03
+ -2.48558074e-02  2.26891357e-02  2.94677801e-02 -3.74244452e-02
+ -1.44630447e-02 -2.80484936e-04 -1.15716688e-01 -6.25067055e-02
+  1.40534908e-01  2.30492577e-02 -3.39040868e-02  2.37927549e-02
+ -4.94763441e-02 -1.02034532e-01 -6.96555823e-02  2.77799033e-02
+  2.89808251e-02  5.67574427e-02 -2.82985605e-02 -4.88798656e-02
+  3.82551961e-02 -2.40614545e-02  7.80072138e-02 -1.44428825e-02
+  6.65460061e-03 -2.74834801e-02 -1.15728250e-03  5.02740312e-03
+ -4.39408720e-02 -2.78202295e-02  2.68928688e-02  1.52889565e-02
+ -2.51549017e-02 -4.85382881e-03  4.89157103e-02 -1.01842021e-03
+  1.15030138e-02  3.14936154e-02 -8.10967982e-02  8.28880593e-02
+  5.77079784e-03 -7.27883205e-02  3.83288376e-02 -1.42498788e-33
+  2.66263578e-02 -3.10335848e-02  1.19109482e-01  5.15854396e-02
+  1.39683992e-01 -7.44931772e-02 -4.07546870e-02  2.24703532e-02
+ -9.11046267e-02 -4.86083888e-03 -4.56980802e-02 -6.54962137e-02
+ -8.71902108e-02  7.03724176e-02  6.55392930e-02 -7.15391710e-02
+ -7.40126101e-03  9.36493948e-02  2.04354879e-02  1.48723125e-02
+ -4.04567691e-03  1.80074349e-02  5.50398380e-02  2.28753891e-02
+  1.01488926e-01 -2.46110242e-02  5.37992939e-02 -4.65566441e-02
+  7.57836699e-02 -9.45700053e-03 -5.93930148e-02  2.17033899e-03
+ -1.41790109e-02 -3.92735079e-02 -4.37751273e-03 -7.72298574e-02
+ -1.07844338e-01  2.37111393e-02 -1.66237969e-02  5.76962903e-02
+ -3.27454833e-03 -1.12992118e-03 -3.27215567e-02 -6.64142072e-02
+ -9.81618091e-03  3.84384915e-02 -8.09614360e-03  5.71621098e-02
+  8.09678063e-03 -5.25489077e-02 -4.45137545e-02  8.80833864e-02
+ -7.38912746e-02 -6.01883829e-02  3.14728506e-02 -1.10357612e-01
+ -8.26591067e-03  3.95824388e-02  9.89469793e-03 -2.64962073e-02
+  1.27171427e-02  4.11866568e-02 -5.83226569e-02  5.82786016e-02
+  3.28055886e-03  7.48265088e-02  7.65939429e-02 -1.12567050e-02
+  1.85194220e-02  2.54354198e-02  1.05276834e-02 -3.97327803e-02
+ -7.84062501e-03  9.23407439e-04 -3.21363471e-02  4.11547497e-02
+ -2.43559219e-02 -6.67119995e-02 -1.84653960e-02  5.52558631e-04
+ -7.67941847e-02 -1.78355463e-02 -5.58436848e-02 -4.74344864e-02
+  7.47285504e-03 -1.58645324e-02 -2.17668898e-02 -5.33972271e-02
+ -5.12374640e-02 -2.84970161e-02 -9.06811934e-03  6.31584320e-03
+ -1.16249442e-01  5.46848550e-02 -1.12043202e-01  7.88955350e-34
+  4.34777662e-02  2.99427770e-02 -7.78040513e-02  4.44239862e-02
+  7.14642182e-03 -2.13878620e-02 -1.29967332e-02  7.07640275e-02
+  2.99436115e-02  2.43121805e-03 -4.59575579e-02 -2.66389381e-02
+ -1.18334573e-02 -4.16159518e-02 -2.38118824e-02 -1.54527156e-02
+  6.13546409e-02 -4.87816967e-02 -5.82545362e-02  3.32398303e-02
+  3.59617472e-02  1.66677490e-01  6.47977972e-03  9.37372539e-03
+  1.88083388e-02  4.64498438e-02  1.38138048e-02  4.81415167e-02
+  7.98091479e-03  8.10812600e-03 -9.14744288e-03 -1.65143330e-02
+  3.44569236e-02  1.07871564e-02 -2.50545833e-02  3.55127826e-02
+  1.23276249e-01 -9.18664634e-02 -2.12829951e-02  6.52605668e-02
+  7.19449744e-02 -2.90122125e-02  2.74334550e-02 -1.69414876e-03
+ -6.26515448e-02 -7.97665641e-02 -5.94795384e-02 -1.65256057e-02
+  2.27211192e-02  3.73159312e-02 -9.42440853e-02 -8.29926357e-02
+ -6.19478710e-02 -4.18501720e-02 -7.74575397e-02 -5.65838963e-02
+ -6.21188730e-02  5.17963581e-02  2.96616666e-02 -3.11676357e-02
+ -3.72415856e-02 -4.01940309e-02 -2.75406204e-02 -1.47824576e-02
+ -4.48854528e-02 -1.42739053e-04 -1.69981681e-02 -1.74824353e-02
+ -9.85701196e-03  3.79729681e-02  1.28685772e-01  1.06454184e-02
+  5.58039285e-02  7.43672103e-02 -4.02706154e-02  3.99431027e-02
+  8.21375921e-02  1.32117700e-02 -1.04589164e-02 -1.74170971e-01
+ -2.72501558e-02 -8.34375620e-04  3.98737192e-02  6.73515052e-02
+  2.88388692e-02  3.01255882e-02  1.47631839e-02  1.93533171e-02
+  5.08187562e-02  8.70680436e-02 -6.77372888e-02  4.97120246e-03
+ -1.14310924e-02  4.47523892e-02 -5.86197004e-02 -1.71694321e-08
+  2.17161402e-02 -2.34044697e-02  1.90238596e-03  3.25132050e-02
+  7.17276856e-02 -7.91636528e-04 -4.61901128e-02 -3.61773930e-02
+  4.42243442e-02 -1.33217067e-01  1.67787503e-02  2.55869683e-02
+  2.69567948e-02 -1.28147527e-04 -3.54849584e-02  1.87233016e-02
+ -3.92229743e-02  1.06383756e-01  5.16856350e-02 -5.17884120e-02
+ -1.41310925e-02 -3.10155153e-02 -2.72852201e-02 -4.47078682e-02
+ -2.98214629e-02  2.09719073e-02 -1.01588070e-01  9.34268441e-03
+ -5.38441092e-02 -5.66485478e-03  7.43048638e-02  3.90560143e-02
+  2.31721010e-02  3.84866982e-03  1.13495149e-01  8.82307291e-02
+ -6.18025176e-02 -2.55322363e-02 -5.28908223e-02 -3.57952490e-02
+ -6.65810134e-04  2.02819929e-02  1.26891024e-03  7.73501757e-04
+  3.89177799e-02  2.82374509e-02  1.12545239e-02 -7.85472095e-02
+  3.01890336e-02  2.07123756e-02 -1.51483770e-02 -5.21658175e-02
+  4.56363000e-02  7.74023160e-02  7.09035099e-02  1.34351617e-02
+  5.76289035e-02 -5.74276336e-02  7.54140392e-02  8.52241218e-02
+  9.77385938e-02  4.20252532e-02  5.02462946e-02 -3.17876637e-02]",TITLE: AI-Powered Image Caption Generator. DESCRIPTION: AI-Powered Image Caption Generator
+15,E-Library Management System,":
+This project is designed to address specific problems in computer science applications. It leverages modern
+web technologies and AI to provide effective solutions. The system aims to automate tasks, improve
+efficiency, and enhance user experience. Detailed modules are designed for scalability and maintainability,
+ensuring the project can be adapted for various environments and requirements.",":
+Traditional methods in this domain are often time-consuming, error-prone, or inefficient. There is a need for a
+system that automates processes, provides real-time results, and reduces human intervention. The project aims
+to fill this gap using advanced AI algorithms and web-based interfaces that are accessible and user-friendly.",":
+1. Automate tasks in the relevant domain.
+2. Improve accuracy and reduce errors.
+3. Provide real-time reporting and monitoring.
+4. Ensure accessibility via web-based platforms.
+5. Implement scalable and maintainable system architecture.",":
+Existing systems in this field include various manual and semi-automated methods, such as traditional web
+applications, desktop-based solutions, and simple AI models. While effective to some extent, these approaches
+lack full automation, real-time monitoring, or integration with modern AI techniques. This project builds upon
+existing research, enhancing functionality and leveraging recent advancements in computer vision, NLP, and
+deep learning.",":
+The system comprises frontend, backend, database, and AI modules. The frontend is designed for user
+interaction, built with HTML, CSS, and JavaScript. The backend handles data processing, API calls, and
+integration with AI models, typically implemented using Python and Flask/Django. The database stores user
+data, logs, and results. AI modules utilize frameworks such as TensorFlow, Keras, or PyTorch for machine
+learning tasks.
+[Placeholder for architecture diagram]","/ Workflow:
+1. Collect and preprocess data.
+2. Develop frontend user interface.
+3. Implement backend logic and database connectivity.
+4. Integrate AI models for prediction, recognition, or recommendation tasks.
+5. Conduct testing and debugging.
+6. Deploy system on server or cloud platform.
+[Placeholder for workflow diagram]",":
+- Real-time operation and response.
+- User-friendly interface and dashboards.
+- Accurate processing and automated reporting.
+- Notifications and alerts.
+- Scalable system architecture for future expansion.",":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.",":
+- ER Diagrams
+- Flowcharts
+- Screenshots and mockups
+- Sample reports
+- AI model architecture diagrams",15,E-Library Management System,E-Library Management System,2023,":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.","[-2.78469063e-02  3.98658589e-02 -4.96442765e-02 -4.69402522e-02
+  2.94140130e-02 -2.40153316e-02  9.79059413e-02  5.25870360e-02
+ -3.09610516e-02  2.62730848e-03  1.08202482e-02 -1.32226255e-02
+  1.13140382e-01 -4.90122773e-02  9.97209270e-03 -1.67743638e-02
+  6.16269885e-04 -5.38599342e-02  6.62666978e-03 -7.79106095e-02
+ -1.89574249e-02  1.96806975e-02 -5.08947447e-02  3.92423623e-04
+ -8.03500786e-02  1.97028909e-02 -1.96725279e-02 -6.86088856e-03
+ -9.90134925e-02 -1.26961172e-01  6.79008588e-02 -6.56738728e-02
+  8.00392553e-02  4.41747010e-02 -4.29182313e-02 -2.37702988e-02
+  8.21162015e-03 -4.05217856e-02 -7.67679736e-02 -5.65156005e-02
+ -1.03941210e-01 -2.27850047e-03 -2.52452288e-02  3.99735086e-02
+ -5.50775081e-02  1.93653610e-02 -3.12751941e-02 -3.65940630e-02
+ -2.47588884e-02 -1.80957429e-02  1.72763709e-02 -1.14199951e-01
+ -4.56122048e-02  2.11468656e-02  2.70821732e-02  7.77431577e-02
+  1.20460605e-02 -6.29087258e-03 -6.52734786e-02 -2.35402863e-02
+  5.92416041e-02  4.24576830e-03  1.71040476e-03  8.38613883e-02
+  1.13577768e-02  8.72776657e-02  7.20990822e-02  9.02773719e-03
+  9.49643459e-03 -9.42398235e-02 -1.00875564e-01 -2.87720021e-02
+ -1.50282895e-02  9.59109291e-02  1.19321067e-02 -1.71784572e-02
+ -7.58868381e-02  5.02148308e-02  4.69237231e-02  1.98618136e-02
+ -5.79193905e-02  4.79839146e-02 -3.92021351e-02  4.06399323e-03
+ -2.57645380e-02  2.38493290e-02 -3.60198319e-02 -7.98824430e-02
+  3.43630202e-02  3.56032997e-02  5.54661117e-02 -9.41488817e-02
+  1.17016755e-01  7.07181171e-02 -6.09929934e-02 -2.46246271e-02
+  4.35390510e-02 -4.05758433e-02  1.99447125e-02  1.05417874e-02
+ -2.69525293e-02  1.38320237e-01  2.47533377e-02 -5.92117384e-02
+ -3.65488529e-02 -9.60827470e-02 -1.01866722e-02  6.07986711e-02
+ -2.66055446e-02 -3.26356962e-02 -5.16476668e-03 -8.99293572e-02
+ -1.09576486e-01 -1.25368804e-01 -9.82263777e-03  4.17728759e-02
+ -2.33136141e-03  6.31932765e-02  1.17309533e-01  4.41256389e-02
+  4.55378741e-02  2.29476001e-02  1.77046526e-02 -2.31807418e-02
+ -1.42154507e-02 -9.81015898e-03 -2.24264599e-02 -2.70986088e-33
+ -1.39271384e-02 -2.54927855e-02 -5.78631386e-02  2.41056103e-02
+  8.06375891e-02  7.27975974e-03  1.84695877e-04  9.08459648e-02
+ -9.22045782e-02 -5.60058318e-02  2.87568234e-02  8.20014551e-02
+ -1.59368273e-02  2.29471177e-02  3.49477716e-02 -8.11125860e-02
+ -2.77601797e-02  1.15150578e-01  4.31818329e-02  3.07594426e-02
+ -4.11174633e-02  1.05200754e-02  5.72544076e-02 -1.55334882e-02
+  1.09540395e-01  5.52569516e-03 -1.64482612e-02  3.19655240e-03
+  1.11631922e-01  7.34245544e-03  3.61474566e-02 -9.80858058e-02
+ -1.33176912e-02 -6.51309919e-03  4.25151028e-02 -1.76110622e-02
+ -5.97298369e-02 -6.97207358e-03  8.67467076e-02 -2.65205000e-02
+ -4.38831225e-02 -1.41423326e-02 -4.25320752e-02 -1.00616738e-02
+ -1.88846607e-02  2.53509562e-02  2.28310898e-02 -1.70361530e-02
+  1.02553189e-01 -9.25074425e-03  2.01254766e-02  4.96570813e-03
+  4.42928961e-03  2.39143930e-02  4.59142551e-02  3.50379087e-02
+  5.44795441e-03  8.87156799e-02  4.06527296e-02 -1.18366284e-02
+ -1.85337048e-02  9.47495401e-02  1.55691046e-03 -4.47221175e-02
+  6.40539229e-02 -6.01301938e-02  3.37064885e-05 -1.07471719e-01
+  3.19819450e-02 -7.77909625e-03 -5.05244583e-02 -5.95801994e-02
+  8.31571817e-02  7.23933801e-02  6.92458125e-03  4.64059338e-02
+ -9.13037285e-02  3.99394147e-02 -1.04509987e-01  2.37692194e-03
+ -8.51942599e-02 -3.39754224e-02  1.03478190e-02  2.68174205e-02
+ -3.62690818e-03 -8.66403710e-03  1.40758883e-02  1.52428104e-02
+ -4.91457582e-02  3.04297395e-02  3.67001519e-02  4.87223528e-02
+ -8.08075294e-02  1.11286603e-01  2.87896320e-02  4.26822917e-34
+  7.64773861e-02 -5.00526279e-02 -7.16423197e-03  2.43165959e-02
+  6.44650683e-02  3.59412618e-02 -4.63045724e-02  3.87247056e-02
+ -2.52330356e-04  6.23953640e-02  3.31746531e-03  6.23352081e-03
+  2.52063069e-02  2.21088510e-02 -1.01768700e-02 -2.53805369e-02
+  1.51613467e-05 -9.71314311e-02 -6.29598647e-02  5.92211001e-02
+ -8.15139711e-02  9.63415951e-02 -9.52850468e-03 -3.83121967e-02
+ -1.76204666e-02  2.56252512e-02 -2.35840827e-02 -4.34822142e-02
+  4.66080103e-03 -2.93257143e-02 -4.89155166e-02 -7.18194172e-02
+ -2.67986134e-02 -2.52092499e-02 -6.93542883e-02 -3.76558788e-02
+  8.80438909e-02 -3.10807563e-02 -2.17323750e-02 -1.22057572e-02
+  6.59715906e-02 -1.95256667e-04  7.78991636e-03 -9.15597603e-02
+  1.76378358e-02 -4.01831195e-02 -6.58600256e-02  1.24029480e-01
+ -3.40647548e-02 -4.28755507e-02 -5.52891865e-02 -3.19109000e-02
+ -5.50318286e-02 -8.23304728e-02  2.04538424e-02  6.11105748e-02
+  2.04799343e-02  1.59684550e-02  1.31272385e-03 -7.56866485e-03
+ -2.23865523e-03 -4.49111871e-02 -4.27982211e-02  6.21950179e-02
+ -3.51917706e-02 -5.15838191e-02  1.77327730e-02  2.66730203e-03
+ -4.62854579e-02 -2.35698279e-02  1.07178383e-01 -9.45769809e-03
+  7.15516880e-03 -2.11790930e-02 -9.84789152e-03 -3.14110257e-02
+  4.04937938e-02 -3.77536230e-02  1.66531205e-02 -5.92553280e-02
+ -2.29048729e-02  5.54088540e-02  3.28554548e-02  6.48515299e-02
+  2.75770891e-02 -2.80722417e-02  7.02956179e-03 -2.22453736e-02
+  3.03271133e-02 -2.00477932e-02 -2.18581948e-02 -2.75444370e-02
+ -5.11490889e-02  9.74965394e-02  9.87757742e-02 -1.76335924e-08
+ -3.00758202e-02 -4.34893034e-02 -3.05061676e-02  2.43323985e-02
+  5.69703430e-02 -4.22545373e-02  5.17109744e-02  6.93219230e-02
+  3.83450389e-02 -5.73800541e-02  5.60493991e-02 -5.41149713e-02
+ -9.89319086e-02  5.57549000e-02  4.90388349e-02 -2.71781925e-02
+  2.34540757e-02  7.49991909e-02 -1.94755802e-03  2.03386694e-02
+  7.97632858e-02 -4.30826247e-02  1.13522328e-01 -3.57077271e-02
+  2.29103789e-02  1.94482449e-02  9.27513093e-02  2.70475335e-02
+  2.51526441e-02 -7.86675327e-03 -3.72955501e-02  8.70901439e-03
+ -4.92265038e-02 -2.04522181e-02  2.84174066e-02  1.21230409e-02
+ -1.94115303e-02 -1.31104439e-02 -2.32970994e-02  2.32337527e-02
+ -5.37315235e-02 -5.22926152e-02  2.34909635e-02  5.75333275e-02
+  3.46870571e-02  6.23838156e-02  1.02400808e-02  6.15837909e-02
+ -2.28047576e-02 -7.13266879e-02 -1.92741118e-02 -1.90603938e-02
+  4.37591448e-02  6.88224211e-02 -6.68711215e-02 -2.17969026e-02
+  1.68955363e-02 -5.69220036e-02  3.46283466e-02  3.44452187e-02
+  6.61708936e-02  2.45873444e-02  1.99344289e-02  6.51638731e-02]",TITLE: E-Library Management System. DESCRIPTION: E-Library Management System
+16,AI-Powered Medical Diagnosis Assistant,":
+This project is designed to address specific problems in computer science applications. It leverages modern
+web technologies and AI to provide effective solutions. The system aims to automate tasks, improve
+efficiency, and enhance user experience. Detailed modules are designed for scalability and maintainability,
+ensuring the project can be adapted for various environments and requirements.",":
+Traditional methods in this domain are often time-consuming, error-prone, or inefficient. There is a need for a
+system that automates processes, provides real-time results, and reduces human intervention. The project aims
+to fill this gap using advanced AI algorithms and web-based interfaces that are accessible and user-friendly.",":
+1. Automate tasks in the relevant domain.
+2. Improve accuracy and reduce errors.
+3. Provide real-time reporting and monitoring.
+4. Ensure accessibility via web-based platforms.
+5. Implement scalable and maintainable system architecture.",":
+Existing systems in this field include various manual and semi-automated methods, such as traditional web
+applications, desktop-based solutions, and simple AI models. While effective to some extent, these approaches
+lack full automation, real-time monitoring, or integration with modern AI techniques. This project builds upon
+existing research, enhancing functionality and leveraging recent advancements in computer vision, NLP, and
+deep learning.",":
+The system comprises frontend, backend, database, and AI modules. The frontend is designed for user
+interaction, built with HTML, CSS, and JavaScript. The backend handles data processing, API calls, and
+integration with AI models, typically implemented using Python and Flask/Django. The database stores user
+data, logs, and results. AI modules utilize frameworks such as TensorFlow, Keras, or PyTorch for machine
+learning tasks.
+[Placeholder for architecture diagram]","/ Workflow:
+1. Collect and preprocess data.
+2. Develop frontend user interface.
+3. Implement backend logic and database connectivity.
+4. Integrate AI models for prediction, recognition, or recommendation tasks.
+5. Conduct testing and debugging.
+6. Deploy system on server or cloud platform.
+[Placeholder for workflow diagram]",":
+- Real-time operation and response.
+- User-friendly interface and dashboards.
+- Accurate processing and automated reporting.
+- Notifications and alerts.
+- Scalable system architecture for future expansion.",":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.",":
+- ER Diagrams
+- Flowcharts
+- Screenshots and mockups
+- Sample reports
+- AI model architecture diagrams",16,AI-Powered Medical Diagnosis Assistant,AI-Powered Medical Diagnosis Assistant,2023,":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.","[-4.88547981e-02  4.08659391e-02 -7.39624817e-03  1.62004028e-02
+ -6.06018342e-02 -2.54066344e-02  3.91272046e-02  7.74548650e-02
+  3.25929839e-03 -4.94443960e-02 -5.01622669e-02 -5.83866090e-02
+  2.26353295e-02  4.28341478e-02 -1.22785680e-01  7.48282224e-02
+  3.26996297e-02 -4.76827435e-02 -4.26228791e-02 -1.43015692e-02
+  1.51363546e-02  1.11510508e-01  2.82791574e-02  3.03293224e-02
+  1.69823423e-03  3.99431363e-02  2.66287848e-02 -6.88986182e-02
+ -7.31210858e-02 -2.99661160e-02  2.98467595e-02 -6.32029474e-02
+  8.19469988e-02  4.09269184e-02  2.15794481e-02 -1.40103837e-02
+ -5.53191314e-03  4.07851376e-02 -3.55999060e-02  4.50390996e-03
+  1.80419581e-03 -6.69535473e-02  4.04627845e-02 -5.81925511e-02
+ -1.28787886e-02  3.28120738e-02 -4.85322885e-02 -3.94987427e-02
+  3.62340398e-02  3.09009310e-02 -8.51080939e-02 -9.08605382e-02
+ -1.65032838e-02  4.47732061e-02 -1.44378180e-02  4.51524891e-02
+  5.82848042e-02 -3.54210176e-02 -8.76758695e-02 -3.53031158e-02
+ -1.61863361e-02 -1.04008745e-02  5.97835220e-02  4.65432629e-02
+  8.27839375e-02  3.67588811e-02  5.55275939e-03 -4.32303026e-02
+ -1.15178078e-02 -7.66631514e-02 -7.31576188e-03  2.97988262e-02
+  3.51800360e-02  7.29427785e-02  6.30402714e-02 -2.11877320e-02
+  4.47217263e-02 -3.41649726e-02  1.29253790e-01 -2.59979274e-02
+ -4.35836427e-02  1.23910781e-03 -1.98085885e-03  1.16391806e-02
+  1.58392806e-02  6.71453960e-03  2.19737040e-03 -1.27982823e-02
+ -2.75101233e-02 -3.71569730e-02 -2.06239782e-02 -8.51390138e-02
+  9.19784456e-02  1.96153969e-02  3.23691629e-02 -9.34462156e-03
+ -3.39538008e-02 -1.06947049e-01 -5.61296605e-02 -1.56804211e-02
+ -3.65284532e-02 -9.06625949e-03 -4.29115035e-02 -2.20908131e-02
+ -5.58544807e-02 -2.25390848e-02 -1.31135788e-02 -2.48799603e-02
+  3.59862633e-02 -4.92370091e-02 -1.19437594e-02 -3.21769551e-03
+ -3.95709909e-02 -8.43794942e-02  8.28049518e-03  7.39645213e-02
+ -6.10582978e-02  9.92304683e-02  7.80705065e-02  2.08664201e-02
+  1.70099381e-02 -6.99262992e-02 -6.12340122e-02  5.02631888e-02
+  1.01597995e-01  9.88150481e-03 -3.01350746e-02 -3.70675503e-33
+  2.62885205e-02  3.30765434e-02  9.46973860e-02 -8.45707115e-03
+  5.62224798e-02 -1.90772582e-02 -6.43989295e-02  7.50697851e-02
+ -4.82405126e-02  7.36827254e-02 -6.06619194e-02  9.97928530e-02
+ -5.89144900e-02 -4.54727048e-03 -1.65312905e-02 -1.98767763e-02
+  4.41421336e-03  9.34491530e-02 -2.69567650e-02  2.39050118e-04
+  2.39487235e-02 -1.84069388e-02  1.35345375e-02  9.27509926e-03
+  1.53197292e-02 -7.84620456e-03 -3.18945609e-02  2.96994345e-03
+  1.46091223e-01 -6.03550347e-03 -6.45955503e-02 -3.86347692e-03
+ -3.11291646e-02 -8.83801952e-02  6.74094073e-03 -2.99077462e-02
+ -5.55731766e-02 -3.00470162e-02  2.99888942e-02  9.80873406e-02
+ -1.50480391e-02  1.44551713e-02  3.33033577e-02 -4.39372733e-02
+ -1.93302762e-02 -4.20478173e-03 -5.97692141e-03 -4.37036119e-02
+ -7.68561335e-03 -1.16264680e-02 -4.38597314e-02  2.63315905e-03
+  8.58687423e-03 -3.79545540e-02  4.69075702e-02 -2.37130672e-02
+ -4.51127207e-03  7.30689093e-02  3.56945992e-02 -1.35239242e-02
+  4.15787883e-02  5.15427776e-02 -3.56825627e-02  5.07070906e-02
+ -1.71814263e-02 -3.09850983e-02  4.38628197e-02 -3.01570911e-02
+  7.44872689e-02  1.21094221e-02 -4.92497645e-02 -3.05293780e-02
+  6.27322346e-02  1.82104576e-02 -1.71325859e-02 -1.67126860e-02
+ -5.59402257e-02 -1.16590321e-01 -3.92693281e-02 -5.17881662e-02
+ -8.65444541e-02 -1.99629553e-02  7.65498308e-03  3.94953974e-02
+  5.38965911e-02  4.18483000e-03 -8.66680965e-02 -3.38304933e-04
+ -6.69072494e-02  5.14264591e-03 -2.95878313e-02  6.34641275e-02
+ -3.41290757e-02  8.14899355e-02 -4.35593911e-02  7.38034404e-34
+  4.82537830e-03  3.14824190e-03 -1.26153544e-01  6.88224332e-03
+  1.06028602e-01 -3.60431038e-02 -1.19359866e-02  4.32372056e-02
+ -3.90766002e-03  5.46036698e-02  1.72512904e-02 -3.87264267e-02
+ -2.18620040e-02  9.14963987e-03 -2.59634368e-02  7.12290332e-02
+ -9.10300836e-02 -1.93741806e-02 -3.69275510e-02  4.99006212e-02
+  1.32173393e-02  1.13023639e-01 -2.60267667e-02 -3.78886871e-02
+ -4.20399122e-02  3.32807899e-02  8.08051154e-02  5.00815921e-02
+  3.92601117e-02 -5.22083193e-02 -6.12127557e-02 -4.97012921e-02
+ -5.01707792e-02  5.46340272e-02 -5.04866540e-02  5.37555739e-02
+  2.86383778e-02 -1.32121786e-01 -4.58883867e-02  6.29710406e-02
+  8.69851410e-02  4.31404170e-03 -3.73060778e-02  2.88536958e-02
+  1.84008200e-02 -4.31177504e-02 -4.23915349e-02  8.86223987e-02
+  3.53348181e-02 -1.08271819e-02 -8.21480677e-02 -3.65791917e-02
+ -7.43702799e-02  1.42027084e-02 -1.00712553e-01 -3.67135629e-02
+ -4.83814813e-02  3.50366440e-03 -6.97756484e-02 -4.52050008e-03
+ -2.27757785e-02 -4.50850092e-02 -3.66403870e-02  3.87325175e-02
+ -4.93502542e-02  5.83503246e-02  1.09804675e-01 -2.37464253e-02
+  2.23671142e-02  1.11983279e-02  6.75980300e-02  4.75284196e-02
+  2.57048961e-02  4.52468395e-02  2.41766497e-02  8.07743147e-03
+ -4.23905551e-02 -4.81148511e-02  6.06987113e-03 -9.82740074e-02
+ -5.44570722e-02 -1.08835645e-01  5.77626936e-02  1.06274247e-01
+  1.73749384e-02  1.21328056e-01  2.87295077e-02  9.00221244e-03
+  3.53273116e-02  8.54177214e-03 -2.56661735e-02  5.55079207e-02
+ -1.24842525e-02  9.97753814e-03 -1.02770634e-01 -1.90002520e-08
+  4.10078606e-03 -4.11270820e-02  3.64184529e-02 -1.09953238e-02
+  3.33557501e-02 -6.43072650e-02 -3.16635333e-02  1.21646384e-02
+  4.87727253e-03 -4.43186052e-02 -4.25815769e-02 -2.99869701e-02
+  3.02024763e-02 -1.54567547e-02  6.60590082e-02  5.63537283e-03
+ -2.88984459e-02  1.42334625e-01  3.35102924e-03 -6.22159019e-02
+  1.01175636e-01 -5.54508716e-02 -1.42665422e-02  6.25809375e-03
+ -5.54087944e-03 -5.39633445e-02 -7.85523877e-02  1.03571760e-02
+ -9.30555761e-02  5.61584979e-02 -3.20763923e-02  9.87115800e-02
+  2.59202085e-02 -1.47333089e-03  9.39768851e-02  4.02323268e-02
+  5.66288084e-02 -5.53929657e-02 -9.21303630e-02 -2.07970347e-02
+  4.13927389e-03  3.92708555e-02 -4.11347374e-02 -1.03094028e-02
+  7.17484728e-02 -3.16489153e-02  5.02756946e-02 -8.33783671e-02
+  5.40974960e-02  1.52260121e-02  4.27121706e-02  1.52106602e-02
+  4.68095131e-02  7.12120980e-02  3.99954021e-02  4.79427651e-02
+  3.63017432e-02 -6.32257806e-03 -8.88355300e-02  8.68292972e-02
+  1.06681071e-01  1.80906914e-02  9.07590985e-03 -2.04421785e-02]",TITLE: AI-Powered Medical Diagnosis Assistant. DESCRIPTION: AI-Powered Medical Diagnosis Assistant
+17,Online Ticket Booking System,":
+This project is designed to address specific problems in computer science applications. It leverages modern
+web technologies and AI to provide effective solutions. The system aims to automate tasks, improve
+efficiency, and enhance user experience. Detailed modules are designed for scalability and maintainability,
+ensuring the project can be adapted for various environments and requirements.",":
+Traditional methods in this domain are often time-consuming, error-prone, or inefficient. There is a need for a
+system that automates processes, provides real-time results, and reduces human intervention. The project aims
+to fill this gap using advanced AI algorithms and web-based interfaces that are accessible and user-friendly.",":
+1. Automate tasks in the relevant domain.
+2. Improve accuracy and reduce errors.
+3. Provide real-time reporting and monitoring.
+4. Ensure accessibility via web-based platforms.
+5. Implement scalable and maintainable system architecture.",":
+Existing systems in this field include various manual and semi-automated methods, such as traditional web
+applications, desktop-based solutions, and simple AI models. While effective to some extent, these approaches
+lack full automation, real-time monitoring, or integration with modern AI techniques. This project builds upon
+existing research, enhancing functionality and leveraging recent advancements in computer vision, NLP, and
+deep learning.",":
+The system comprises frontend, backend, database, and AI modules. The frontend is designed for user
+interaction, built with HTML, CSS, and JavaScript. The backend handles data processing, API calls, and
+integration with AI models, typically implemented using Python and Flask/Django. The database stores user
+data, logs, and results. AI modules utilize frameworks such as TensorFlow, Keras, or PyTorch for machine
+learning tasks.
+[Placeholder for architecture diagram]","/ Workflow:
+1. Collect and preprocess data.
+2. Develop frontend user interface.
+3. Implement backend logic and database connectivity.
+4. Integrate AI models for prediction, recognition, or recommendation tasks.
+5. Conduct testing and debugging.
+6. Deploy system on server or cloud platform.
+[Placeholder for workflow diagram]",":
+- Real-time operation and response.
+- User-friendly interface and dashboards.
+- Accurate processing and automated reporting.
+- Notifications and alerts.
+- Scalable system architecture for future expansion.",":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.",":
+- ER Diagrams
+- Flowcharts
+- Screenshots and mockups
+- Sample reports
+- AI model architecture diagrams",17,Online Ticket Booking System,Online Ticket Booking System,2023,":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.","[-6.37295889e-04  2.72535365e-02 -9.91028920e-02 -4.79762778e-02
+ -3.66879515e-02  3.26325782e-02  4.86316308e-02  6.00896440e-02
+ -1.55087980e-02  1.07331807e-02 -2.18007453e-02 -1.34060672e-02
+  5.40662259e-02  3.75223011e-02 -6.66756602e-03 -1.10660493e-01
+  2.65465043e-02 -4.39615659e-02  2.12670173e-02 -2.52702311e-02
+ -1.54868430e-02  4.57106940e-02 -9.59523097e-02  7.45269060e-02
+ -1.13752717e-02 -3.80789605e-03 -2.77400389e-02  7.48150870e-02
+ -2.48472057e-02 -8.48147944e-02 -1.53924450e-02  2.61993837e-02
+  9.68729332e-02  5.19737341e-02 -1.73754003e-02 -6.94605410e-02
+ -7.16269091e-02 -6.46673292e-02 -7.55848438e-02  1.94840431e-02
+ -3.10964938e-02 -3.01510543e-02 -1.27553632e-02  4.56577018e-02
+  6.31120056e-02  6.00210540e-02 -4.53734770e-02  4.31543551e-02
+ -3.12098954e-02  5.71438074e-02 -1.26930978e-02 -6.15838543e-02
+ -5.53006539e-04  5.52330352e-02 -2.42690332e-02  6.13492578e-02
+ -2.80288551e-02  4.37283441e-02 -4.66858931e-02 -7.62609672e-03
+ -2.28705263e-04 -1.79333910e-02  2.94730589e-02  6.46224916e-02
+ -1.10506922e-01  3.81167121e-02 -4.90852259e-02  8.24093372e-02
+  5.28176082e-03 -2.52466071e-02 -1.47183966e-02  9.19953212e-02
+  4.64104563e-02  6.60456866e-02  2.05590744e-02 -3.68410684e-02
+ -1.62214087e-03 -1.39516294e-02  2.14628801e-02  2.95440084e-03
+ -5.48053868e-02 -5.11247553e-02 -1.36306575e-02 -2.76765525e-02
+  3.45669314e-02 -1.82947400e-03 -5.69791757e-02 -3.43480706e-02
+ -3.07446104e-02 -5.70239313e-02 -5.73409023e-04 -2.27564480e-02
+  1.45080462e-01  3.31592336e-02 -1.03970036e-01  7.11790100e-02
+  6.65087346e-03 -4.15079109e-03  6.79786503e-02  2.47500073e-02
+  2.43461449e-02  1.15137495e-01  3.60108400e-03  6.02505542e-02
+ -3.45241162e-03 -4.98600006e-02  3.78103778e-02  4.99732830e-02
+  2.97433492e-02 -7.83581734e-02 -7.41378218e-02 -9.79741756e-03
+ -1.56267341e-02 -5.72137274e-02 -8.16412345e-02  9.64442939e-02
+ -4.42561097e-02  5.27875796e-02  1.03100874e-01 -7.56192207e-02
+  3.94892134e-02 -2.89303549e-02  3.36666442e-02 -7.62627413e-03
+ -6.52333274e-02 -8.32414553e-02  4.36150581e-02 -7.41432638e-34
+ -6.35132641e-02 -6.68716058e-02 -2.92904526e-02 -5.25589287e-02
+  6.47680387e-02 -2.29341388e-02 -9.98306349e-02 -3.20843328e-03
+ -5.07548824e-02  6.25976026e-02  4.67734877e-04 -5.17320074e-02
+  2.06384063e-02  1.87889882e-03  4.50419486e-02 -1.68108121e-02
+  1.00678131e-02  4.67211120e-02  5.91844991e-02 -3.02389544e-02
+ -4.74796370e-02  4.55544442e-02  1.01838056e-02 -4.99663055e-02
+  1.04550362e-01  5.19503281e-03 -1.74650047e-02 -2.07584407e-02
+  7.07786530e-02 -6.73666364e-03  4.34256643e-02 -4.34065834e-02
+ -3.52647752e-02 -1.09395124e-02  6.66409060e-02  3.54352221e-02
+ -1.78326555e-02 -6.28733039e-02  2.63952576e-02 -5.85443452e-02
+ -1.25383973e-01 -4.03014012e-02 -1.68365851e-01  5.84925199e-03
+ -4.80519682e-02  1.15888722e-01 -5.75946458e-02 -8.94776359e-03
+  5.64906970e-02  9.97670516e-02 -7.85707235e-02  5.93739785e-02
+ -1.00424159e-02 -2.08812933e-02 -5.18354438e-02 -2.20654309e-02
+ -1.59450937e-02  4.04445827e-02 -5.04818670e-02 -1.76325161e-02
+ -1.23378178e-02 -5.73965125e-02  2.74222866e-02 -1.35913678e-02
+ -2.71258429e-02 -7.63091743e-02  2.06232369e-02 -1.34021103e-01
+  5.19422777e-02 -6.23973571e-02 -2.96068341e-02  1.46066854e-02
+  6.64080009e-02  7.39082098e-02  2.28768066e-02 -1.49929216e-02
+  3.09475558e-03  5.65498471e-02 -8.72000027e-03  3.68631929e-02
+ -1.66794863e-02  3.10899951e-02  2.87334546e-02  1.24463299e-02
+  3.44201103e-02  2.80830991e-02  1.51044494e-02  2.86864047e-03
+ -9.40482691e-03 -1.35827456e-02 -1.88692622e-02  3.31835337e-02
+ -6.67121559e-02  1.00640252e-01  3.71544920e-02 -5.00876352e-34
+  1.47030009e-02 -1.11950161e-02 -7.25503191e-02  2.23872848e-02
+  1.33745081e-03 -4.90352698e-03 -2.20882166e-02 -3.40937846e-03
+  8.05790573e-02  4.46797721e-02 -9.58159119e-02  7.81559572e-02
+  1.19982474e-02  1.00801131e-02  6.62115356e-03 -7.97898173e-02
+ -1.95204169e-02 -2.29545329e-02 -1.37590794e-02  6.38235509e-02
+ -2.56934315e-02  3.42863277e-02 -1.16209202e-01 -4.50120308e-02
+  3.67905758e-02  3.75046544e-02  3.06389015e-02  2.98767891e-02
+ -1.17369391e-01 -2.94251405e-02 -2.45912634e-02 -1.38403833e-01
+ -8.40684772e-02  2.62233131e-02 -3.01434342e-02 -2.40380038e-02
+  1.09853365e-01  1.59515478e-02 -8.52716193e-02  7.95947760e-03
+  2.11665295e-02 -6.89828256e-03  8.91680196e-02 -7.59985521e-02
+  1.95398158e-03  3.23788598e-02 -2.38627363e-02  8.75608996e-02
+  4.79944004e-03  1.69157926e-02 -7.05845430e-02  6.26919325e-03
+ -1.09092705e-01  1.56068308e-02  1.84142385e-02  8.04181620e-02
+ -4.94087525e-02 -1.02216126e-02  1.47872046e-02 -1.18845394e-02
+  1.76838636e-02 -6.38772100e-02 -6.13752045e-02  1.24889947e-01
+  4.79716435e-02 -4.76337075e-02  2.40557957e-02 -2.76092868e-02
+ -1.91693020e-03  4.57461216e-02 -2.87759528e-02 -2.31743138e-02
+ -1.02669233e-02  8.57006684e-02  4.49520443e-03 -2.95725968e-02
+ -4.32698149e-03  5.47941551e-02 -1.94271151e-02 -8.64556506e-02
+ -7.64479768e-03 -1.48015786e-02  4.05768231e-02  5.44182062e-02
+  1.51116746e-02 -1.33413859e-02  4.29659784e-02  2.23429669e-02
+  9.79168457e-04 -4.79169115e-02  8.54244456e-03 -3.17567028e-02
+ -1.24711124e-02  5.07685952e-02 -3.96738313e-02 -1.77505619e-08
+ -2.65944330e-03 -1.39152817e-02 -5.88422343e-02  3.01891360e-02
+  4.95379418e-02 -2.93639991e-02  2.68723536e-02  3.44272368e-02
+ -4.97394502e-02  2.18504593e-02 -1.90609647e-03 -3.60122994e-02
+ -5.55789918e-02 -2.83947438e-02 -2.51154485e-03  6.00970304e-03
+ -6.49051517e-02  8.06113929e-02 -1.08873136e-02 -6.96778018e-03
+  7.59610385e-02  1.78814828e-02 -1.50627678e-03  1.22522488e-02
+  2.32545063e-02  5.27828336e-02  7.06212223e-03  1.05604813e-01
+  8.96645263e-02 -3.98859717e-02  6.99089700e-03  9.01216418e-02
+  5.77713326e-02 -3.66289504e-02  7.81806931e-02 -2.53038798e-02
+ -1.95972864e-02  3.60365808e-02  2.18652040e-02  2.28511319e-02
+ -9.28936601e-02 -3.32925320e-02  1.42395291e-02  3.33867259e-02
+  1.18472628e-01  3.48629579e-02  2.39836853e-02  2.83013843e-02
+  4.68956232e-02 -1.02611609e-01 -1.68771427e-02 -3.48845460e-02
+  2.12252252e-02  6.78823367e-02  4.96202260e-02 -4.02695723e-02
+  7.50173554e-02 -2.75359186e-03  6.10961653e-02  7.52003416e-02
+  3.76749691e-03  2.34703589e-02 -3.76170464e-02  3.65857594e-02]",TITLE: Online Ticket Booking System. DESCRIPTION: Online Ticket Booking System
+18,AI-Based Voice Assistant,":
+This project is designed to address specific problems in computer science applications. It leverages modern
+web technologies and AI to provide effective solutions. The system aims to automate tasks, improve
+efficiency, and enhance user experience. Detailed modules are designed for scalability and maintainability,
+ensuring the project can be adapted for various environments and requirements.",":
+Traditional methods in this domain are often time-consuming, error-prone, or inefficient. There is a need for a
+system that automates processes, provides real-time results, and reduces human intervention. The project aims
+to fill this gap using advanced AI algorithms and web-based interfaces that are accessible and user-friendly.",":
+1. Automate tasks in the relevant domain.
+2. Improve accuracy and reduce errors.
+3. Provide real-time reporting and monitoring.
+4. Ensure accessibility via web-based platforms.
+5. Implement scalable and maintainable system architecture.",":
+Existing systems in this field include various manual and semi-automated methods, such as traditional web
+applications, desktop-based solutions, and simple AI models. While effective to some extent, these approaches
+lack full automation, real-time monitoring, or integration with modern AI techniques. This project builds upon
+existing research, enhancing functionality and leveraging recent advancements in computer vision, NLP, and
+deep learning.",":
+The system comprises frontend, backend, database, and AI modules. The frontend is designed for user
+interaction, built with HTML, CSS, and JavaScript. The backend handles data processing, API calls, and
+integration with AI models, typically implemented using Python and Flask/Django. The database stores user
+data, logs, and results. AI modules utilize frameworks such as TensorFlow, Keras, or PyTorch for machine
+learning tasks.
+[Placeholder for architecture diagram]","/ Workflow:
+1. Collect and preprocess data.
+2. Develop frontend user interface.
+3. Implement backend logic and database connectivity.
+4. Integrate AI models for prediction, recognition, or recommendation tasks.
+5. Conduct testing and debugging.
+6. Deploy system on server or cloud platform.
+[Placeholder for workflow diagram]",":
+- Real-time operation and response.
+- User-friendly interface and dashboards.
+- Accurate processing and automated reporting.
+- Notifications and alerts.
+- Scalable system architecture for future expansion.",":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.",":
+- ER Diagrams
+- Flowcharts
+- Screenshots and mockups
+- Sample reports
+- AI model architecture diagrams",18,AI-Based Voice Assistant,AI-Based Voice Assistant,2023,":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.","[-1.25632316e-01 -3.11359676e-04  1.52576035e-02 -2.66957115e-02
+ -8.46357942e-02  7.19462009e-03  5.54854758e-02  2.07357947e-03
+ -4.10016254e-02 -8.55125934e-02 -4.98147830e-02 -4.63515893e-02
+  3.85466926e-02 -1.78861972e-02 -6.08422756e-02  2.12431233e-02
+  6.28372803e-02 -3.62170897e-02 -8.90116543e-02 -2.59884335e-02
+  2.61816066e-02  9.45174545e-02  3.10859061e-03  5.08046634e-02
+  1.92713477e-02  7.61821195e-02 -1.22658610e-02 -1.91297513e-02
+ -3.71985175e-02 -1.97640881e-02  4.18655910e-02 -5.51263662e-03
+  1.31017104e-01  2.35827100e-02 -1.29162166e-02 -3.07241548e-02
+ -7.06572309e-02 -2.49976385e-02  2.64913794e-02 -2.50205435e-02
+ -2.88754678e-03  1.32603357e-02  7.30791083e-03 -8.58210698e-02
+  3.03438567e-02  1.96780777e-03 -8.91910791e-02 -1.81540661e-02
+  1.49206799e-02  7.07071349e-02 -6.89185858e-02 -6.19364344e-02
+  2.16322057e-02  3.92599441e-02 -5.49987070e-02  6.61146119e-02
+  5.37857860e-02  1.63313616e-02  1.13823386e-02  2.19387952e-02
+ -1.77053399e-02  1.08762563e-03  2.74343826e-02  4.71301377e-02
+  4.88992631e-02  2.36843079e-02 -4.89965901e-02 -2.17112936e-02
+ -1.63434781e-02 -7.72962123e-02 -2.48255525e-02  6.88706264e-02
+  1.15001136e-02  2.55099926e-02  6.76517487e-02 -4.28759605e-02
+  5.37967905e-02 -6.06902204e-02  8.83750841e-02 -4.22691666e-02
+ -3.85970734e-02 -1.87755451e-02  9.25615802e-03 -4.37984020e-02
+ -5.65076992e-02 -3.75918001e-02 -4.76061776e-02 -8.18181634e-02
+  3.63898557e-03 -1.65457390e-02 -1.05254367e-01 -4.10150178e-02
+  8.25579092e-02  1.28919799e-02  2.92956531e-02  9.08555686e-02
+ -3.90945114e-02 -1.09900787e-01 -4.18164097e-02  3.88818351e-03
+ -2.32236832e-02 -3.78841311e-02 -5.69375120e-02 -8.05488527e-02
+ -2.72227786e-02 -3.11921835e-02  3.97059955e-02 -1.77865196e-02
+ -3.28915031e-03 -3.42148840e-02 -4.39887717e-02 -2.53188722e-02
+ -4.77049649e-02 -5.66301234e-02  5.57919107e-02  8.46116245e-02
+ -1.61280471e-03  5.27162179e-02  1.14689492e-01 -6.40007155e-03
+  2.35626865e-02  6.77337591e-03 -3.23396809e-02  7.47779980e-02
+  2.06167065e-02 -1.41953230e-02  7.20708966e-02 -3.66915280e-33
+  4.33223210e-02  5.26056765e-03  8.53929445e-02  8.05505514e-02
+  1.36712745e-01 -2.76751947e-02 -7.02788234e-02  5.44923842e-02
+ -3.32937688e-02  4.48841453e-02 -6.45047873e-02 -7.51698064e-03
+ -1.34694472e-01 -4.88415807e-02  1.99052040e-02  2.16873921e-02
+ -3.23687121e-02  1.24016307e-01  2.40717474e-02 -7.60442624e-03
+  5.49289547e-02  2.24826597e-02  4.07649688e-02  4.87204548e-03
+  1.21827424e-01 -2.76778266e-02  9.47935879e-03 -7.51321241e-02
+  8.23326409e-02  3.26007442e-03  1.39288679e-02  1.03697907e-02
+ -5.05566746e-02 -7.60926232e-02 -4.91889473e-03 -1.27859591e-02
+ -3.27977538e-02 -3.14237438e-02 -2.83889119e-02  2.98327543e-02
+ -5.13307750e-02  3.82687920e-03 -7.57388654e-04 -5.21599799e-02
+ -6.90007731e-02 -2.05289070e-02  5.97151509e-03  2.08856468e-03
+  6.62673041e-02  8.92585218e-02 -9.22013149e-02  2.08035242e-02
+ -2.53356528e-02 -3.94657589e-02  3.37457657e-02 -6.02442697e-02
+  2.85719428e-02  1.09836034e-01 -1.97969805e-02 -1.75541341e-02
+  3.21792848e-02  7.84291793e-03 -5.98431602e-02  5.07390574e-02
+  3.44980769e-02 -3.84679548e-02  4.07863483e-02  1.59574579e-02
+  5.41823134e-02 -2.88854167e-02 -7.96178281e-02 -3.00786253e-02
+  9.12331939e-02  8.44503939e-02 -4.92047481e-02  3.34173702e-02
+ -5.60169816e-02 -5.65755814e-02  4.37690131e-02  3.17806304e-02
+ -5.19846603e-02  7.77096674e-03 -3.68948132e-02  8.59478209e-03
+  3.92221101e-02 -4.40499857e-02 -2.92833541e-02 -6.69605881e-02
+  1.20002180e-02  3.45850699e-02  7.47948606e-03  5.48146181e-02
+ -6.00880496e-02  1.21299520e-01 -6.99799508e-02  1.68045348e-33
+  2.19161366e-03  4.34070267e-02 -5.57237081e-02  7.57190734e-02
+  6.75678775e-02 -2.10322663e-02 -8.83978140e-03  5.51921166e-02
+  1.05936062e-02  6.84466809e-02 -1.04693949e-01 -2.27400362e-02
+  9.03750733e-02 -2.95624845e-02 -1.81130823e-02 -2.19365838e-03
+  8.77060927e-03 -4.06908505e-02 -5.18422425e-02  7.48975053e-02
+ -1.86981577e-02  6.22454006e-03 -5.32767288e-02  7.87481572e-03
+ -3.80924379e-04 -3.46722566e-02 -2.58272290e-02  4.16552909e-02
+  4.83793244e-02  1.63064506e-02 -3.26769315e-02 -4.07446772e-02
+ -6.95352778e-02  5.05199768e-02 -4.15995158e-02  3.18382755e-02
+  4.45166379e-02 -8.45456272e-02 -3.86840291e-03  1.54096761e-03
+  1.17339879e-01 -6.62716106e-02  1.01415506e-02 -7.93362707e-02
+  1.83864348e-02 -6.35458529e-02 -1.89851671e-02  9.96445417e-02
+ -7.38777667e-02 -3.83977517e-02 -2.97999978e-02 -3.06561925e-02
+ -3.20276283e-02  1.86705533e-02 -7.12514520e-02 -7.91648310e-03
+  2.08819825e-02  2.58612018e-02 -2.28786748e-02 -1.14495924e-03
+ -3.17895003e-02 -1.32441549e-02 -2.95264255e-02 -1.02926837e-02
+ -1.38317607e-02  8.23204368e-02  4.43978980e-02  1.47984938e-05
+  4.33997884e-02 -3.97437550e-02  1.11595787e-01 -2.08243951e-02
+  3.78725082e-02  3.66091318e-02 -1.56029416e-02 -2.49935668e-02
+ -5.65084442e-02 -1.01287164e-01 -1.40064461e-02 -8.57119858e-02
+ -1.38293924e-02  9.52039659e-03  4.13657129e-02  9.69547480e-02
+  6.83710724e-02  1.92943424e-01 -5.54106524e-03  3.28094065e-02
+  4.93330583e-02  4.26713824e-02 -4.64891233e-02  7.86200091e-02
+  1.26183145e-02  5.61901741e-02 -6.35140389e-02 -1.63535798e-08
+ -3.12359389e-02 -2.61567049e-02  2.54979152e-02 -2.68784985e-02
+  4.18991642e-03 -6.15127571e-02  2.20568310e-02 -7.02585131e-02
+  2.45418884e-02 -2.92208549e-02 -3.00242174e-02 -3.49750929e-02
+  6.10143282e-02 -8.13146867e-03  1.69642977e-02 -1.69631243e-02
+ -5.73111661e-02  1.28348038e-01  1.99025571e-02 -2.19281111e-02
+  9.41521227e-02  1.39280353e-02 -4.74835653e-03 -4.71705720e-02
+ -1.35712801e-02 -7.29761124e-02 -1.86541155e-02  6.97807595e-02
+ -7.00302273e-02  4.59799217e-03 -2.11661831e-02  1.07229501e-01
+ -2.33179070e-02 -8.92093312e-03  4.95083816e-02  4.72681634e-02
+  3.77370268e-02 -4.03680652e-02 -4.37179022e-02  2.13740021e-02
+ -6.27315268e-02  4.23708707e-02 -2.42516268e-02 -3.04209441e-03
+  7.87205845e-02  2.69158315e-02  1.12430425e-02 -8.49452242e-02
+  3.83346789e-02  2.87559669e-04  3.54822399e-03 -5.76312048e-03
+  7.14418804e-03  5.54257333e-02  4.81215157e-02  3.47287790e-03
+  2.79965606e-02 -3.61271505e-03  3.04680988e-02  7.83265978e-02
+  5.56095950e-02  6.77225034e-05 -1.56474728e-02  2.86051594e-02]",TITLE: AI-Based Voice Assistant. DESCRIPTION: AI-Based Voice Assistant
+19,Online Portfolio Builder,":
+This project is designed to address specific problems in computer science applications. It leverages modern
+web technologies and AI to provide effective solutions. The system aims to automate tasks, improve
+efficiency, and enhance user experience. Detailed modules are designed for scalability and maintainability,
+ensuring the project can be adapted for various environments and requirements.",":
+Traditional methods in this domain are often time-consuming, error-prone, or inefficient. There is a need for a
+system that automates processes, provides real-time results, and reduces human intervention. The project aims
+to fill this gap using advanced AI algorithms and web-based interfaces that are accessible and user-friendly.",":
+1. Automate tasks in the relevant domain.
+2. Improve accuracy and reduce errors.
+3. Provide real-time reporting and monitoring.
+4. Ensure accessibility via web-based platforms.
+5. Implement scalable and maintainable system architecture.",":
+Existing systems in this field include various manual and semi-automated methods, such as traditional web
+applications, desktop-based solutions, and simple AI models. While effective to some extent, these approaches
+lack full automation, real-time monitoring, or integration with modern AI techniques. This project builds upon
+existing research, enhancing functionality and leveraging recent advancements in computer vision, NLP, and
+deep learning.",":
+The system comprises frontend, backend, database, and AI modules. The frontend is designed for user
+interaction, built with HTML, CSS, and JavaScript. The backend handles data processing, API calls, and
+integration with AI models, typically implemented using Python and Flask/Django. The database stores user
+data, logs, and results. AI modules utilize frameworks such as TensorFlow, Keras, or PyTorch for machine
+learning tasks.
+[Placeholder for architecture diagram]","/ Workflow:
+1. Collect and preprocess data.
+2. Develop frontend user interface.
+3. Implement backend logic and database connectivity.
+4. Integrate AI models for prediction, recognition, or recommendation tasks.
+5. Conduct testing and debugging.
+6. Deploy system on server or cloud platform.
+[Placeholder for workflow diagram]",":
+- Real-time operation and response.
+- User-friendly interface and dashboards.
+- Accurate processing and automated reporting.
+- Notifications and alerts.
+- Scalable system architecture for future expansion.",":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.",":
+- ER Diagrams
+- Flowcharts
+- Screenshots and mockups
+- Sample reports
+- AI model architecture diagrams",19,Online Portfolio Builder,Online Portfolio Builder,2023,":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.","[-5.07754385e-02  3.82452458e-02 -5.73610552e-02  2.84420629e-03
+ -2.20071580e-02  9.63137951e-03  9.83683765e-03  6.08417904e-03
+ -2.85394695e-02 -3.98672074e-02 -2.88059376e-02 -6.31267112e-03
+  1.69194804e-03 -1.05874119e-02 -5.60002625e-02  2.55980939e-02
+  6.53278083e-02  1.88150927e-02  2.11928673e-02  1.60503574e-03
+ -3.85735556e-02 -6.63752481e-03  3.41423973e-02  3.47315297e-02
+  5.50251901e-02  2.40230393e-02  7.42081041e-03  8.76566470e-02
+ -1.74851716e-02 -6.80778399e-02  2.57190922e-03  1.42051596e-02
+  6.12743720e-02  1.21370936e-02 -1.98294292e-03  4.06342261e-02
+ -1.20255366e-01  4.55721691e-02 -2.80289464e-02  6.54352945e-04
+ -1.62630212e-02 -4.16315049e-02  3.58983986e-02 -2.85442732e-02
+  5.47814965e-02 -4.89878505e-02 -3.53492275e-02 -4.15080339e-02
+  3.31611559e-02  2.39922442e-02 -9.04920623e-02 -8.91869441e-02
+ -1.24020495e-01 -8.70675668e-02 -2.42690984e-02  4.94496450e-02
+ -4.75748349e-03 -3.75309326e-02  1.06737157e-02 -1.41462334e-03
+  8.37636665e-02 -5.76121733e-03  6.20448217e-02  1.13025129e-01
+  5.54582998e-02  3.01380567e-02 -7.53132952e-03  1.11129291e-01
+ -5.22276014e-02 -3.65374088e-02  3.88425142e-02 -5.16935177e-02
+ -4.35430408e-02 -6.68519968e-03  3.40957828e-02 -6.52971193e-02
+  3.47760767e-02  1.36513226e-02  7.78225437e-02 -2.56606122e-03
+ -2.91960053e-02 -2.70744823e-02 -3.71938869e-02  1.96014717e-02
+ -5.32487466e-04 -1.10272253e-02  1.65117644e-02 -3.21442522e-02
+  6.44122958e-02 -6.59104213e-02  9.79647133e-03 -6.38462082e-02
+  1.10275000e-01  9.62536037e-02 -8.46717134e-02 -6.40831068e-02
+  9.91191901e-03 -4.52270545e-02 -6.08317666e-02  1.65838208e-02
+ -9.16190352e-03  8.95955972e-03  3.84843424e-02  4.75365296e-03
+ -6.56038597e-02 -2.28733234e-02  2.81930994e-02  6.81379959e-02
+ -8.73358734e-03 -4.68761101e-02 -5.38435541e-02  4.50123958e-02
+ -7.88189545e-02 -5.64432181e-02 -6.91344868e-03  2.58106389e-03
+ -6.84868917e-02 -1.90502610e-02  1.15576118e-01  5.71079738e-02
+  4.48461659e-02  5.60100330e-03 -1.04219783e-02 -6.81431517e-02
+ -8.21483582e-02 -7.57442117e-02 -3.55110737e-03 -1.08872817e-33
+ -1.76606122e-02  5.72417164e-03  8.54622424e-02  1.35387853e-01
+  8.73306841e-02 -2.56358217e-02  1.28506795e-02  6.79232925e-02
+ -9.60849375e-02  2.18194034e-02  7.84982815e-02  2.20745225e-02
+ -5.40909916e-02  1.53106496e-01 -2.21312139e-02 -1.15970962e-01
+ -9.21443757e-03  8.65408778e-02  9.90374237e-02 -8.20261389e-02
+ -1.04211196e-02  4.23639044e-02 -2.48883907e-02 -4.31521349e-02
+  4.74576205e-02 -7.20768422e-02  4.30919714e-02 -3.28379348e-02
+ -7.07726628e-02  4.66118567e-02  3.77173424e-02 -6.25793785e-02
+ -3.05961762e-02 -3.55949178e-02 -2.34906394e-02 -1.45063445e-03
+ -6.70862049e-02 -1.08034223e-01  2.46432647e-02  4.03621122e-02
+ -1.18155725e-01 -2.59018317e-02 -8.51219296e-02 -5.94154783e-02
+ -3.35741900e-02  3.89916748e-02  5.59826382e-02  4.61974181e-02
+  2.96413302e-02  4.59074117e-02 -5.67558296e-02  5.26235662e-02
+  9.71269328e-03  6.81396648e-02  1.69576600e-03  1.44572509e-02
+ -3.00100800e-02  7.50252604e-02 -4.07881998e-02 -6.13735989e-02
+  1.85965020e-02  1.37687298e-02 -8.15687850e-02 -2.42116842e-02
+ -2.72668377e-02  6.90274537e-02  1.67608839e-02 -3.56968790e-02
+  5.68289272e-02  1.90267414e-02 -3.97977307e-02 -9.79744457e-03
+  9.90078077e-02 -1.21355371e-03  3.51038501e-02 -1.19642802e-02
+ -8.41832533e-02  6.66638464e-02 -5.83886020e-02  6.74887002e-02
+ -2.42005438e-02  3.31513546e-02 -4.57521062e-03  3.08077857e-02
+ -3.34773399e-02  4.44268174e-02  5.71795478e-02 -7.92255178e-02
+ -1.44312633e-02 -1.74959470e-02 -4.41777296e-02 -1.45449135e-02
+ -5.76188043e-02  3.10967360e-02  3.12583447e-02 -7.06133599e-34
+ -4.24105823e-02 -6.76925629e-02  2.51449179e-02 -5.20118931e-03
+  9.70257819e-02 -6.51870817e-02  1.27132831e-03 -1.76699031e-02
+  2.89580990e-02  8.37994069e-02 -2.72177961e-02  6.90533221e-03
+ -6.54471591e-02 -2.94616278e-02 -6.22071549e-02  1.60123140e-03
+ -5.96170165e-02 -1.02659725e-01 -8.78172591e-02 -1.07664699e-02
+  2.88487803e-02  2.26161239e-04  2.78516585e-04 -3.69342929e-03
+  6.14216216e-02  2.88781598e-02 -2.01496226e-03  1.61910914e-02
+  6.39064088e-02  1.93406306e-02 -5.44565506e-02 -6.30706325e-02
+ -5.98692410e-02  5.76973148e-02 -9.36932489e-02  6.30299971e-02
+  5.86840548e-02 -6.63417727e-02 -3.08550689e-02  1.57842245e-02
+  3.47652584e-02  1.75519399e-02  9.74504128e-02 -2.17576660e-02
+ -9.84662492e-03 -2.53361487e-03  7.31388759e-03  1.88201889e-02
+  2.60438137e-02  4.86982241e-03 -1.16354311e-02  9.41171423e-02
+ -5.01487702e-02  1.80119853e-02 -1.91960931e-02  1.06003536e-02
+  7.20259175e-03  2.33920087e-04 -2.71002464e-02  2.68483628e-02
+  5.43620903e-03  2.45315973e-02 -3.68074104e-02  1.04081228e-01
+  1.27119618e-02 -9.56818163e-02 -5.25017828e-02  9.62669309e-03
+ -8.98776054e-02 -4.18901481e-02 -2.38417126e-02 -5.46719320e-03
+ -2.55025597e-03 -2.35681608e-02 -1.49045661e-02 -2.55911164e-02
+  6.30713627e-02  3.84291261e-02  1.31525677e-02 -1.47416787e-02
+  2.30763685e-02 -2.64239833e-02  8.66215527e-02  1.22422785e-01
+  5.10571301e-02 -7.48220645e-03  6.15847530e-03  2.52563693e-02
+  5.46853952e-02 -2.44715959e-02  1.22597488e-02 -1.37781054e-02
+ -2.62014400e-02  4.41389345e-02 -4.81541343e-02 -1.77519812e-08
+ -5.02064787e-02 -1.44659802e-02  1.56114735e-02 -2.76956183e-04
+  5.89816011e-02  1.66527852e-02  1.20921209e-02 -7.49987364e-02
+ -5.05945180e-03  1.67262014e-02  6.78700134e-02 -5.86032011e-02
+ -9.48653743e-02  3.52330655e-02 -3.74050774e-02 -1.15655199e-01
+ -6.74352571e-02  1.18047610e-01  3.17415632e-02 -8.85578394e-02
+  7.49490410e-02  9.80294682e-03  4.87386854e-03 -1.83143616e-02
+ -6.54719910e-03  4.23049666e-02 -5.68621531e-02 -5.25747463e-02
+  4.29060198e-02  1.60434749e-02 -3.58606167e-02  9.17182192e-02
+  9.35062096e-02 -2.24833135e-02  1.83015317e-02  4.29238901e-02
+  6.08609580e-02  9.21506807e-03 -6.52339160e-02 -2.97105638e-03
+ -7.70364776e-02 -4.03816737e-02  2.07459610e-02 -5.83127327e-03
+  1.16356291e-01  8.44932944e-02  7.91880395e-03 -7.12806871e-03
+  5.83678903e-03 -2.90372223e-03 -3.57850292e-03 -7.22337589e-02
+  3.69247422e-02  4.81667109e-02  2.91794855e-02  3.70103717e-02
+  1.52771617e-03 -2.24337894e-02  4.38243747e-02  2.67174706e-04
+  9.37612057e-02 -4.51846281e-03 -4.06045504e-02  7.25819394e-02]",TITLE: Online Portfolio Builder. DESCRIPTION: Online Portfolio Builder
+20,AI-Powered Fraud Detection System,":
+This project is designed to address specific problems in computer science applications. It leverages modern
+web technologies and AI to provide effective solutions. The system aims to automate tasks, improve
+efficiency, and enhance user experience. Detailed modules are designed for scalability and maintainability,
+ensuring the project can be adapted for various environments and requirements.",":
+Traditional methods in this domain are often time-consuming, error-prone, or inefficient. There is a need for a
+system that automates processes, provides real-time results, and reduces human intervention. The project aims
+to fill this gap using advanced AI algorithms and web-based interfaces that are accessible and user-friendly.",":
+1. Automate tasks in the relevant domain.
+2. Improve accuracy and reduce errors.
+3. Provide real-time reporting and monitoring.
+4. Ensure accessibility via web-based platforms.
+5. Implement scalable and maintainable system architecture.",":
+Existing systems in this field include various manual and semi-automated methods, such as traditional web
+applications, desktop-based solutions, and simple AI models. While effective to some extent, these approaches
+lack full automation, real-time monitoring, or integration with modern AI techniques. This project builds upon
+existing research, enhancing functionality and leveraging recent advancements in computer vision, NLP, and
+deep learning.",":
+The system comprises frontend, backend, database, and AI modules. The frontend is designed for user
+interaction, built with HTML, CSS, and JavaScript. The backend handles data processing, API calls, and
+integration with AI models, typically implemented using Python and Flask/Django. The database stores user
+data, logs, and results. AI modules utilize frameworks such as TensorFlow, Keras, or PyTorch for machine
+learning tasks.
+[Placeholder for architecture diagram]","/ Workflow:
+1. Collect and preprocess data.
+2. Develop frontend user interface.
+3. Implement backend logic and database connectivity.
+4. Integrate AI models for prediction, recognition, or recommendation tasks.
+5. Conduct testing and debugging.
+6. Deploy system on server or cloud platform.
+[Placeholder for workflow diagram]",":
+- Real-time operation and response.
+- User-friendly interface and dashboards.
+- Accurate processing and automated reporting.
+- Notifications and alerts.
+- Scalable system architecture for future expansion.",":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.",":
+- ER Diagrams
+- Flowcharts
+- Screenshots and mockups
+- Sample reports
+- AI model architecture diagrams",20,AI-Powered Fraud Detection System,AI-Powered Fraud Detection System,2023,":
+The system undergoes unit, integration, and system testing to ensure reliability and accuracy. Future
+enhancements may include mobile application integration, multi-language support, cloud deployment,
+enhanced AI models, and additional modules for specific user needs.","[-1.02425165e-01  4.40547690e-02 -3.05362083e-02 -2.17727087e-02
+  1.77469403e-02 -4.26042862e-02  8.08527693e-02 -1.77903625e-03
+  2.04248112e-02 -7.44731957e-03 -3.72243747e-02 -1.76238976e-02
+  1.19043261e-01  3.62550025e-04 -1.13721319e-01  1.56744737e-02
+  3.37562077e-02  3.60720865e-02  2.60382937e-03 -2.90020406e-02
+  1.60527639e-02  3.68316323e-02 -5.16790599e-02  5.57739567e-03
+  4.16249856e-02  1.43907946e-02  3.04435622e-02 -7.23969378e-03
+ -7.65887052e-02 -7.69709349e-02  4.85628322e-02 -4.08580191e-02
+  8.06009918e-02  1.64014902e-02 -5.13192639e-02 -8.26219991e-02
+ -1.64204314e-02 -2.06647143e-02  3.51225771e-02 -1.60468984e-02
+  3.14023495e-02 -5.39332703e-02  2.41122507e-02 -1.11485068e-02
+ -1.52283255e-02  7.72456452e-02 -5.11630662e-02  5.95709160e-02
+  4.65595163e-02  1.71790980e-02 -1.02901585e-01 -5.26733510e-02
+  3.39629054e-02  3.95742096e-02 -7.53252767e-03  3.13869417e-02
+  8.47649723e-02  1.48273995e-02 -4.37646210e-02 -4.74788956e-02
+  9.84019935e-02 -6.65571215e-03  6.27043322e-02 -1.85686741e-02
+  4.59611230e-02  5.96072525e-02 -2.67871115e-02  2.63938699e-02
+  4.40550372e-02 -7.27747753e-02  4.75575887e-02  2.78613865e-02
+  2.92919111e-02  3.99187393e-02  1.07808423e-03  1.73198562e-02
+ -4.99950349e-02 -2.47055832e-02  7.04853386e-02 -4.12837937e-02
+ -8.57293531e-02 -2.53514498e-02  3.69478157e-03  3.75967659e-02
+  9.14025530e-02  1.95629206e-02 -4.45282832e-02 -4.24876530e-03
+ -5.87422960e-03 -6.68693483e-02 -1.09083354e-02 -2.05501746e-02
+  1.26382425e-01  1.49409845e-02 -1.67371668e-02 -1.01684630e-02
+ -6.48566857e-02 -4.41677980e-02  3.89749631e-02 -9.33407247e-03
+ -4.88809608e-02  8.86524692e-02 -4.40996252e-02 -6.75256327e-02
+  4.19611670e-02 -6.49781525e-02  2.71453187e-02  1.54014016e-02
+  4.60946411e-02 -3.96903791e-02 -7.65179936e-03  1.31865563e-02
+ -1.60232373e-02 -6.29963428e-02  3.69396508e-02  1.22117795e-01
+ -7.36816460e-03  1.42193273e-01  1.52778011e-02  5.06412238e-02
+ -3.23867961e-03  9.32008494e-04 -1.94681063e-02  4.47461568e-02
+  3.38995419e-02  1.06677832e-02  9.58852377e-03 -2.70692343e-33
+ -4.19837572e-02  6.70636520e-02 -3.25003490e-02 -7.78345251e-03
+  7.00164028e-03 -2.96926200e-02 -7.17619061e-02  4.98206913e-02
+ -1.87301468e-02  1.05182402e-01 -1.08466841e-01  7.52724484e-02
+ -3.84131493e-03  5.88630512e-02  4.03583497e-02 -3.16054225e-02
+  3.01592276e-02  1.66980028e-02  1.93020571e-02 -8.21477249e-02
+  4.54688407e-02 -6.31174445e-02  6.69310391e-02 -6.44201189e-02
+  9.23925638e-02  2.03971489e-04  1.16136605e-02 -5.56078088e-03
+  1.42474040e-01 -3.84378200e-03  3.46611366e-02  5.48469368e-03
+ -2.30926424e-02 -4.70699854e-02  6.54541422e-03 -3.17909680e-02
+ -6.57990873e-02 -5.01061566e-02 -6.96444586e-02  6.07671812e-02
+ -6.87676221e-02 -2.78374460e-02  2.76955850e-02 -4.11127694e-02
+ -4.29032780e-02  3.91892195e-02  4.32322174e-03 -5.74473776e-02
+  1.10827368e-02 -1.54912733e-02 -1.03299245e-02 -1.86444167e-03
+  6.45330623e-02  6.22810423e-02  3.59000377e-02  3.00293881e-03
+ -1.43096298e-02  1.18713155e-02  5.21893650e-02 -8.34789500e-03
+ -2.01854063e-03 -5.98414317e-02 -6.00063354e-02  1.22645944e-02
+ -9.30115357e-02  2.52920147e-02  7.64806494e-02 -3.75913493e-02
+ -7.70349009e-03  3.49246934e-02  2.01442204e-02  1.80820506e-02
+  2.71539972e-03  7.21490383e-02 -6.99445233e-02 -3.55876498e-02
+  6.56324951e-03 -6.49223290e-03 -8.81296247e-02 -5.54137677e-02
+ -8.08825418e-02 -9.55698788e-02  1.57532804e-02  2.10466608e-02
+  5.95813897e-03  7.53402114e-02 -5.09925634e-02  7.74733396e-03
+ -4.26990949e-02  3.77873071e-02 -6.15673698e-02 -3.34046409e-02
+  2.09823325e-02  9.12594721e-02 -9.83519200e-03  1.76230572e-33
+ -9.80137736e-02  2.47600731e-02 -3.67176384e-02  1.04382224e-02
+  3.80183086e-02 -6.53455034e-02 -7.25601614e-02  3.65448408e-02
+  3.55574526e-02  8.68108124e-02 -6.87245131e-02 -2.43371949e-02
+  8.90905559e-02 -1.71807799e-02  3.54517959e-02 -1.49124395e-02
+ -3.22977901e-02 -4.76777740e-03 -3.69104519e-02  1.20167192e-02
+  6.60584867e-02  9.31645259e-02 -4.86881062e-02 -6.22584298e-02
+ -1.49498768e-02  6.31310642e-02 -3.08712944e-02  3.54245193e-02
+  3.96825224e-02  8.51121545e-03 -4.19448130e-02  1.21700885e-02
+ -3.77626494e-02  9.69446525e-02 -2.26317402e-02 -3.16418596e-02
+  7.22390711e-02 -1.50989806e-02 -5.18336259e-02  4.87814378e-03
+  5.71253933e-02  3.41299623e-02 -7.90762454e-02  1.80066992e-02
+ -5.30867390e-02 -4.13249992e-02 -1.53626679e-02  6.56098276e-02
+  5.18909432e-02 -9.19560529e-03 -1.00460149e-01 -8.54117144e-03
+ -2.33117975e-02  7.95958936e-02 -2.27913875e-02  4.34092581e-02
+  2.58077290e-02  8.66073668e-02 -3.75351571e-02  5.44782765e-02
+ -5.19999713e-02 -9.07925665e-02  1.66752320e-02  1.39283221e-02
+ -1.22879436e-02  1.52239790e-02  6.76927418e-02  4.49120365e-02
+  5.69817945e-02  4.46964661e-03  8.51227343e-02  2.32192148e-02
+  3.16904932e-02  7.91176260e-02 -5.99936508e-02 -1.09125208e-02
+ -4.46283482e-02 -4.52144891e-02 -1.54176392e-02 -9.31111723e-02
+  6.45503178e-02 -4.62672338e-02  2.51081679e-02  6.53456375e-02
+  4.13781665e-02  5.83766140e-02  1.90970507e-02 -2.71959752e-02
+  3.93334925e-02 -3.76866162e-02 -5.25848381e-02 -2.80187950e-02
+ -2.13204063e-02 -1.44743705e-02 -1.16518468e-01 -1.59154414e-08
+  1.94979385e-02 -1.13513190e-02  3.44988480e-02  5.94903678e-02
+  2.87486166e-02 -1.68968067e-02 -2.08005514e-02  1.28602218e-02
+ -7.72195160e-02 -1.13452211e-01  3.06568034e-02 -4.74157333e-02
+  2.24883128e-02 -7.77277872e-02  3.85385565e-02 -1.14309169e-01
+  1.09741958e-02  3.87577638e-02  1.79643519e-02  6.77589653e-03
+  9.65551361e-02 -1.06570721e-02 -8.57864320e-03  1.46198403e-02
+ -3.51497047e-02 -4.62127663e-02  3.04384083e-02  5.74000888e-02
+ -3.37928459e-02  9.71229933e-03 -7.11003393e-02  1.37661267e-02
+  6.57232925e-02  1.02679376e-02  4.58609276e-02  1.49414808e-01
+  6.52488042e-03 -3.93630043e-02 -9.87380594e-02 -4.97402772e-02
+ -2.50509363e-02 -5.89229800e-02 -1.79190189e-02 -3.36056687e-02
+ -1.54548436e-02 -8.69361013e-02 -1.35742808e-02 -9.52985361e-02
+  1.06151707e-01  1.08958771e-02  3.49139124e-02 -7.47122616e-02
+  5.57958335e-02  1.13047466e-01  4.22689728e-02 -3.94423194e-02
+ -2.09521800e-02 -3.96082848e-02  3.07484698e-02  8.37111548e-02
+  1.00043513e-01 -1.13286497e-03  1.39054181e-02 -2.27383543e-02]",TITLE: AI-Powered Fraud Detection System. DESCRIPTION: AI-Powered Fraud Detection System
