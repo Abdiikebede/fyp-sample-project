@@ -59,3 +59,17 @@ pip install -r requirements.txt
 
 # Run compatibility version
 python app_working.py
+Open your browser → http://localhost:5000
+##Development Mode (Python 3.11 only – full features)
+python app.py
+##Usage
+1.Students → Upload project report (PDF, DOCX, TXT supported)
+2.System instantly compares against all previous submissions
+3.Supervisors → View detailed similarity reports with highlighted matches & scores
+4.Provide ratings and feedback directly in the platform
+##Contributing
+Contributions, issues, and feature requests are welcome! Feel free to fork and submit pull requests.
+##License
+This project is licensed under the MIT License – see the LICENSE file for details.
+##Made with ❤️ for academic integrity
+##⭐ Star this repo if you find it helpful! ⭐
